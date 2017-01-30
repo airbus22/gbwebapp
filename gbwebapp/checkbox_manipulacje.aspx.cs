@@ -12,8 +12,7 @@ namespace gbwebapp
     public partial class checkbox_manipulacje : System.Web.UI.Page
     {
         MySqlConnection connection;
-        string ConnectionString = gbwebapp.Properties.Settings.Default.ConnectionString;
-        //string checkbox1_insert = "INSERT INTO web_test_skasowac.stany_checkboxow(stany_checkboxa, nazwa_checkboxa, znacznik_czasowy, stany_checkboxa_bool, uwagi) VALUES ('zaznaczony','CheckBox 1', " + DateTime.Now + ", 1, 'udało się wstawić wartość')";
+        string ConnectionString = gbwebapp.Properties.Settings.Default.ConnectionString;        
 
         protected void Page_Load(object sender, EventArgs e)
         {
