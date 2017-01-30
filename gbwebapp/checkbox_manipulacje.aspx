@@ -36,7 +36,8 @@
     
     </div>
         <p>
-            &nbsp;</p>
+            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="text-align: right" Text="Kasuj bazę danych checkboxów" />
+        </p>
         <p>
             &nbsp;</p>
     </form>

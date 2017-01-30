@@ -102,5 +102,18 @@ namespace gbwebapp
                 connection.Close();
             }
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            connection = new MySqlConnection(ConnectionString);
+            MySqlCommand btn1_delete = new MySqlCommand();
+            btn1_delete.CommandType = System.Data.CommandType.Text;
+            btn1_delete.CommandText = "DELETE FROM web_test_skasowac.stany_checkboxow WHERE id >= 1";
+            btn1_delete.Connection = connection;
+
+            connection.Open();
+            btn1_delete.ExecuteNonQuery();
+            connection.Close();
+        }
     }
 }
