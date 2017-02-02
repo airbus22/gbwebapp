@@ -9,25 +9,11 @@
 <body>
     <form id="form1" runat="server">
     <div style="text-align: center">
-    <style type="text/css">
-    .linia_pozioma_dluzsza
-    {
-        width: 1px;
-        border-right: 1px dotted Black;
-    }
+    <style type="text/css">    
   
     </style>
     
-        <asp:ImageButton ID="ImageButton1" src="/grafika/ksap_rekrutacja.gif" runat="server" OnClick="ImageButton1_Click" />
-        
-        <div>
-            <table>
-            <tr>                
-                <td class="horizontalline" ></td>
-            </tr>
-        </table>
-        </div>
-        
+        <asp:ImageButton ID="ImageButton1" src="/grafika/ksap_rekrutacja.gif" runat="server" OnClick="ImageButton1_Click" />        
             
     </div>
     </form>
