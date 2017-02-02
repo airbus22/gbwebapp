@@ -115,5 +115,10 @@ namespace gbwebapp
             btn1_delete.ExecuteNonQuery();
             connection.Close();
         }
+
+        protected void LinkButton1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("GBWebForm.aspx");
+        }
     }
 }

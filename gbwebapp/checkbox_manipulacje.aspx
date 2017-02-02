@@ -38,6 +38,9 @@
         <p>
             <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="text-align: right" Text="Kasuj bazę danych checkboxów" />
         </p>
+        <p style="text-align: center">
+            <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Przykładowy formularz</asp:LinkButton>
+        </p>
         <p>
             &nbsp;</p>
     </form>
