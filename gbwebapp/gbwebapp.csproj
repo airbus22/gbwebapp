@@ -119,8 +119,10 @@
   <ItemGroup>
     <Content Include="checkbox_manipulacje.aspx" />
     <Content Include="CSS\GBWebForm.txt" />
+    <Content Include="CSS\test.css" />
     <Content Include="GBWebForm.aspx" />
     <Content Include="grafika\ksap_rekrutacja.gif" />
+    <Content Include="LayOutTestWebForm.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -137,6 +139,13 @@
     </Compile>
     <Compile Include="GBWebForm.aspx.designer.cs">
       <DependentUpon>GBWebForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LayOutTestWebForm.aspx.cs">
+      <DependentUpon>LayOutTestWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LayOutTestWebForm.aspx.designer.cs">
+      <DependentUpon>LayOutTestWebForm.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">

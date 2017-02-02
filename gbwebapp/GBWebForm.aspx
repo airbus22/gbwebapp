@@ -4,15 +4,12 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
-    <link href="/CSS/GBWebForm.css" rel="stylesheet" type="text/css" />
+    <title></title>    
 </head>
 <body>
     <form id="form1" runat="server">
     <div style="text-align: center">
-    <style type="text/css">    
-  
-    </style>
+    <style type="text/css"></style>
     
         <asp:ImageButton ID="ImageButton1" src="/grafika/ksap_rekrutacja.gif" runat="server" OnClick="ImageButton1_Click" />        
             
