@@ -27,7 +27,7 @@
         <span class="auto-style1">
         <br />
         </span>
-        <asp:CheckBox ID="chbx1" runat="server" OnCheckedChanged="chbx1_CheckedChanged" Text="CheckBox 1" AutoPostBack="true"/>
+        <asp:CheckBox ID="chbx1" runat="server" OnCheckedChanged="chbx1_Checked" Text="CheckBox 1" AutoPostBack="true"/>
         <br />
         <asp:CheckBox ID="chbx2" runat="server" OnCheckedChanged="chbx2_CheckedChanged" Text="CheckBox 2" AutoPostBack="true"/>
         <br />

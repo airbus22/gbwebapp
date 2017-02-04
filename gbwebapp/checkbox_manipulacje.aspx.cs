@@ -20,40 +20,61 @@ namespace gbwebapp
             
         }
 
-        //protected void chbx1_CheckedChanged(object sender, EventArgs e)
-        //{
-            
-        //    MySqlCommand cbx1_insert = new MySqlCommand();
-        //    cbx1_insert.CommandType = System.Data.CommandType.Text;
-        //    cbx1_insert.CommandText = "INSERT INTO web_test_skasowac.stany_checkboxow(stany_checkboxa, nazwa_checkboxa, znacznik_czasowy, stany_checkboxa_bool, uwagi) VALUES ('zaznaczony','CheckBox 1', " + DateTime.Now + ", 1, 'udało się wstawić wartość')";
-        //    cbx1_insert.Connection = connection;
-
-        //    connection.Open();
-        //    cbx1_insert.ExecuteNonQuery();
-        //    connection.Close();
-        //}
         protected void chbx1_Checked(object sender, EventArgs e)
+        {
+            if (chbx1.Checked)
+            {
+                connection = new MySqlConnection(ConnectionString);
+                MySqlCommand cbx1_insert = new MySqlCommand();
+                cbx1_insert.CommandType = System.Data.CommandType.Text;
+                cbx1_insert.CommandText = "INSERT INTO web_test_skasowac.stany_checkboxow(stany_checkboxa, nazwa_checkboxa, znacznik_czasowy, stany_checkboxa_bool, uwagi) VALUES ('zaznaczony','CheckBox 1', " + DateTime.Now + ", 1, 'udało się wstawić wartość')";
+                cbx1_insert.Connection = connection;
+
+                connection.Open();
+                cbx1_insert.ExecuteNonQuery();
+                connection.Close();
+            }
+            else
+            {
+                connection = new MySqlConnection(ConnectionString);
+                MySqlCommand cbx1_insert = new MySqlCommand();
+                cbx1_insert.CommandType = System.Data.CommandType.Text;
+                cbx1_insert.CommandText = "INSERT INTO web_test_skasowac.stany_checkboxow(stany_checkboxa, nazwa_checkboxa, znacznik_czasowy, stany_checkboxa_bool, uwagi) VALUES ('zaznaczony','CheckBox 1', " + DateTime.Now + ", 1, 'udało się wstawić wartość')";
+                cbx1_insert.Connection = connection;
+
+                connection.Open();
+                cbx1_insert.ExecuteNonQuery();
+                connection.Close();
+            }
+        }
+
+        protected void chbx2_CheckedChanged(object sender, EventArgs e)
+        {
+            //Label2.Text = "G2";
+        }
+
+        protected void chbx3_CheckedChanged(object sender, EventArgs e)
+        {
+            //Label3.Text = "G3";
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
         {
             connection = new MySqlConnection(ConnectionString);
             MySqlCommand cbx1_insert = new MySqlCommand();
             cbx1_insert.CommandType = System.Data.CommandType.Text;
-            cbx1_insert.CommandText = "INSERT INTO web_test_skasowac.stany_checkboxow(stany_checkboxa, nazwa_checkboxa, znacznik_czasowy, stany_checkboxa_bool, uwagi) VALUES ('zaznaczony','CheckBox 1', " + DateTime.Now + ", 1, 'udało się wstawić wartość')";
+            cbx1_insert.CommandText = "DELETE FROM web_test_skasowac.stany_checkboxow WHERE id>=1)";
             cbx1_insert.Connection = connection;
 
             connection.Open();
             cbx1_insert.ExecuteNonQuery();
             connection.Close();
-            Label1.Text = "G1"; 
         }
 
-        protected void chbx2_CheckedChanged(object sender, EventArgs e)
+        protected void LinkButton1_Click(object sender, EventArgs e)
         {
-            Label2.Text = "G2";
-        }
-
-        protected void chbx3_CheckedChanged(object sender, EventArgs e)
-        {
-            Label3.Text = "G3";
+            //Response.Redirect("http://www.ksap.gov.pl");
+            Response.Redirect("GBWebForm.aspx");
         }
     }
 }
