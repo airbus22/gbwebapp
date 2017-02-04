@@ -41,7 +41,7 @@
         <p style="text-align: center">
             <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Przykładowy formularz</asp:LinkButton>
         </p>
-        <p>
+        <p style="text-align: left">
             &nbsp;</p>
     </form>
 </body>

@@ -7,6 +7,7 @@ using System.Web.UI.WebControls;
 using System.DirectoryServices;
 using MySql.Data.MySqlClient;
 
+
 namespace gbwebapp
 {
     public partial class checkbox_manipulacje : System.Web.UI.Page
@@ -17,7 +18,7 @@ namespace gbwebapp
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+                      
         }
 
         protected void chbx1_Checked(object sender, EventArgs e)
