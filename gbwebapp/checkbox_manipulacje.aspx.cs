@@ -25,37 +25,83 @@ namespace gbwebapp
             if (chbx1.Checked)
             {
                 connection = new MySqlConnection(ConnectionString);
-                MySqlCommand cbx1_insert = new MySqlCommand();
-                cbx1_insert.CommandType = System.Data.CommandType.Text;
-                cbx1_insert.CommandText = "INSERT INTO web_test_skasowac.stany_checkboxow(stany_checkboxa, nazwa_checkboxa, znacznik_czasowy, stany_checkboxa_bool, uwagi) VALUES ('zaznaczony','CheckBox 1', " + DateTime.Now + ", 1, 'udało się wstawić wartość')";
-                cbx1_insert.Connection = connection;
+                MySqlCommand chbx1_insert = new MySqlCommand();
+                chbx1_insert.CommandType = System.Data.CommandType.Text;
+                chbx1_insert.CommandText = "INSERT INTO web_test_skasowac.stany_checkboxow(stany_checkboxa, nazwa_checkboxa, znacznik_czasowy, stany_checkboxa_bool, uwagi) VALUES ('zaznaczony','CheckBox 1', " + "'" + DateTime.Now + "'" + ", 1, 'udało się wstawić wartość')";
+                chbx1_insert.Connection = connection;
 
                 connection.Open();
-                cbx1_insert.ExecuteNonQuery();
+                chbx1_insert.ExecuteNonQuery();
                 connection.Close();
             }
             else
             {
                 connection = new MySqlConnection(ConnectionString);
-                MySqlCommand cbx1_insert = new MySqlCommand();
-                cbx1_insert.CommandType = System.Data.CommandType.Text;
-                cbx1_insert.CommandText = "INSERT INTO web_test_skasowac.stany_checkboxow(stany_checkboxa, nazwa_checkboxa, znacznik_czasowy, stany_checkboxa_bool, uwagi) VALUES ('zaznaczony','CheckBox 1', " + DateTime.Now + ", 1, 'udało się wstawić wartość')";
-                cbx1_insert.Connection = connection;
+                MySqlCommand chbx1_insert = new MySqlCommand();
+                chbx1_insert.CommandType = System.Data.CommandType.Text;
+                chbx1_insert.CommandText = "INSERT INTO web_test_skasowac.stany_checkboxow(stany_checkboxa, nazwa_checkboxa, znacznik_czasowy, stany_checkboxa_bool, uwagi) VALUES ('odznaczony','CheckBox 1', " + "'" + DateTime.Now + "'" + ", 0, 'udało się wstawić wartość')";
+                chbx1_insert.Connection = connection;
 
                 connection.Open();
-                cbx1_insert.ExecuteNonQuery();
+                chbx1_insert.ExecuteNonQuery();
                 connection.Close();
             }
         }
 
-        protected void chbx2_CheckedChanged(object sender, EventArgs e)
+        protected void chbx2_Checked(object sender, EventArgs e)
         {
-            //Label2.Text = "G2";
+            if (chbx2.Checked)
+            {
+                connection = new MySqlConnection(ConnectionString);
+                MySqlCommand chbx2_insert = new MySqlCommand();
+                chbx2_insert.CommandType = System.Data.CommandType.Text;
+                chbx2_insert.CommandText = "INSERT INTO web_test_skasowac.stany_checkboxow(stany_checkboxa, nazwa_checkboxa, znacznik_czasowy, stany_checkboxa_bool, uwagi) VALUES ('zaznaczony','CheckBox 2', " + "'" + DateTime.Now + "'" + ", 1, 'udało się wstawić wartość')";
+                chbx2_insert.Connection = connection;
+
+                connection.Open();
+                chbx2_insert.ExecuteNonQuery();
+                connection.Close();
+            }
+            else
+            {
+                connection = new MySqlConnection(ConnectionString);
+                MySqlCommand chbx2_insert = new MySqlCommand();
+                chbx2_insert.CommandType = System.Data.CommandType.Text;
+                chbx2_insert.CommandText = "INSERT INTO web_test_skasowac.stany_checkboxow(stany_checkboxa, nazwa_checkboxa, znacznik_czasowy, stany_checkboxa_bool, uwagi) VALUES ('odznaczony','CheckBox 2', " + "'" + DateTime.Now + "'" + ", 0, 'udało się wstawić wartość')";
+                chbx2_insert.Connection = connection;
+
+                connection.Open();
+                chbx2_insert.ExecuteNonQuery();
+                connection.Close();
+            }
         }
 
-        protected void chbx3_CheckedChanged(object sender, EventArgs e)
+        protected void chbx3_Checked(object sender, EventArgs e)
         {
-            //Label3.Text = "G3";
+            if (chbx3.Checked)
+            {
+                connection = new MySqlConnection(ConnectionString);
+                MySqlCommand chbx3_insert = new MySqlCommand();
+                chbx3_insert.CommandType = System.Data.CommandType.Text;
+                chbx3_insert.CommandText = "INSERT INTO web_test_skasowac.stany_checkboxow(stany_checkboxa, nazwa_checkboxa, znacznik_czasowy, stany_checkboxa_bool, uwagi) VALUES ('zaznaczony','CheckBox 3', " + "'" + DateTime.Now + "'" + ", 1, 'udało się wstawić wartość')";
+                chbx3_insert.Connection = connection;
+
+                connection.Open();
+                chbx3_insert.ExecuteNonQuery();
+                connection.Close();
+            }
+            else
+            {
+                connection = new MySqlConnection(ConnectionString);
+                MySqlCommand chbx3_insert = new MySqlCommand();
+                chbx3_insert.CommandType = System.Data.CommandType.Text;
+                chbx3_insert.CommandText = "INSERT INTO web_test_skasowac.stany_checkboxow(stany_checkboxa, nazwa_checkboxa, znacznik_czasowy, stany_checkboxa_bool, uwagi) VALUES ('odznaczony','CheckBox 3', " + "'" + DateTime.Now + "'" + ", 0, 'udało się wstawić wartość')";
+                chbx3_insert.Connection = connection;
+
+                connection.Open();
+                chbx3_insert.ExecuteNonQuery();
+                connection.Close();
+            }
         }
 
         protected void Button1_Click(object sender, EventArgs e)
