@@ -18,7 +18,8 @@ namespace gbwebapp
 
         protected void Page_Load(object sender, EventArgs e)
         {
-                      
+            Label1.Text = "Adres sieciowy komputera to: " + Request.UserHostAddress;
+            Label2.Text = "Nazwa komputera to: " + Request.UserHostName;            
         }
 
         protected void chbx1_Checked(object sender, EventArgs e)
@@ -122,6 +123,11 @@ namespace gbwebapp
         {
             //Response.Redirect("http://www.ksap.gov.pl");
             Response.Redirect("GBWebForm.aspx");
+        }
+
+        protected void LinkButton2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("LayOutTestWebForm.aspx");
         }
     }
 }

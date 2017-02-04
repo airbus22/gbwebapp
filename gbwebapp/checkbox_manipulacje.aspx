@@ -41,8 +41,14 @@
         <p style="text-align: center">
             <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Przykładowy formularz</asp:LinkButton>
         </p>
+        <p style="text-align: center">
+            <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton2_Click">Przestrzeń robocza</asp:LinkButton>
+        </p>
         <p style="text-align: left">
             &nbsp;</p>
+        <asp:Label ID="Label1" runat="server" Text="Label1 IP"></asp:Label>
+        <br />
+        <asp:Label ID="Label2" runat="server" Text="Label2 HostName"></asp:Label>
     </form>
 </body>
 </html>
