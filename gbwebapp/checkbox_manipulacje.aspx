@@ -27,21 +27,22 @@
         <span class="auto-style1">
         <br />
         </span>
-        <asp:CheckBox ID="chbx1" runat="server" OnCheckedChanged="chbx1_Checked" Text="CheckBox 1" />
+        <asp:CheckBox ID="chbx1" runat="server" OnCheckedChanged="chbx1_CheckedChanged" Text="CheckBox 1" AutoPostBack="true"/>
         <br />
-        <asp:CheckBox ID="chbx2" runat="server" OnCheckedChanged="chbx2_CheckedChanged" Text="CheckBox 2" />
+        <asp:CheckBox ID="chbx2" runat="server" OnCheckedChanged="chbx2_CheckedChanged" Text="CheckBox 2" AutoPostBack="true"/>
         <br />
-        <asp:CheckBox ID="chbx3" runat="server" OnCheckedChanged="chbx3_CheckedChanged" Text="CheckBox 3" />
+        <asp:CheckBox ID="chbx3" runat="server" OnCheckedChanged="chbx3_CheckedChanged" Text="CheckBox 3" AutoPostBack="true"/>
         <br />
     
     </div>
         <p>
-            <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="text-align: right" Text="Kasuj bazę danych checkboxów" />
         </p>
-        <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
+        <p style="text-align: center">
+            <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Przykładowy formularz</asp:LinkButton>
+        </p>
         <p>
-            <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
-        </p>
+            &nbsp;</p>
     </form>
 </body>
 </html>
