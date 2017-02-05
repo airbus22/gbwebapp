@@ -119,7 +119,6 @@
   <ItemGroup>
     <Content Include="checkbox_manipulacje.aspx" />
     <Content Include="CSS\GBWebForm.css" />
-    <Content Include="CSS\test.css" />
     <Content Include="GBWebForm.aspx" />
     <Content Include="grafika\ksap_rekrutacja.gif" />
     <Content Include="LayOutTestWebForm.aspx" />
