@@ -3,7 +3,7 @@ body
     font-family: Verdana;
     font-size: small;
     color: #000033;
-    background-color: #FFFFFF;
+    background-color: #568203;
     margin: 0px;
     text-align: center;
 }
@@ -12,18 +12,20 @@ body
     float: left;
     width: 200px;
     height: 800px;
-    background-color: #EEE;
+    background-color: #fbceb1;
 }
 #ObszarRoboczy
 {
     padding: 50px 20px 50px 20px;
-    margin: 0px 0px 0px 200px;
+    margin: 100px 0px 0px 200px;
+    background-color: #cd9575;
 }
 #DrugiObszarBoczny
 {
     float: right;
     width: 200px;
     height: 300px;
+    background-color: #9966cc;
     }
 #Menu
 {
@@ -40,21 +42,26 @@ body
 #Naglowek
 {
     text-align: right;
+    background-color: #f19cbb;
 }
 .ElementMenuNadrzednego
 {
     color: #000033;
     font-weight: bold;
+    font-size: x-large;
     padding: 3px 10px;
+    background-color: #c46210;
     }
 .ElementMenuRozwijanego
 {
     background: #F5F5F5;
     color: #000033;
     padding: 3px 10px;
+    background-color: #ff7e00;
     }
 .ZaznaczonyElementMenu
 {
     background: #000033;
     color: White;
+    background-color: #9966cc;
     }
