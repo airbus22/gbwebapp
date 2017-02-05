@@ -121,7 +121,6 @@ namespace gbwebapp
 
         protected void LinkButton1_Click(object sender, EventArgs e)
         {
-            //Response.Redirect("http://www.ksap.gov.pl");
             Response.Redirect("Rekrutacja_KSAP.aspx");
         }
 
