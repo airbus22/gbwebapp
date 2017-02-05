@@ -118,8 +118,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="checkbox_manipulacje.aspx" />
+    <Content Include="CSS\Rekrutacja_KSAP.css" />
     <Content Include="CSS\GBWebForm.css" />
-    <Content Include="GBWebForm.aspx" />
+    <Content Include="Rekrutacja_KSAP.aspx" />
     <Content Include="grafika\ksap_rekrutacja.gif" />
     <Content Include="LayOutTestWebForm.aspx" />
     <Content Include="Web.config" />
@@ -132,12 +133,12 @@
     <Compile Include="checkbox_manipulacje.aspx.designer.cs">
       <DependentUpon>checkbox_manipulacje.aspx</DependentUpon>
     </Compile>
-    <Compile Include="GBWebForm.aspx.cs">
-      <DependentUpon>GBWebForm.aspx</DependentUpon>
+    <Compile Include="Rekrutacja_KSAP.aspx.cs">
+      <DependentUpon>Rekrutacja_KSAP.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="GBWebForm.aspx.designer.cs">
-      <DependentUpon>GBWebForm.aspx</DependentUpon>
+    <Compile Include="Rekrutacja_KSAP.aspx.designer.cs">
+      <DependentUpon>Rekrutacja_KSAP.aspx</DependentUpon>
     </Compile>
     <Compile Include="LayOutTestWebForm.aspx.cs">
       <DependentUpon>LayOutTestWebForm.aspx</DependentUpon>

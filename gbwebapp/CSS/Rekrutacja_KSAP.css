@@ -3,9 +3,13 @@ body
     font-family: Verdana;
     font-size: small;
     color: #000033;
-    background-color: #568203;
+    background-color: #ffffff;
     margin: 0px;
     text-align: center;
+}
+#Logo
+{
+    padding: 0px 100px 0px 200px
 }
 #PierwszyObszarBoczny
 {
