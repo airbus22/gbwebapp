@@ -17,7 +17,8 @@
         </div>
 
         <div id="ObszarFormularza">
-            <h1 style="font-size: 17px;
+            <h3 id="ObszarFormularza 
+                style="font-size: 17px;
                 font-weight: normal;
                 padding: 4px 0px 0px;
                 margin: 0px;
@@ -36,9 +37,9 @@
                 word-spacing: 0px;
                 -webkit-text-stroke-width: 0px;
                 background-color: rgb(255, 255, 255);">Formularz zgłoszenia do konkursowego postępowania rekrutacyjnego
-            </h1>
+            </h3>
 
-            <p style="text-align: left">
+            <p id="ObszarFormularza>
                 <span style="color: rgb(0, 0, 0);
                     font-family: Verdana, Arial, Helvetica, sans-serif;
                     font-size: 12px;
