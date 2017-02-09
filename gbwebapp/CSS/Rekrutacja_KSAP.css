@@ -1,5 +1,4 @@
-body
-{
+body {
     font-family: Verdana;
     font-size: small;
     color: #000033;
@@ -18,12 +17,12 @@ body
     height: 800px;
     background-color: #fbceb1;
 }*/
-#Logo
-{
+#Logo {
     padding: 50px 20px 0px 0px;
-    margin: 0px 0px 0px 0px;    
+    margin: 0px 0px 0px 0px;
     background-color: #ffffff;
 }
+
 #ObszarFormularza
 {
     width: 860px;

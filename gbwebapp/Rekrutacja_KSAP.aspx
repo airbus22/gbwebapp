@@ -17,50 +17,8 @@
         </div>
 
         <div id="ObszarFormularza">
-            <h3 id="ObszarFormularza 
-                style="font-size: 17px;
-                font-weight: normal;
-                padding: 4px 0px 0px;
-                margin: 0px;
-                color: rgb(32, 35, 43);
-                font-family: Verdana, Arial, Helvetica, sans-serif;
-                font-style: normal;
-                font-variant-ligatures: normal;
-                font-variant-caps: normal;
-                letter-spacing: normal;
-                orphans: 2;
-                text-align: left;
-                text-indent: 0px;
-                text-transform: none;
-                white-space: normal;
-                widows: 2;
-                word-spacing: 0px;
-                -webkit-text-stroke-width: 0px;
-                background-color: rgb(255, 255, 255);">Formularz zgłoszenia do konkursowego postępowania rekrutacyjnego
-            </h3>
-
-            <p id="ObszarFormularza>
-                <span style="color: rgb(0, 0, 0);
-                    font-family: Verdana, Arial, Helvetica, sans-serif;
-                    font-size: 12px;
-                    font-style: normal;
-                    font-variant-ligatures: normal;
-                    font-variant-caps: normal;
-                    font-weight: normal;
-                    letter-spacing: normal;
-                    orphans: 2;
-                    text-align: left;
-                    text-indent: 0px;
-                    text-transform: none;
-                    white-space: normal;
-                    widows: 2;
-                    word-spacing: 0px;
-                    -webkit-text-stroke-width: 0px;
-                    background-color: rgb(255, 255, 255);
-                    display: inline !important;
-                    float: none;">Pola oznaczone * (gwiazdką) są obowiązkowe.
-                </span>
-            </p>
+            <h5>Formularz zgłoszenia do konkursowego postępowania rekrutacyjnego</h5>
+            <p>Pola oznaczone * (gwiazdką) są obowiązkowe.</p>
         </div>
 
     </form>
