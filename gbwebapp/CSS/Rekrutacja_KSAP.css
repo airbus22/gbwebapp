@@ -7,12 +7,10 @@ body {
 #Logo {
     padding: 50px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
-    background-color: #ffffff;
-    
+    background-color: #ffffff;    
 }
 
-#ObszarFormularza
-{
+#ObszarFormularza{
     width: 860px;
     text-align:left;
     background-color: #ffffff;
@@ -20,6 +18,36 @@ body {
     margin-right: auto;
     padding-top: 1px;
     color: #404040;
+}
+
+#PodobszarLewy1{
+    float: left;
+    width: 180px;
+    /*height: 300px;*/
+    background-color: #9966cc;
+    text-align: right;
+}
+
+#PodobszarLewy2{
+    float: left;
+    width: 200px;
+    /*height: 300px;*/
+    background-color: #9966cc;
+    text-align: right;
+}
+
+#PodobszarPrawy1{
+    float: right;
+    width: 680px;
+    /*height: 300px;*/
+    background-color: #ffd800;
+}
+
+#PodobszarPrawy2{
+    float: right;
+    width: 200px;
+    /*height: 300px;*/
+    background-color: #9966cc;
 }
 
 #Linia_glowna {
@@ -42,12 +70,5 @@ body {
 }
 
 #Tekst_separujacy {
-  /*border:none;*/
-  /*border-top:1px double #808080;*/
-  /*color:#fff;*/
-  /*background-color:#fff;
-  height:1px;
-  width:100%;
-  padding-top: unset;*/
   padding: 20px 1px 1px 1px;
 }
