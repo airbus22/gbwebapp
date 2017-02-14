@@ -13,10 +13,14 @@
         <div id="Logo">
             <asp:ImageButton ID="ImageButton1" src="/grafika/ksap_rekrutacja.gif" runat="server" OnClick="ImageButton1_Click" />
         </div>
-
-        <div id="ObszarFormularza">
+        <div><p id="Linia_glowna"></p></div>
+        <div id="ObszarFormularza">                      
             <h3>Formularz zgłoszenia do konkursowego postępowania rekrutacyjnego</h3>
             <p>Pola oznaczone * (gwiazdką) są obowiązkowe.</p>
+            <div>
+                <h5 id="Tekst_separujacy">Dane osobowe kandydata<br /><p id="Linia_separujaca"></p></h5>
+                <%--<p id="Linia_separujaca"></p>--%>
+            </div>  
         </div>
 
     </form>    
