@@ -23,13 +23,13 @@
             </div>
             <div id="PodobszarLewy1">
                 <h6>*Płeć:</h6>
-                <h6>*Inię:</h6>
+                <h6>*Imię:</h6>
                 <h6>Drugie imię:</h6>
                 <h6>*Nazwisko:</h6>
             </div>
             <div id="PodobszarPrawy1">
                 <h6>*Płeć:</h6>
-                <h6>*Inię:</h6>
+                <h6>*Imię:</h6>
                 <h6>Drugie imię:</h6>
                 <h6>*Nazwisko:</h6>
             </div>
