@@ -19,17 +19,18 @@
             <p>Pola oznaczone * (gwiazdką) są obowiązkowe.</p>
             <div>
                 <h5 id="Tekst_separujacy">Dane osobowe kandydata<br /><p id="Linia_separujaca"></p></h5>
+                
                 <%--<p id="Linia_separujaca"></p>--%>
             </div>
             <div id="PodobszarLewy1">
                 <h6>*Płeć:</h6>
-                <h6>*Inię:</h6>
+                <h6>*Imię:</h6>
                 <h6>Drugie imię:</h6>
                 <h6>*Nazwisko:</h6>
             </div>
             <div id="PodobszarPrawy1">
                 <h6>*Płeć:</h6>
-                <h6>*Inię:</h6>
+                <h6>*Imię:</h6>
                 <h6>Drugie imię:</h6>
                 <h6>*Nazwisko:</h6>
             </div>
