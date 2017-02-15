@@ -28,10 +28,18 @@
                 <h6>*Nazwisko:</h6>
             </div>
             <div id="PodobszarPrawy1">
-                <h6>*Płeć:</h6>
-                <h6>*Imię:</h6>
-                <h6>Drugie imię:</h6>
-                <h6>*Nazwisko:</h6>
+                <p><asp:DropDownList ID="DropDownList1" runat="server">
+                    <asp:ListItem></asp:ListItem>
+                    <asp:ListItem>Kobieta</asp:ListItem>
+                    <asp:ListItem>Mężczyzna</asp:ListItem>
+                    </asp:DropDownList>
+                </p>
+                <p><asp:TextBox ID="TextBox1" runat="server" Width="327px"></asp:TextBox>
+                </p>
+                <p><asp:TextBox ID="TextBox2" runat="server" Width="328px"></asp:TextBox>
+                </p>
+                <p><asp:TextBox ID="TextBox3" runat="server" Width="327px"></asp:TextBox>
+                </p>
             </div>
 
         </div>
