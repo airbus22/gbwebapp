@@ -18,7 +18,7 @@
             <h2>Formularz zgłoszenia do konkursowego postępowania rekrutacyjnego</h2>
             <p>Pola oznaczone * (gwiazdką) są obowiązkowe.</p>
             <div>
-                <h5 id="Tekst_separujacy">Dane osobowe kandydata<br /><p id="Linia_separujaca"></p></h5>
+                <h5 id="Tekst_separujacy_dok">Dane osobowe kandydata<br /><p id="Linia_separujaca_dok"></p></h5>
                 <%--<p id="Linia_separujaca"></p>--%>
             </div>
             <div id="PodobszarLewy1">
@@ -73,8 +73,9 @@
                     </asp:DropDownList>
                 </p>
             </div>
+            &nbsp
             <div>
-                <h5 id="Tekst_separujacy">Adres stałego zameldowania<br /><p id="Linia_separujaca"></p></h5>
+                <h5 id="Tekst_separujacy_asz">Adres stałego zameldowania<br /><p id="Linia_separujaca_asz"></p></h5>
                 <%--<p id="Linia_separujaca"></p>--%>
             </div>
 
