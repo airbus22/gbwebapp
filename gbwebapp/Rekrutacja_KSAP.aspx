@@ -78,7 +78,46 @@
                 <h5 id="Tekst_separujacy_asz">Adres stałego zameldowania<br /><p id="Linia_separujaca_asz"></p></h5>
                 <%--<p id="Linia_separujaca"></p>--%>
             </div>
-
+            <div id="PodobszarLewy1">                
+                <h6>*Kod pocztowy:</h6>
+                <h6>*Miejscowość:</h6>
+                <h6>Ulica:</h6>
+                <h6>*Nr. domu:</h6>
+                <h6>*Nr. lokalu:</h6>
+                <h6>*Województwo:</h6>
+            </div>
+            <div id="PodobszarPrawy1">                
+                <p><asp:TextBox ID="TextBox18" runat="server" Width="180px"></asp:TextBox>
+                </p>
+                <p><asp:TextBox ID="TextBox19" runat="server" Width="327px"></asp:TextBox>
+                </p>
+                <p><asp:TextBox ID="TextBox20" runat="server" Width="327px"></asp:TextBox>
+                </p>
+                <p><asp:TextBox ID="TextBox21" runat="server" Width="180px"></asp:TextBox>
+                </p>
+                <p><asp:TextBox ID="TextBox22" runat="server" Width="180px"></asp:TextBox>
+                </p>
+                <p><asp:DropDownList ID="DropDownList4" runat="server">
+                    <asp:ListItem></asp:ListItem>
+                    <asp:ListItem>dolnośląskie</asp:ListItem>
+                    <asp:ListItem>kujawsko-pomorskie</asp:ListItem>
+                    <asp:ListItem>lubelskie</asp:ListItem>
+                    <asp:ListItem>lubuskie</asp:ListItem>
+                    <asp:ListItem>łódzkie</asp:ListItem>
+                    <asp:ListItem>małopolskie</asp:ListItem>
+                    <asp:ListItem>mazowieckie</asp:ListItem>
+                    <asp:ListItem>opolskie</asp:ListItem>
+                    <asp:ListItem>podkarpackie</asp:ListItem>
+                    <asp:ListItem>podlaskie</asp:ListItem>
+                    <asp:ListItem>pomorskie</asp:ListItem>
+                    <asp:ListItem>śląskie</asp:ListItem>
+                    <asp:ListItem>świetokrzyskie</asp:ListItem>
+                    <asp:ListItem>warmińsko-mazurskie</asp:ListItem>
+                    <asp:ListItem>wilkopolskie</asp:ListItem>
+                    <asp:ListItem>zachodniopomorskie</asp:ListItem>
+                    </asp:DropDownList>
+                </p>
+            </div>
         </div>
 
     </form>    
