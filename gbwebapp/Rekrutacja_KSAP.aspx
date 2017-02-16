@@ -37,35 +37,35 @@
                 <h6>*Stosunek do służby wojskowej:</h6>
             </div>
             <div id="PodobszarPrawy1">
-                <p><asp:DropDownList ID="DropDownList1" runat="server">
+                <p><asp:DropDownList ID="dok_plec_ddl" runat="server">
                     <asp:ListItem></asp:ListItem>
                     <asp:ListItem>Kobieta</asp:ListItem>
                     <asp:ListItem>Mężczyzna</asp:ListItem>
                     </asp:DropDownList>
                 </p>
-                <p><asp:TextBox ID="TextBox1" runat="server" Width="327px"></asp:TextBox>
+                <p><asp:TextBox ID="dok_imie_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="TextBox2" runat="server" Width="327px"></asp:TextBox>
+                <p><asp:TextBox ID="dok_drugieImie_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="TextBox3" runat="server" Width="327px"></asp:TextBox>
+                <p><asp:TextBox ID="dok_nazwisko_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="TextBox4" runat="server" Width="327px"></asp:TextBox>
+                <p><asp:TextBox ID="dok_nazwiskoRodowe_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="TextBox5" runat="server" Width="327px"></asp:TextBox>
+                <p><asp:TextBox ID="dok_imieOjca_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="TextBox6" runat="server" Width="327px"></asp:TextBox>
+                <p><asp:TextBox ID="dok_imieMatki_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="TextBox7" runat="server" Width="180px"></asp:TextBox>
+                <p><asp:TextBox ID="dok_PESEL_tbx" runat="server" Width="180px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="TextBox8" runat="server" Width="180px"></asp:TextBox>
+                <p><asp:TextBox ID="dok_dataUrodzenia_tbx" runat="server" Width="180px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="TextBox9" runat="server" Width="327px"></asp:TextBox>
+                <p><asp:TextBox ID="dok_miejsceUrodzenia_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="TextBox10" runat="server" Width="180px"></asp:TextBox>
+                <p><asp:TextBox ID="dok_obywatelstwo_tbx" runat="server" Width="180px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="TextBox11" runat="server" Width="180px"></asp:TextBox>
+                <p><asp:TextBox ID="dok_seriaNumerID_tbx" runat="server" Width="180px"></asp:TextBox>
                 </p>
-                <p><asp:DropDownList ID="DropDownList2" runat="server">
+                <p><asp:DropDownList ID="dok_militaryFactor_ddl" runat="server">
                     <asp:ListItem></asp:ListItem>
                     <asp:ListItem>nie podlega</asp:ListItem>
                     <asp:ListItem>nieuregulowany</asp:ListItem>
@@ -87,17 +87,17 @@
                 <h6>*Województwo:</h6>
             </div>
             <div id="PodobszarPrawy1">                
-                <p><asp:TextBox ID="TextBox18" runat="server" Width="180px"></asp:TextBox>
+                <p><asp:TextBox ID="asz_kodPocztowy_tbx" runat="server" Width="180px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="TextBox19" runat="server" Width="327px"></asp:TextBox>
+                <p><asp:TextBox ID="asz_miejscowosc_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="TextBox20" runat="server" Width="327px"></asp:TextBox>
+                <p><asp:TextBox ID="asz_ulica_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="TextBox21" runat="server" Width="180px"></asp:TextBox>
+                <p><asp:TextBox ID="asz_nrDomu_tbx" runat="server" Width="180px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="TextBox22" runat="server" Width="180px"></asp:TextBox>
+                <p><asp:TextBox ID="asz_nrLokalu_tbx" runat="server" Width="180px"></asp:TextBox>
                 </p>
-                <p><asp:DropDownList ID="DropDownList4" runat="server">
+                <p><asp:DropDownList ID="az_wojewodztwo_tbx" runat="server">
                     <asp:ListItem></asp:ListItem>
                     <asp:ListItem>dolnośląskie</asp:ListItem>
                     <asp:ListItem>kujawsko-pomorskie</asp:ListItem>
@@ -134,17 +134,17 @@
                 <h6>*Adres e-mail:</h6>
             </div>
             <div id="PodobszarPrawy1">                
-                <p><asp:TextBox ID="TextBox12" runat="server" Width="180px"></asp:TextBox>
+                <p><asp:TextBox ID="az_kodPocztowy_tbx" runat="server" Width="180px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="TextBox13" runat="server" Width="327px"></asp:TextBox>
+                <p><asp:TextBox ID="az_miejscowosc_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="TextBox14" runat="server" Width="327px"></asp:TextBox>
+                <p><asp:TextBox ID="az_ulica_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="TextBox15" runat="server" Width="180px"></asp:TextBox>
+                <p><asp:TextBox ID="az_nrDomu_tbx" runat="server" Width="180px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="TextBox16" runat="server" Width="180px"></asp:TextBox>
+                <p><asp:TextBox ID="az_nrLokalu_tbx" runat="server" Width="180px"></asp:TextBox>
                 </p>
-                <p><asp:DropDownList ID="DropDownList3" runat="server">
+                <p><asp:DropDownList ID="az_wojewodztwo_ddl" runat="server">
                     <asp:ListItem></asp:ListItem>
                     <asp:ListItem>dolnośląskie</asp:ListItem>
                     <asp:ListItem>kujawsko-pomorskie</asp:ListItem>
@@ -164,9 +164,9 @@
                     <asp:ListItem>zachodniopomorskie</asp:ListItem>
                     </asp:DropDownList>
                 </p>
-                <p><asp:TextBox ID="TextBox17" runat="server" Width="327px"></asp:TextBox>
+                <p><asp:TextBox ID="az_nrTelefonu_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="TextBox23" runat="server" Width="327px"></asp:TextBox>
+                <p><asp:TextBox ID="az_adresEmail_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>
             </div>
             &nbsp
@@ -182,15 +182,15 @@
                 <h6>*Rok ukończenia:</h6>
             </div>
             <div id="PodobszarPrawy2">                
-                <p><asp:DropDownList ID="DropDownList6" runat="server">
+                <p><asp:DropDownList ID="w_uczelniaWyzsza_ddl" runat="server">
                     <asp:ListItem></asp:ListItem>
                     <asp:ListItem>Białystok - Wyższa Szkoła Medyczna (d. Wyższa Szkoła Kosmetologii i Ochrony Zdrowia)</asp:ListItem>
                     <asp:ListItem>Tomaszów Lub. - Katolicki Uniwersytet Lubelski Wydział Zamiejscowy Nauk Prawnych i Ekonomicznych w Tomaszowie Lub.</asp:ListItem>                  
                     </asp:DropDownList>
                 </p>
-                <p><asp:TextBox ID="TextBox25" runat="server" Width="327px"></asp:TextBox></p>
-                <p><asp:TextBox ID="TextBox26" runat="server" Width="327px"></asp:TextBox></p>
-                <p><asp:DropDownList ID="DropDownList7" runat="server">
+                <p><asp:TextBox ID="w_miejscowosc_tbx" runat="server" Width="327px"></asp:TextBox></p>
+                <p><asp:TextBox ID="w_kierunekStudiow_tbx" runat="server" Width="327px"></asp:TextBox></p>
+                <p><asp:DropDownList ID="w_wyksztalcenie_ddl" runat="server">
                     <asp:ListItem></asp:ListItem>
                     <asp:ListItem>administracyjne</asp:ListItem>   
                     <asp:ListItem>ekonomiczne</asp:ListItem> 
@@ -203,8 +203,8 @@
                     <asp:ListItem>w zakresie nauk społecznych</asp:ListItem>
                     </asp:DropDownList>
                 </p>
-                <p><asp:TextBox ID="TextBox27" runat="server" Width="180px"></asp:TextBox></p>                
-                <h6><asp:CheckBox ID="CheckBox1" runat="server" Text="  Chcę dodać kolejne wykształcenie - studia wyższe" /></h6>
+                <p><asp:TextBox ID="w_rokUkonczenia_ddl" runat="server" Width="180px"></asp:TextBox></p>                
+                <h6><asp:CheckBox ID="w_kolejne_cbx" runat="server" Text="  Chcę dodać kolejne wykształcenie - studia wyższe" AutoPostBack="True" /></h6>
             </div>
             &nbsp
             <div>
@@ -218,13 +218,13 @@
                 <h6>Stan zaawansowania:</h6>
             </div>
             <div id="PodobszarPrawy1">                
-                <p><asp:TextBox ID="TextBox30" runat="server" Width="327px"></asp:TextBox>
+                <p><asp:TextBox ID="ks_nazwaUczelni_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="TextBox31" runat="server" Width="327px"></asp:TextBox>
+                <p><asp:TextBox ID="ks_miejscowosc_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="TextBox32" runat="server" Width="327px"></asp:TextBox>
+                <p><asp:TextBox ID="ks_kierunek_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="TextBox33" runat="server" Width="327px"></asp:TextBox>
+                <p><asp:TextBox ID="ks_stanZaawansowania_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>                
             </div>
             &nbsp
@@ -237,9 +237,9 @@
                 <h6>Certyfikaty:</h6>
             </div>
             <div id="PodobszarPrawy1">                
-                <p><asp:TextBox ID="TextBox24" runat="server" Width="327px"></asp:TextBox><h6>rozdziel przecinkiem np: angielski, francuski</h6>
+                <p><asp:TextBox ID="zjo_jezyki_tbx" runat="server" Width="327px"></asp:TextBox><h6>rozdziel przecinkiem np: angielski, francuski</h6>
                 </p>
-                <p><asp:TextBox ID="TextBox28" runat="server" Width="327px"></asp:TextBox>
+                <p><asp:TextBox ID="zjo_certyfikat_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>
             </div>
             &nbsp
@@ -252,7 +252,7 @@
                 <h6>w postaci: miejsce stażu, termin</h6>
             </div>
             <div id="PodobszarPrawy1">                
-                <p><asp:TextBox ID="TextBox29" runat="server" Width="500px" Height="80px">Miejsce stażu, termin</asp:TextBox>
+                <p><asp:TextBox ID="sip_odbyteStazePraktyki_tbx" runat="server" Width="500px" Height="80px" TextMode="MultiLine">Miejsce stażu, termin</asp:TextBox>
                 </p>                
             </div>
             &nbsp
@@ -271,21 +271,21 @@
                 <h6>Praca w administracji:</h6>
             </div>
             <div id="PodobszarPrawy1">                
-                <p><asp:TextBox ID="TextBox38" runat="server" Width="180px"></asp:TextBox>
+                <p><asp:TextBox ID="pz_od_tbx" runat="server" Width="180px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="TextBox39" runat="server" Width="180px"></asp:TextBox>
+                <p><asp:TextBox ID="pz_do_tbx" runat="server" Width="180px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="TextBox40" runat="server" Width="327px"></asp:TextBox>
+                <p><asp:TextBox ID="pz_nazwaPracodawscy_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="TextBox41" runat="server" Width="327px"></asp:TextBox>
+                <p><asp:TextBox ID="pz_komorkaOrganizacyjna_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="TextBox42" runat="server" Width="327px"></asp:TextBox>
+                <p><asp:TextBox ID="pz_stanowisko_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="TextBox43" runat="server" Width="327px"></asp:TextBox>
+                <p><asp:TextBox ID="pz_zakresObowiazkow_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="TextBox44" runat="server" Width="327px"></asp:TextBox>
+                <p><asp:TextBox ID="pz_miejscowosc_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>
-                <p><asp:DropDownList ID="DropDownList8" runat="server">
+                <p><asp:DropDownList ID="pz_pracaWAdministracji_ddl" runat="server">
                     <asp:ListItem></asp:ListItem>
                     <asp:ListItem>Nie</asp:ListItem>
                     <asp:ListItem>Ministerstwo</asp:ListItem>
@@ -297,7 +297,7 @@
                     <asp:ListItem>Inne instytucji spoza administracji</asp:ListItem>
                     </asp:DropDownList>
                 </p>
-                <H6><asp:CheckBox ID="CheckBox2" runat="server" Text="  Chcę dodać kolejne miejsce pracy" /></H6>
+                <H6><asp:CheckBox ID="pz_kolejne_cbx" runat="server" Text="  Chcę dodać kolejne miejsce pracy" AutoPostBack="True" /></H6>
             </div>
             &nbsp
             <div>
@@ -305,20 +305,20 @@
                 <%--<p id="Linia_separujaca"></p>--%>
             </div>
             <div id="PodobszarPrawy1">
-                <p><asp:DropDownList ID="DropDownList5" runat="server">
+                <p><asp:DropDownList ID="o_kodeksKarnyJestem_ddl" runat="server">
                     <asp:ListItem></asp:ListItem>
                     <asp:ListItem>karany(a) za przestępstwo popełnione umyślnie</asp:ListItem>
                     <asp:ListItem>niekarany(a) za przestępstwo popełnione umyślnie</asp:ListItem>
                     </asp:DropDownList>
                 </p>
-                <p><asp:DropDownList ID="DropDownList9" runat="server">
+                <p><asp:DropDownList ID="o_jezykEgzaminacyjny_ddl" runat="server">
                     <asp:ListItem></asp:ListItem>
                     <asp:ListItem>angielski</asp:ListItem>
                     <asp:ListItem>francuski</asp:ListItem>
                     <asp:ListItem>niemiecki</asp:ListItem>
                     </asp:DropDownList>
                 </p>
-                <p><asp:DropDownList ID="DropDownList10" runat="server">
+                <p><asp:DropDownList ID="o_egzaminKSAP_ddl" runat="server">
                     <asp:ListItem></asp:ListItem>
                     <asp:ListItem>pierwszy</asp:ListItem>
                     <asp:ListItem>drugi</asp:ListItem>
@@ -330,13 +330,13 @@
                     <asp:ListItem>ósmy</asp:ListItem>
                     </asp:DropDownList>
                 </p>
-                <p><asp:DropDownList ID="DropDownList11" runat="server">
+                <p><asp:DropDownList ID="o_kolegiumKSAP_ddl" runat="server">
                     <asp:ListItem></asp:ListItem>
                     <asp:ListItem>Tak</asp:ListItem>
                     <asp:ListItem>Nie</asp:ListItem>
                     </asp:DropDownList>
                 </p>
-                <p><asp:DropDownList ID="DropDownList12" runat="server">
+                <p><asp:DropDownList ID="o_zrodloRekKSAP_ddl" runat="server">
                     <asp:ListItem></asp:ListItem>
                     <asp:ListItem>Wyszukiwarka internetowa</asp:ListItem>
                     <asp:ListItem>Strona KSAP</asp:ListItem>
@@ -349,7 +349,7 @@
                     </asp:DropDownList>
                 </p>
                 <p>&nbsp;</p>
-                <asp:Button ID="Button1" runat="server" Text="Zapisz" />
+                <asp:Button ID="zapisz_btn" runat="server" Text="Zapisz" OnClick="zapisz_btn_Click" />
                 <br />
                 <br />
                 <br />

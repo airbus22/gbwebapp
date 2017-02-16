@@ -18,5 +18,10 @@ namespace gbwebapp
         {
             Response.Redirect("http://www.ksap.gov.pl");
         }
+
+        protected void zapisz_btn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

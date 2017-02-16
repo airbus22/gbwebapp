@@ -31,498 +31,498 @@ namespace gbwebapp {
         protected global::System.Web.UI.WebControls.ImageButton ImageButton1;
         
         /// <summary>
-        /// DropDownList1 control.
+        /// dok_plec_ddl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
+        protected global::System.Web.UI.WebControls.DropDownList dok_plec_ddl;
         
         /// <summary>
-        /// TextBox1 control.
+        /// dok_imie_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox dok_imie_tbx;
         
         /// <summary>
-        /// TextBox2 control.
+        /// dok_drugieImie_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox dok_drugieImie_tbx;
         
         /// <summary>
-        /// TextBox3 control.
+        /// dok_nazwisko_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox3;
+        protected global::System.Web.UI.WebControls.TextBox dok_nazwisko_tbx;
         
         /// <summary>
-        /// TextBox4 control.
+        /// dok_nazwiskoRodowe_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox4;
+        protected global::System.Web.UI.WebControls.TextBox dok_nazwiskoRodowe_tbx;
         
         /// <summary>
-        /// TextBox5 control.
+        /// dok_imieOjca_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox5;
+        protected global::System.Web.UI.WebControls.TextBox dok_imieOjca_tbx;
         
         /// <summary>
-        /// TextBox6 control.
+        /// dok_imieMatki_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox6;
+        protected global::System.Web.UI.WebControls.TextBox dok_imieMatki_tbx;
         
         /// <summary>
-        /// TextBox7 control.
+        /// dok_PESEL_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox7;
+        protected global::System.Web.UI.WebControls.TextBox dok_PESEL_tbx;
         
         /// <summary>
-        /// TextBox8 control.
+        /// dok_dataUrodzenia_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox8;
+        protected global::System.Web.UI.WebControls.TextBox dok_dataUrodzenia_tbx;
         
         /// <summary>
-        /// TextBox9 control.
+        /// dok_miejsceUrodzenia_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox9;
+        protected global::System.Web.UI.WebControls.TextBox dok_miejsceUrodzenia_tbx;
         
         /// <summary>
-        /// TextBox10 control.
+        /// dok_obywatelstwo_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox10;
+        protected global::System.Web.UI.WebControls.TextBox dok_obywatelstwo_tbx;
         
         /// <summary>
-        /// TextBox11 control.
+        /// dok_seriaNumerID_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox11;
+        protected global::System.Web.UI.WebControls.TextBox dok_seriaNumerID_tbx;
         
         /// <summary>
-        /// DropDownList2 control.
+        /// dok_militaryFactor_ddl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList2;
+        protected global::System.Web.UI.WebControls.DropDownList dok_militaryFactor_ddl;
         
         /// <summary>
-        /// TextBox18 control.
+        /// asz_kodPocztowy_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox18;
+        protected global::System.Web.UI.WebControls.TextBox asz_kodPocztowy_tbx;
         
         /// <summary>
-        /// TextBox19 control.
+        /// asz_miejscowosc_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox19;
+        protected global::System.Web.UI.WebControls.TextBox asz_miejscowosc_tbx;
         
         /// <summary>
-        /// TextBox20 control.
+        /// asz_ulica_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox20;
+        protected global::System.Web.UI.WebControls.TextBox asz_ulica_tbx;
         
         /// <summary>
-        /// TextBox21 control.
+        /// asz_nrDomu_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox21;
+        protected global::System.Web.UI.WebControls.TextBox asz_nrDomu_tbx;
         
         /// <summary>
-        /// TextBox22 control.
+        /// asz_nrLokalu_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox22;
+        protected global::System.Web.UI.WebControls.TextBox asz_nrLokalu_tbx;
         
         /// <summary>
-        /// DropDownList4 control.
+        /// az_wojewodztwo_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList4;
+        protected global::System.Web.UI.WebControls.DropDownList az_wojewodztwo_tbx;
         
         /// <summary>
-        /// TextBox12 control.
+        /// az_kodPocztowy_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox12;
+        protected global::System.Web.UI.WebControls.TextBox az_kodPocztowy_tbx;
         
         /// <summary>
-        /// TextBox13 control.
+        /// az_miejscowosc_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox13;
+        protected global::System.Web.UI.WebControls.TextBox az_miejscowosc_tbx;
         
         /// <summary>
-        /// TextBox14 control.
+        /// az_ulica_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox14;
+        protected global::System.Web.UI.WebControls.TextBox az_ulica_tbx;
         
         /// <summary>
-        /// TextBox15 control.
+        /// az_nrDomu_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox15;
+        protected global::System.Web.UI.WebControls.TextBox az_nrDomu_tbx;
         
         /// <summary>
-        /// TextBox16 control.
+        /// az_nrLokalu_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox16;
+        protected global::System.Web.UI.WebControls.TextBox az_nrLokalu_tbx;
         
         /// <summary>
-        /// DropDownList3 control.
+        /// az_wojewodztwo_ddl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList3;
+        protected global::System.Web.UI.WebControls.DropDownList az_wojewodztwo_ddl;
         
         /// <summary>
-        /// TextBox17 control.
+        /// az_nrTelefonu_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox17;
+        protected global::System.Web.UI.WebControls.TextBox az_nrTelefonu_tbx;
         
         /// <summary>
-        /// TextBox23 control.
+        /// az_adresEmail_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox23;
+        protected global::System.Web.UI.WebControls.TextBox az_adresEmail_tbx;
         
         /// <summary>
-        /// DropDownList6 control.
+        /// w_uczelniaWyzsza_ddl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList6;
+        protected global::System.Web.UI.WebControls.DropDownList w_uczelniaWyzsza_ddl;
         
         /// <summary>
-        /// TextBox25 control.
+        /// w_miejscowosc_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox25;
+        protected global::System.Web.UI.WebControls.TextBox w_miejscowosc_tbx;
         
         /// <summary>
-        /// TextBox26 control.
+        /// w_kierunekStudiow_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox26;
+        protected global::System.Web.UI.WebControls.TextBox w_kierunekStudiow_tbx;
         
         /// <summary>
-        /// DropDownList7 control.
+        /// w_wyksztalcenie_ddl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList7;
+        protected global::System.Web.UI.WebControls.DropDownList w_wyksztalcenie_ddl;
         
         /// <summary>
-        /// TextBox27 control.
+        /// w_rokUkonczenia_ddl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox27;
+        protected global::System.Web.UI.WebControls.TextBox w_rokUkonczenia_ddl;
         
         /// <summary>
-        /// CheckBox1 control.
+        /// w_kolejne_cbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox1;
+        protected global::System.Web.UI.WebControls.CheckBox w_kolejne_cbx;
         
         /// <summary>
-        /// TextBox30 control.
+        /// ks_nazwaUczelni_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox30;
+        protected global::System.Web.UI.WebControls.TextBox ks_nazwaUczelni_tbx;
         
         /// <summary>
-        /// TextBox31 control.
+        /// ks_miejscowosc_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox31;
+        protected global::System.Web.UI.WebControls.TextBox ks_miejscowosc_tbx;
         
         /// <summary>
-        /// TextBox32 control.
+        /// ks_kierunek_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox32;
+        protected global::System.Web.UI.WebControls.TextBox ks_kierunek_tbx;
         
         /// <summary>
-        /// TextBox33 control.
+        /// ks_stanZaawansowania_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox33;
+        protected global::System.Web.UI.WebControls.TextBox ks_stanZaawansowania_tbx;
         
         /// <summary>
-        /// TextBox24 control.
+        /// zjo_jezyki_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox24;
+        protected global::System.Web.UI.WebControls.TextBox zjo_jezyki_tbx;
         
         /// <summary>
-        /// TextBox28 control.
+        /// zjo_certyfikat_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox28;
+        protected global::System.Web.UI.WebControls.TextBox zjo_certyfikat_tbx;
         
         /// <summary>
-        /// TextBox29 control.
+        /// sip_odbyteStazePraktyki_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox29;
+        protected global::System.Web.UI.WebControls.TextBox sip_odbyteStazePraktyki_tbx;
         
         /// <summary>
-        /// TextBox38 control.
+        /// pz_od_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox38;
+        protected global::System.Web.UI.WebControls.TextBox pz_od_tbx;
         
         /// <summary>
-        /// TextBox39 control.
+        /// pz_do_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox39;
+        protected global::System.Web.UI.WebControls.TextBox pz_do_tbx;
         
         /// <summary>
-        /// TextBox40 control.
+        /// pz_nazwaPracodawscy_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox40;
+        protected global::System.Web.UI.WebControls.TextBox pz_nazwaPracodawscy_tbx;
         
         /// <summary>
-        /// TextBox41 control.
+        /// pz_komorkaOrganizacyjna_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox41;
+        protected global::System.Web.UI.WebControls.TextBox pz_komorkaOrganizacyjna_tbx;
         
         /// <summary>
-        /// TextBox42 control.
+        /// pz_stanowisko_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox42;
+        protected global::System.Web.UI.WebControls.TextBox pz_stanowisko_tbx;
         
         /// <summary>
-        /// TextBox43 control.
+        /// pz_zakresObowiazkow_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox43;
+        protected global::System.Web.UI.WebControls.TextBox pz_zakresObowiazkow_tbx;
         
         /// <summary>
-        /// TextBox44 control.
+        /// pz_miejscowosc_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox44;
+        protected global::System.Web.UI.WebControls.TextBox pz_miejscowosc_tbx;
         
         /// <summary>
-        /// DropDownList8 control.
+        /// pz_pracaWAdministracji_ddl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList8;
+        protected global::System.Web.UI.WebControls.DropDownList pz_pracaWAdministracji_ddl;
         
         /// <summary>
-        /// CheckBox2 control.
+        /// pz_kolejne_cbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox2;
+        protected global::System.Web.UI.WebControls.CheckBox pz_kolejne_cbx;
         
         /// <summary>
-        /// DropDownList5 control.
+        /// o_kodeksKarnyJestem_ddl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList5;
+        protected global::System.Web.UI.WebControls.DropDownList o_kodeksKarnyJestem_ddl;
         
         /// <summary>
-        /// DropDownList9 control.
+        /// o_jezykEgzaminacyjny_ddl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList9;
+        protected global::System.Web.UI.WebControls.DropDownList o_jezykEgzaminacyjny_ddl;
         
         /// <summary>
-        /// DropDownList10 control.
+        /// o_egzaminKSAP_ddl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList10;
+        protected global::System.Web.UI.WebControls.DropDownList o_egzaminKSAP_ddl;
         
         /// <summary>
-        /// DropDownList11 control.
+        /// o_kolegiumKSAP_ddl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList11;
+        protected global::System.Web.UI.WebControls.DropDownList o_kolegiumKSAP_ddl;
         
         /// <summary>
-        /// DropDownList12 control.
+        /// o_zrodloRekKSAP_ddl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList12;
+        protected global::System.Web.UI.WebControls.DropDownList o_zrodloRekKSAP_ddl;
         
         /// <summary>
-        /// Button1 control.
+        /// zapisz_btn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button zapisz_btn;
     }
 }
