@@ -472,6 +472,87 @@ namespace gbwebapp {
         protected global::System.Web.UI.WebControls.CheckBox pz_kolejne_cbx;
         
         /// <summary>
+        /// pz2_od_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz2_od_tbx;
+        
+        /// <summary>
+        /// pz2_do_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz2_do_tbx;
+        
+        /// <summary>
+        /// pz2_nazwaPracodawscy_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz2_nazwaPracodawscy_tbx;
+        
+        /// <summary>
+        /// pz2_komorkaOrganizacyjna_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz2_komorkaOrganizacyjna_tbx;
+        
+        /// <summary>
+        /// pz2_stanowisko_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz2_stanowisko_tbx;
+        
+        /// <summary>
+        /// pz2_zakresObowiazkow_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz2_zakresObowiazkow_tbx;
+        
+        /// <summary>
+        /// TextBox7 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox7;
+        
+        /// <summary>
+        /// pz2_pracaWAdministracji_ddl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList pz2_pracaWAdministracji_ddl;
+        
+        /// <summary>
+        /// pz2_kolejne_cbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox pz2_kolejne_cbx;
+        
+        /// <summary>
         /// o_kodeksKarnyJestem_ddl control.
         /// </summary>
         /// <remarks>
