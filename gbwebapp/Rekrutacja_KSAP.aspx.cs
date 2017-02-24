@@ -34,5 +34,14 @@ namespace gbwebapp
             chbx1_insert.ExecuteNonQuery();
             connection.Close();
         }
+
+        protected void pz_kolejne_cbx_CheckedChanged(object sender, EventArgs e)
+        {
+            if (panel_pr2.Visible == false)
+                panel_pr2.Visible = true;
+
+            else
+                panel_pr2.Visible = false;
+        }
     }
 }

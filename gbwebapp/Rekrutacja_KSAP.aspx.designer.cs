@@ -472,6 +472,15 @@ namespace gbwebapp {
         protected global::System.Web.UI.WebControls.CheckBox pz_kolejne_cbx;
         
         /// <summary>
+        /// panel_pr2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel panel_pr2;
+        
+        /// <summary>
         /// pz2_od_tbx control.
         /// </summary>
         /// <remarks>

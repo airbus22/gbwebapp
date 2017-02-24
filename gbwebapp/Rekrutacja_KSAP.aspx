@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Rekrutacja_KSAP.aspx.cs" Inherits="gbwebapp.GBWebForm" %>
+﻿<%@ Page MaintainScrollPositionOnPostback="true" Language="C#" AutoEventWireup="true" CodeBehind="Rekrutacja_KSAP.aspx.cs" Inherits="gbwebapp.GBWebForm" %>
 
 <!DOCTYPE html>
 
@@ -297,55 +297,55 @@
                     <asp:ListItem>Inne instytucji spoza administracji</asp:ListItem>
                     </asp:DropDownList>
                 </p>
-                <H6><asp:CheckBox ID="pz_kolejne_cbx" runat="server" Text="  Chcę dodać kolejne miejsce pracy" AutoPostBack="True" /></H6>
+                <H6><asp:CheckBox ID="pz_kolejne_cbx" runat="server" Text="  Chcę dodać kolejne miejsce pracy" AutoPostBack="True" OnCheckedChanged="pz_kolejne_cbx_CheckedChanged" /></H6>
             </div>
 
             &nbsp
-            <div>
-                <h5 id="Tekst_separujacy">Praca zawodowa 2 (bez staży i praktyk)<br /><p id="Linia_separujaca"></p></h5>
-                <%--<p id="Linia_separujaca"></p>--%>
-            </div>
-            <div id="PodobszarLewy1">
-                <h6>Od:</h6>
-                <h6>Do:</h6>
-                <h6>Nazwa pracodawcy:</h6>
-                <h6>Komórka organizacyjna:</h6>
-                <h6>Stanowisko:</h6>
-                <h6>Zakres obowiązków:</h6>
-                <h6>Miejscowość:</h6>
-                <h6>Praca w administracji:</h6>
-            </div>
-            <div id="PodobszarPrawy1">                
-                <p><asp:TextBox ID="pz2_od_tbx" runat="server" Width="180px"></asp:TextBox>
-                </p>
-                <p><asp:TextBox ID="pz2_do_tbx" runat="server" Width="180px"></asp:TextBox>
-                </p>
-                <p><asp:TextBox ID="pz2_nazwaPracodawscy_tbx" runat="server" Width="327px"></asp:TextBox>
-                </p>
-                <p><asp:TextBox ID="pz2_komorkaOrganizacyjna_tbx" runat="server" Width="327px"></asp:TextBox>
-                </p>
-                <p><asp:TextBox ID="pz2_stanowisko_tbx" runat="server" Width="327px"></asp:TextBox>
-                </p>
-                <p><asp:TextBox ID="pz2_zakresObowiazkow_tbx" runat="server" Width="327px"></asp:TextBox>
-                </p>
-                <p><asp:TextBox ID="TextBox7" runat="server" Width="327px"></asp:TextBox>
-                </p>
-                <p><asp:DropDownList ID="pz2_pracaWAdministracji_ddl" runat="server">
-                    <asp:ListItem></asp:ListItem>
-                    <asp:ListItem>Nie</asp:ListItem>
-                    <asp:ListItem>Ministerstwo</asp:ListItem>
-                    <asp:ListItem>Urząd Wojewódzki</asp:ListItem>
-                    <asp:ListItem>Urząd Centralny</asp:ListItem>
-                    <asp:ListItem>Urząd Terenowy</asp:ListItem>
-                    <asp:ListItem>Urząd Samorządowy</asp:ListItem>
-                    <asp:ListItem>Inne jednostki w ramach administracji publicznej</asp:ListItem>
-                    <asp:ListItem>Inne instytucji spoza administracji</asp:ListItem>
-                    </asp:DropDownList>
-                </p>
-                <H6><asp:CheckBox ID="pz2_kolejne_cbx" runat="server" Text="  Chcę dodać kolejne miejsce pracy" AutoPostBack="True" /></H6>
-            </div>
-
-
+            <asp:Panel ID="panel_pr2" runat="server" Visible="False">
+                <div>
+                    <h5 id="Tekst_separujacy">Praca zawodowa 2 (bez staży i praktyk)<br /><p id="Linia_separujaca"></p></h5>
+                    <%--<p id="Linia_separujaca"></p>--%>
+                </div>
+                <div id="PodobszarLewy1">
+                    <h6>Od:</h6>
+                    <h6>Do:</h6>
+                    <h6>Nazwa pracodawcy:</h6>
+                    <h6>Komórka organizacyjna:</h6>
+                    <h6>Stanowisko:</h6>
+                    <h6>Zakres obowiązków:</h6>
+                    <h6>Miejscowość:</h6>
+                    <h6>Praca w administracji:</h6>
+                </div>
+                <div id="PodobszarPrawy1">                
+                    <p><asp:TextBox ID="pz2_od_tbx" runat="server" Width="180px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz2_do_tbx" runat="server" Width="180px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz2_nazwaPracodawscy_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz2_komorkaOrganizacyjna_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz2_stanowisko_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz2_zakresObowiazkow_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="TextBox7" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:DropDownList ID="pz2_pracaWAdministracji_ddl" runat="server">
+                        <asp:ListItem></asp:ListItem>
+                        <asp:ListItem>Nie</asp:ListItem>
+                        <asp:ListItem>Ministerstwo</asp:ListItem>
+                        <asp:ListItem>Urząd Wojewódzki</asp:ListItem>
+                        <asp:ListItem>Urząd Centralny</asp:ListItem>
+                        <asp:ListItem>Urząd Terenowy</asp:ListItem>
+                        <asp:ListItem>Urząd Samorządowy</asp:ListItem>
+                        <asp:ListItem>Inne jednostki w ramach administracji publicznej</asp:ListItem>
+                        <asp:ListItem>Inne instytucji spoza administracji</asp:ListItem>
+                        </asp:DropDownList>
+                    </p>
+                    <H6><asp:CheckBox ID="pz2_kolejne_cbx" runat="server" Text="  Chcę dodać kolejne miejsce pracy" AutoPostBack="True" /></H6>
+                </div>
+            </asp:Panel>
             &nbsp
             <div>
                 <h5 id="Tekst_separujacy">Oświadczenia<br /><p id="Linia_separujaca"></p></h5>
