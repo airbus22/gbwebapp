@@ -113,7 +113,7 @@
                     <asp:ListItem>śląskie</asp:ListItem>
                     <asp:ListItem>świetokrzyskie</asp:ListItem>
                     <asp:ListItem>warmińsko-mazurskie</asp:ListItem>
-                    <asp:ListItem>wilkopolskie</asp:ListItem>
+                    <asp:ListItem>wielkopolskie</asp:ListItem>
                     <asp:ListItem>zachodniopomorskie</asp:ListItem>
                     </asp:DropDownList>
                 </p>
@@ -160,7 +160,7 @@
                     <asp:ListItem>śląskie</asp:ListItem>
                     <asp:ListItem>świetokrzyskie</asp:ListItem>
                     <asp:ListItem>warmińsko-mazurskie</asp:ListItem>
-                    <asp:ListItem>wilkopolskie</asp:ListItem>
+                    <asp:ListItem>wielkopolskie</asp:ListItem>
                     <asp:ListItem>zachodniopomorskie</asp:ListItem>
                     </asp:DropDownList>
                 </p>
