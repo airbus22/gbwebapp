@@ -16,7 +16,7 @@
         <div><p id="Linia_glowna"></p></div>
         <div id="ObszarFormularza">                      
             <h2>Formularz zgłoszenia do konkursowego postępowania rekrutacyjnego</h2>
-            <p>Pola oznaczone * (gwiazdką) są obowiązkowe.</p>
+            Pola oznaczone * (gwiazdką) są obowiązkowe.
             <div>
                 <h5 id="Tekst_separujacy">Dane osobowe kandydata<br /><p id="Linia_separujaca"></p></h5>
                 <%--<p id="Linia_separujaca"></p>--%>
@@ -352,20 +352,23 @@
                 <%--<p id="Linia_separujaca"></p>--%>
             </div>
             <div id="PodobszarPrawy1">
-                <p><asp:DropDownList ID="o_kodeksKarnyJestem_ddl" runat="server">
+                <h6 id="NapisNadPolem">* W rozumieniu przepisów Kodeksu Karnego, jestem:</h6>
+                <asp:DropDownList ID="o_kodeksKarnyJestem_ddl" runat="server" margin="0px 0px 0px 0px">
                     <asp:ListItem></asp:ListItem>
                     <asp:ListItem>karany(a) za przestępstwo popełnione umyślnie</asp:ListItem>
                     <asp:ListItem>niekarany(a) za przestępstwo popełnione umyślnie</asp:ListItem>
-                    </asp:DropDownList>
-                </p>
-                <p><asp:DropDownList ID="o_jezykEgzaminacyjny_ddl" runat="server">
+                </asp:DropDownList>
+                
+                <h6 id="NapisNadPolem">* Wybieram jako język egzaminacyjny:</h6>
+                <asp:DropDownList ID="o_jezykEgzaminacyjny_ddl" runat="server">
                     <asp:ListItem></asp:ListItem>
                     <asp:ListItem>angielski</asp:ListItem>
                     <asp:ListItem>francuski</asp:ListItem>
                     <asp:ListItem>niemiecki</asp:ListItem>
-                    </asp:DropDownList>
-                </p>
-                <p><asp:DropDownList ID="o_egzaminKSAP_ddl" runat="server">
+                </asp:DropDownList>
+                
+                <h6 id="NapisNadPolem">* Przystępuję do egzaminu w KSAP po raz:</h6>
+                <asp:DropDownList ID="o_egzaminKSAP_ddl" runat="server">
                     <asp:ListItem></asp:ListItem>
                     <asp:ListItem>pierwszy</asp:ListItem>
                     <asp:ListItem>drugi</asp:ListItem>
@@ -375,15 +378,17 @@
                     <asp:ListItem>szósty</asp:ListItem>
                     <asp:ListItem>siódmy</asp:ListItem>
                     <asp:ListItem>ósmy</asp:ListItem>
-                    </asp:DropDownList>
-                </p>
-                <p><asp:DropDownList ID="o_kolegiumKSAP_ddl" runat="server">
+                </asp:DropDownList>
+
+                <h6 id="NapisNadPolem">* Zamierzam ubiegać się o zakwaterowanie w hotelu Krajowej Szkoły w okresie kształcenia:</h6>
+                <asp:DropDownList ID="o_kolegiumKSAP_ddl" runat="server">
                     <asp:ListItem></asp:ListItem>
                     <asp:ListItem>Tak</asp:ListItem>
                     <asp:ListItem>Nie</asp:ListItem>
-                    </asp:DropDownList>
-                </p>
-                <p><asp:DropDownList ID="o_zrodloRekKSAP_ddl" runat="server">
+                </asp:DropDownList>
+
+                <h6 id="NapisNadPolem">Źródło informacji o rekrutacji do KSAP:</h6>
+                <asp:DropDownList ID="o_zrodloRekKSAP_ddl" runat="server">
                     <asp:ListItem></asp:ListItem>
                     <asp:ListItem>Wyszukiwarka internetowa</asp:ListItem>
                     <asp:ListItem>Strona KSAP</asp:ListItem>
@@ -393,8 +398,8 @@
                     <asp:ListItem>Absolwenci KSAP</asp:ListItem>
                     <asp:ListItem>Urząd</asp:ListItem>
                     <asp:ListItem>Inne</asp:ListItem>
-                    </asp:DropDownList>
-                </p>
+                </asp:DropDownList>
+
                 <p>&nbsp;</p>
                 <asp:Button ID="zapisz_btn" runat="server" Text="Zapisz" OnClick="zapisz_btn_Click" />
                 <br />
