@@ -11,7 +11,7 @@ body {
 }
 
 #ObszarFormularza{
-    width: 860px;
+    width: 920px;
     text-align:left;
     background-color: #ffffff;
     margin-left: auto;
@@ -42,7 +42,7 @@ body {
 
 #PodobszarPrawy1{
     float: right;
-    width: 685px;
+    width: 745px;
     /*height: 300px;*/
     /*background-color: #00ff90;*/
     background-color: #ffffff;
@@ -50,7 +50,7 @@ body {
 
 #PodobszarPrawy2{
     float: right;
-    width: 755px;
+    width: 815px;
     /*height: 300px;*/
     /*background-color: #9966cc;*/
     background-color: #ffffff;

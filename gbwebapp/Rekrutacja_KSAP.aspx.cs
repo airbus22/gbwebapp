@@ -39,7 +39,6 @@ namespace gbwebapp
         {
             if (panel_pr2.Visible == false)
                 panel_pr2.Visible = true;
-
             else
                 panel_pr2.Visible = false;
         }
