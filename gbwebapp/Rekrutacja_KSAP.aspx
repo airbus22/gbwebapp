@@ -352,14 +352,14 @@
                 <%--<p id="Linia_separujaca"></p>--%>
             </div>
             <div id="PodobszarPrawy1">
-                <h6 id="NapisNadPolem">* W rozumieniu przepisów Kodeksu Karnego, jestem:</h6>
+                <h6 style="margin-bottom: 5px">* W rozumieniu przepisów Kodeksu Karnego, jestem:</h6>
                 <asp:DropDownList ID="o_kodeksKarnyJestem_ddl" runat="server" margin="0px 0px 0px 0px">
                     <asp:ListItem></asp:ListItem>
                     <asp:ListItem>karany(a) za przestępstwo popełnione umyślnie</asp:ListItem>
                     <asp:ListItem>niekarany(a) za przestępstwo popełnione umyślnie</asp:ListItem>
                 </asp:DropDownList>
                 
-                <h6 id="NapisNadPolem">* Wybieram jako język egzaminacyjny:</h6>
+                <h6 style="margin-bottom: 5px">* Wybieram jako język egzaminacyjny:</h6>
                 <asp:DropDownList ID="o_jezykEgzaminacyjny_ddl" runat="server">
                     <asp:ListItem></asp:ListItem>
                     <asp:ListItem>angielski</asp:ListItem>
@@ -367,7 +367,7 @@
                     <asp:ListItem>niemiecki</asp:ListItem>
                 </asp:DropDownList>
                 
-                <h6 id="NapisNadPolem">* Przystępuję do egzaminu w KSAP po raz:</h6>
+                <h6 style="margin-bottom: 5px">* Przystępuję do egzaminu w KSAP po raz:</h6>
                 <asp:DropDownList ID="o_egzaminKSAP_ddl" runat="server">
                     <asp:ListItem></asp:ListItem>
                     <asp:ListItem>pierwszy</asp:ListItem>
@@ -380,14 +380,14 @@
                     <asp:ListItem>ósmy</asp:ListItem>
                 </asp:DropDownList>
 
-                <h6 id="NapisNadPolem">* Zamierzam ubiegać się o zakwaterowanie w hotelu Krajowej Szkoły w okresie kształcenia:</h6>
+                <h6 style="margin-bottom: 5px">* Zamierzam ubiegać się o zakwaterowanie w Kolegium Krajowej Szkoły w okresie kształcenia:</h6>
                 <asp:DropDownList ID="o_kolegiumKSAP_ddl" runat="server">
                     <asp:ListItem></asp:ListItem>
                     <asp:ListItem>Tak</asp:ListItem>
                     <asp:ListItem>Nie</asp:ListItem>
                 </asp:DropDownList>
 
-                <h6 id="NapisNadPolem">Źródło informacji o rekrutacji do KSAP:</h6>
+                <h6 style="margin-bottom: 5px">Źródło informacji o rekrutacji do KSAP:</h6>
                 <asp:DropDownList ID="o_zrodloRekKSAP_ddl" runat="server">
                     <asp:ListItem></asp:ListItem>
                     <asp:ListItem>Wyszukiwarka internetowa</asp:ListItem>
