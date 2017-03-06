@@ -35,9 +35,9 @@ namespace gbwebapp
             //connection.Close();
 
             connection = new MySqlConnection(ConnectionString);
-            MySqlCommand chbx1_insert = new MySqlCommand();
-            chbx1_insert.CommandType = System.Data.CommandType.Text;
-            chbx1_insert.CommandText = "INSERT INTO web_test_skasowac.rekrutacjaksap(id_kandydata,dok_plec,dok_imie,dok_drugieImie,dok_nazwisko,dok_nazwiskoRodowe," +
+            MySqlCommand zapisz_btn_insert = new MySqlCommand();
+            zapisz_btn_insert.CommandType = System.Data.CommandType.Text;
+            zapisz_btn_insert.CommandText = "INSERT INTO web_test_skasowac.rekrutacjaksap(id_kandydata,dok_plec,dok_imie,dok_drugieImie,dok_nazwisko,dok_nazwiskoRodowe," +
                                                                                     "dok_imieOjca,dok_imieMatki,dok_PESEL,dok_dataUrodzenia,dok_miejsceUrodzenia," +
                                                                                     "dok_obywatelstwo,dok_ser_nr_dowoduOsobistego,dok_stosunekWojsko,asz_kodPocztowy," + 
                                                                                     "asz_miejsowosc,asz_ulica,asz_numerDomu,asz_numerLokalu,asz_wojewodztwo,az_kodPocztowy," +
@@ -61,10 +61,11 @@ namespace gbwebapp
                                                                                     "pz13_od,pz13_do,pz13_nazwaPracodawcy,pz13_komOrganizacyjna,pz13_stanowisko,pz13_zakresObowiazkow,pz13_miejscowosc,pz13_pracaWAdm," +
                                                                                     "o_kodeksKarny,o_jezykEgzaminacyjny,o_egzaminPoRazN,o_kwaterunekKolegiumKSAP,o_zrodRekKSAP,)" +
                                        "VALUES ('zaznaczony','CheckBox 1', " + "'" + DateTime.Now + "'" + ", 1, 'udało się wstawić wartość')";
-            chbx1_insert.Connection = connection;
+
+            zapisz_btn_insert.Connection = connection;
 
             connection.Open();
-            chbx1_insert.ExecuteNonQuery();
+            zapisz_btn_insert.ExecuteNonQuery();
             connection.Close();
         }
 
