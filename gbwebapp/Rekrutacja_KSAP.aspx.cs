@@ -59,7 +59,7 @@ namespace gbwebapp
                                                                                     "pz11_od,pz11_do,pz11_nazwaPracodawcy,pz11_komOrganizacyjna,pz11_stanowisko,pz11_zakresObowiazkow,pz11_miejscowosc,pz11_pracaWAdm," +
                                                                                     "pz12_od,pz12_do,pz12_nazwaPracodawcy,pz12_komOrganizacyjna,pz12_stanowisko,pz12_zakresObowiazkow,pz12_miejscowosc,pz12_pracaWAdm," +
                                                                                     "pz13_od,pz13_do,pz13_nazwaPracodawcy,pz13_komOrganizacyjna,pz13_stanowisko,pz13_zakresObowiazkow,pz13_miejscowosc,pz13_pracaWAdm," +
-                                                                                    "o_kodeksKarny,o_jezykEgzaminacyjny,o_egzaminPoRazN,o_kwaterunekKolegiumKSAP,o_zrodRekKSAP,)" +
+                                                                                    "o_kodeksKarny,o_jezykEgzaminacyjny,o_egzaminPoRazN,o_kwaterunekKolegiumKSAP,o_zrodRekKSAP)" +
                                        "VALUES ('zaznaczony','CheckBox 1', " + "'" + DateTime.Now + "'" + ", 1, 'udało się wstawić wartość')";
 
             zapisz_btn_insert.Connection = connection;
