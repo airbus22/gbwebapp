@@ -193,13 +193,13 @@ namespace gbwebapp {
         protected global::System.Web.UI.WebControls.TextBox asz_nrLokalu_tbx;
         
         /// <summary>
-        /// asz_wojewodztwo_dll control.
+        /// asz_wojewodztwo_ddl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList asz_wojewodztwo_dll;
+        protected global::System.Web.UI.WebControls.DropDownList asz_wojewodztwo_ddl;
         
         /// <summary>
         /// az_kodPocztowy_tbx control.
@@ -274,58 +274,193 @@ namespace gbwebapp {
         protected global::System.Web.UI.WebControls.TextBox az_adresEmail_tbx;
         
         /// <summary>
-        /// w_uczelniaWyzsza_ddl control.
+        /// w1_Panel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList w_uczelniaWyzsza_ddl;
+        protected global::System.Web.UI.WebControls.Panel w1_Panel;
         
         /// <summary>
-        /// w_miejscowosc_tbx control.
+        /// w1_uczelniaWyzsza_ddl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox w_miejscowosc_tbx;
+        protected global::System.Web.UI.WebControls.DropDownList w1_uczelniaWyzsza_ddl;
         
         /// <summary>
-        /// w_kierunekStudiow_tbx control.
+        /// w1_miejscowosc_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox w_kierunekStudiow_tbx;
+        protected global::System.Web.UI.WebControls.TextBox w1_miejscowosc_tbx;
         
         /// <summary>
-        /// w_wyksztalcenie_ddl control.
+        /// w1_kierunekStudiow_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList w_wyksztalcenie_ddl;
+        protected global::System.Web.UI.WebControls.TextBox w1_kierunekStudiow_tbx;
         
         /// <summary>
-        /// w_rokUkonczenia_ddl control.
+        /// w1_wyksztalcenie_ddl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox w_rokUkonczenia_ddl;
+        protected global::System.Web.UI.WebControls.DropDownList w1_wyksztalcenie_ddl;
         
         /// <summary>
-        /// w_kolejne_cbx control.
+        /// w1_rokUkonczenia_ddl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox w_kolejne_cbx;
+        protected global::System.Web.UI.WebControls.TextBox w1_rokUkonczenia_ddl;
+        
+        /// <summary>
+        /// w1_kolejne_cbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox w1_kolejne_cbx;
+        
+        /// <summary>
+        /// w2_Panel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel w2_Panel;
+        
+        /// <summary>
+        /// w2_uczelniaWyzsza_ddl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList w2_uczelniaWyzsza_ddl;
+        
+        /// <summary>
+        /// w2_miejscowosc_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox w2_miejscowosc_tbx;
+        
+        /// <summary>
+        /// w2_kierunekStudiow_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox w2_kierunekStudiow_tbx;
+        
+        /// <summary>
+        /// w2_wyksztalcenie_ddl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList w2_wyksztalcenie_ddl;
+        
+        /// <summary>
+        /// w2_rokUkonczenia_ddl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox w2_rokUkonczenia_ddl;
+        
+        /// <summary>
+        /// w2_kolejne_cbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox w2_kolejne_cbx;
+        
+        /// <summary>
+        /// w3_Panel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel w3_Panel;
+        
+        /// <summary>
+        /// w3_uczelniaWyzsza_ddl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList w3_uczelniaWyzsza_ddl;
+        
+        /// <summary>
+        /// w3_miejscowosc_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox w3_miejscowosc_tbx;
+        
+        /// <summary>
+        /// w3_kierunekStudiow_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox w3_kierunekStudiow_tbx;
+        
+        /// <summary>
+        /// w3_wyksztalcenie_ddl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList w3_wyksztalcenie_ddl;
+        
+        /// <summary>
+        /// w3_rokUkonczenia_ddl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox w3_rokUkonczenia_ddl;
+        
+        /// <summary>
+        /// w3_kolejne_cbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox w3_kolejne_cbx;
         
         /// <summary>
         /// ks_nazwaUczelni_tbx control.
@@ -472,13 +607,13 @@ namespace gbwebapp {
         protected global::System.Web.UI.WebControls.CheckBox pz_kolejne_cbx;
         
         /// <summary>
-        /// panel_pr2 control.
+        /// pz_panel2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel panel_pr2;
+        protected global::System.Web.UI.WebControls.Panel pz_panel2;
         
         /// <summary>
         /// pz2_od_tbx control.

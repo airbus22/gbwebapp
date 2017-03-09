@@ -39,7 +39,8 @@ namespace gbwebapp
             pobierzMAXvalue = new MySqlConnection(ConnectionString);
             MySqlCommand zapytanieMAXvalue = new MySqlCommand("SELECT MAX(id_kandydata) FROM web_test_skasowac.rekrutacjaksap", pobierzMAXvalue);
             zapytanieMAXvalue.Connection.Open();
-            string MAXval = zapytanieMAXvalue.ExecuteScalar().ToString();
+            string MAXval_ = zapytanieMAXvalue.ExecuteScalar().ToString();
+            int MAXval = Convert.ToInt32(MAXval_)+1;    //obliczenie wartości id_kandydata dla kolejnego INSERTa
 
 
             connection = new MySqlConnection(ConnectionString);
@@ -68,7 +69,9 @@ namespace gbwebapp
                                                                                     "pz12_od,pz12_do,pz12_nazwaPracodawcy,pz12_komOrganizacyjna,pz12_stanowisko,pz12_zakresObowiazkow,pz12_miejscowosc,pz12_pracaWAdm," +
                                                                                     "pz13_od,pz13_do,pz13_nazwaPracodawcy,pz13_komOrganizacyjna,pz13_stanowisko,pz13_zakresObowiazkow,pz13_miejscowosc,pz13_pracaWAdm," +
                                                                                     "o_kodeksKarny,o_jezykEgzaminacyjny,o_egzaminPoRazN,o_kwaterunekKolegiumKSAP,o_zrodRekKSAP)" +
-                                       "VALUES (" + MAXval + "," + dok_plec_ddl.SelectedValue.ToString() + "," + dok_imie_tbx.ToString() + "," + dok_drugieImie_tbx.ToString() + "," + dok_nazwisko_tbx.ToString() + "," + dok_nazwiskoRodowe_tbx.ToString() + "," + dok_imieOjca_tbx.ToString() + "," + dok_imieMatki_tbx.ToString() + "," + dok_PESEL_tbx.ToString() + "," + dok_dataUrodzenia_tbx.ToString() + "," + dok_miejsceUrodzenia_tbx.ToString() + "," + dok_obywatelstwo_tbx.ToString() + "," + dok_seriaNumerID_tbx.ToString() + "," + dok_militaryFactor_ddl.SelectedValue.ToString() + "," + asz_kodPocztowy_tbx.ToString() + "," + asz_miejscowosc_tbx.ToString() + "," + asz_ulica_tbx.ToString() + "," + asz_nrDomu_tbx.ToString() + "," + asz_nrLokalu_tbx.ToString() + "," + asz_wojewodztwo_dll.ToString() + "," +az_kodPocztowy_tbx.ToString() + "," + az_miejscowosc_tbx.ToString() + "," + az_ulica_tbx.ToString() + "," + az_nrDomu_tbx.ToString() + "," + az_nrLokalu_tbx.ToString() + "," + az_wojewodztwo_ddl.SelectedValue.ToString() + "," + az_nrTelefonu_tbx.ToString() + "," + az_adresEmail_tbx.ToString() + "," + w_uczelniaWyzsza_ddl.SelectedValue.ToString() + ",'we','2017','we','we','we','we','2017','we','we','we','we','2017','jakas Uczelnia','Miejscowość','Kierunek','stanZaawansowania','język','certyfikat','odbyte staże / praktyki','01.01.2016','31.12.2016','ZUS','kadry','referent','full','Warszawa','Tak','01.01.2016','31.12.2016','ZUS','kadry','referent','full','Warszawa','Tak','01.01.2016','31.12.2016','ZUS','kadry','referent','full','Warszawa','Tak','01.01.2016','31.12.2016','ZUS','kadry','referent','full','Warszawa','Tak','01.01.2016','31.12.2016','ZUS','kadry','referent','full','Warszawa','Tak','01.01.2016','31.12.2016','ZUS','kadry','referent','full','Warszawa','Tak','01.01.2016','31.12.2016','ZUS','kadry','referent','full','Warszawa','Tak','01.01.2016','31.12.2016','ZUS','kadry','referent','full','Warszawa','Tak','01.01.2016','31.12.2016','ZUS','kadry','referent','full','Warszawa','Tak','01.01.2016','31.12.2016','ZUS','kadry','referent','full','Warszawa','Tak','01.01.2016','31.12.2016','ZUS','kadry','referent','full','Warszawa','Tak','01.01.2016','31.12.2016','ZUS','kadry','referent','full','Warszawa','Tak','01.01.2016','31.12.2016','ZUS','kadry','referent','full','Warszawa','Tak','czysty','rosyjski','4','tak poproszę','internet','test','test')";
+                                       "VALUES (" + MAXval + "," + dok_plec_ddl.SelectedValue.ToString() + "," + dok_imie_tbx.ToString() + "," + dok_drugieImie_tbx.ToString() + "," + dok_nazwisko_tbx.ToString() + "," + dok_nazwiskoRodowe_tbx.ToString() + "," + dok_imieOjca_tbx.ToString() + "," + dok_imieMatki_tbx.ToString() + "," + dok_PESEL_tbx.ToString() + "," + dok_dataUrodzenia_tbx.ToString() + "," + dok_miejsceUrodzenia_tbx.ToString() + "," + dok_obywatelstwo_tbx.ToString() + "," + dok_seriaNumerID_tbx.ToString() + "," + dok_militaryFactor_ddl.SelectedValue.ToString() + "," + asz_kodPocztowy_tbx.ToString() + "," + asz_miejscowosc_tbx.ToString() + "," + asz_ulica_tbx.ToString() + "," + asz_nrDomu_tbx.ToString() + "," + asz_nrLokalu_tbx.ToString() + "," + asz_wojewodztwo_ddl.SelectedValue.ToString() + "," + az_kodPocztowy_tbx.ToString() + "," + az_miejscowosc_tbx.ToString() + "," + az_ulica_tbx.ToString() + "," + az_nrDomu_tbx.ToString() + "," + az_nrLokalu_tbx.ToString() + "," + az_wojewodztwo_ddl.SelectedValue.ToString() + "," + az_nrTelefonu_tbx.ToString() + "," + az_adresEmail_tbx.ToString() + "," + w1_uczelniaWyzsza_ddl.SelectedValue.ToString() + ",'we','2017','we','we','we','we','2017','we','we','we','we','2017','jakas Uczelnia','Miejscowość','Kierunek','stanZaawansowania','język','certyfikat','odbyte staże / praktyki','01.01.2016','31.12.2016','ZUS','kadry','referent','full','Warszawa','Tak','01.01.2016','31.12.2016','ZUS','kadry','referent','full','Warszawa','Tak','01.01.2016','31.12.2016','ZUS','kadry','referent','full','Warszawa','Tak','01.01.2016','31.12.2016','ZUS','kadry','referent','full','Warszawa','Tak','01.01.2016','31.12.2016','ZUS','kadry','referent','full','Warszawa','Tak','01.01.2016','31.12.2016','ZUS','kadry','referent','full','Warszawa','Tak','01.01.2016','31.12.2016','ZUS','kadry','referent','full','Warszawa','Tak','01.01.2016','31.12.2016','ZUS','kadry','referent','full','Warszawa','Tak','01.01.2016','31.12.2016','ZUS','kadry','referent','full','Warszawa','Tak','01.01.2016','31.12.2016','ZUS','kadry','referent','full','Warszawa','Tak','01.01.2016','31.12.2016','ZUS','kadry','referent','full','Warszawa','Tak','01.01.2016','31.12.2016','ZUS','kadry','referent','full','Warszawa','Tak','01.01.2016','31.12.2016','ZUS','kadry','referent','full','Warszawa','Tak','czysty','rosyjski','4','tak poproszę','internet','test','test')";
+
+            //zapisz_btn_insert.CommandText = "INSERT INTO web_test_skasowac.rekrutacjaksap(id_kandydata,dok_plec,dok_imie) VALUES (" + MAXval + "," + "'" + dok_plec_ddl.SelectedValue.ToString() + "'" + "," + "'" + dok_imie_tbx.Text + "'" + ")";
 
             zapisz_btn_insert.Connection = connection;
 
@@ -77,12 +80,36 @@ namespace gbwebapp
             connection.Close();
         }
 
+        protected void w1_kolejne_cbx_CheckedChanged(object sender, EventArgs e)
+        {
+            if (w1_Panel.Visible == false)
+                w1_Panel.Visible = true;
+            else
+                w1_Panel.Visible = false;
+        }
+
+        protected void w2_kolejne_cbx_CheckedChanged(object sender, EventArgs e)
+        {
+            if (w2_Panel.Visible == false)
+                w2_Panel.Visible = true;
+            else
+                w2_Panel.Visible = false;
+        }
+
+        protected void w3_kolejne_cbx_CheckedChanged(object sender, EventArgs e)
+        {
+            if (w3_Panel.Visible == false)
+                w3_Panel.Visible = true;
+            else
+                w3_Panel.Visible = false;
+        }
+
         protected void pz_kolejne_cbx_CheckedChanged(object sender, EventArgs e)
         {
-            if (panel_pr2.Visible == false)
-                panel_pr2.Visible = true;
+            if (pz_panel2.Visible == false)
+                pz_panel2.Visible = true;
             else
-                panel_pr2.Visible = false;
+                pz_panel2.Visible = false;
         }
     }
 }
