@@ -97,7 +97,7 @@
                 </p>
                 <p><asp:TextBox ID="asz_nrLokalu_tbx" runat="server" Width="180px"></asp:TextBox>
                 </p>
-                <p><asp:DropDownList ID="az_wojewodztwo_tbx" runat="server">
+                <p><asp:DropDownList ID="asz_wojewodztwo_dll" runat="server">
                     <asp:ListItem></asp:ListItem>
                     <asp:ListItem>dolnośląskie</asp:ListItem>
                     <asp:ListItem>kujawsko-pomorskie</asp:ListItem>
@@ -722,8 +722,9 @@
             &nbsp
             <asp:Panel ID="panel_pr2" runat="server" Visible="False">
                 <div>
-                    <h5 id="Tekst_separujacy">Praca zawodowa 2 (bez staży i praktyk)<br /><p id="Linia_separujaca"></p></h5>
-                    <%--<p id="Linia_separujaca"></p>--%>
+                    <h5 id="Tekst_separujacy">Praca zawodowa 2 (bez staży i praktyk)<br /><p id="Linia_separujaca"></p>
+                        <h5></h5>
+                        <%--<p id="Linia_separujaca"></p>--%></h5>
                 </div>
                 <div id="PodobszarLewy1">
                     <h6>Od:</h6>

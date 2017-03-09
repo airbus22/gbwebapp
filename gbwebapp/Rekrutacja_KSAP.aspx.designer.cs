@@ -193,13 +193,13 @@ namespace gbwebapp {
         protected global::System.Web.UI.WebControls.TextBox asz_nrLokalu_tbx;
         
         /// <summary>
-        /// az_wojewodztwo_tbx control.
+        /// asz_wojewodztwo_dll control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList az_wojewodztwo_tbx;
+        protected global::System.Web.UI.WebControls.DropDownList asz_wojewodztwo_dll;
         
         /// <summary>
         /// az_kodPocztowy_tbx control.
