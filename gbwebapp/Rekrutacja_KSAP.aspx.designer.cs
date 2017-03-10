@@ -274,15 +274,6 @@ namespace gbwebapp {
         protected global::System.Web.UI.WebControls.TextBox az_adresEmail_tbx;
         
         /// <summary>
-        /// w1_Panel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel w1_Panel;
-        
-        /// <summary>
         /// w1_uczelniaWyzsza_ddl control.
         /// </summary>
         /// <remarks>
@@ -319,13 +310,13 @@ namespace gbwebapp {
         protected global::System.Web.UI.WebControls.DropDownList w1_wyksztalcenie_ddl;
         
         /// <summary>
-        /// w1_rokUkonczenia_ddl control.
+        /// w1_rokUkonczenia_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox w1_rokUkonczenia_ddl;
+        protected global::System.Web.UI.WebControls.TextBox w1_rokUkonczenia_tbx;
         
         /// <summary>
         /// w1_kolejne_cbx control.
@@ -382,13 +373,13 @@ namespace gbwebapp {
         protected global::System.Web.UI.WebControls.DropDownList w2_wyksztalcenie_ddl;
         
         /// <summary>
-        /// w2_rokUkonczenia_ddl control.
+        /// w2_rokUkonczenia_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox w2_rokUkonczenia_ddl;
+        protected global::System.Web.UI.WebControls.TextBox w2_rokUkonczenia_tbx;
         
         /// <summary>
         /// w2_kolejne_cbx control.
@@ -445,13 +436,13 @@ namespace gbwebapp {
         protected global::System.Web.UI.WebControls.DropDownList w3_wyksztalcenie_ddl;
         
         /// <summary>
-        /// w3_rokUkonczenia_ddl control.
+        /// w3_rokUkonczenia_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox w3_rokUkonczenia_ddl;
+        protected global::System.Web.UI.WebControls.TextBox w3_rokUkonczenia_tbx;
         
         /// <summary>
         /// w3_kolejne_cbx control.
@@ -526,94 +517,94 @@ namespace gbwebapp {
         protected global::System.Web.UI.WebControls.TextBox sip_odbyteStazePraktyki_tbx;
         
         /// <summary>
-        /// pz_od_tbx control.
+        /// pz1_od_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox pz_od_tbx;
+        protected global::System.Web.UI.WebControls.TextBox pz1_od_tbx;
         
         /// <summary>
-        /// pz_do_tbx control.
+        /// pz1_do_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox pz_do_tbx;
+        protected global::System.Web.UI.WebControls.TextBox pz1_do_tbx;
         
         /// <summary>
-        /// pz_nazwaPracodawscy_tbx control.
+        /// pz1_nazwaPracodawscy_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox pz_nazwaPracodawscy_tbx;
+        protected global::System.Web.UI.WebControls.TextBox pz1_nazwaPracodawscy_tbx;
         
         /// <summary>
-        /// pz_komorkaOrganizacyjna_tbx control.
+        /// pz1_komorkaOrganizacyjna_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox pz_komorkaOrganizacyjna_tbx;
+        protected global::System.Web.UI.WebControls.TextBox pz1_komorkaOrganizacyjna_tbx;
         
         /// <summary>
-        /// pz_stanowisko_tbx control.
+        /// pz1_stanowisko_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox pz_stanowisko_tbx;
+        protected global::System.Web.UI.WebControls.TextBox pz1_stanowisko_tbx;
         
         /// <summary>
-        /// pz_zakresObowiazkow_tbx control.
+        /// pz1_zakresObowiazkow_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox pz_zakresObowiazkow_tbx;
+        protected global::System.Web.UI.WebControls.TextBox pz1_zakresObowiazkow_tbx;
         
         /// <summary>
-        /// pz_miejscowosc_tbx control.
+        /// pz1_miejscowosc_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox pz_miejscowosc_tbx;
+        protected global::System.Web.UI.WebControls.TextBox pz1_miejscowosc_tbx;
         
         /// <summary>
-        /// pz_pracaWAdministracji_ddl control.
+        /// pz1_pracaWAdministracji_ddl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList pz_pracaWAdministracji_ddl;
+        protected global::System.Web.UI.WebControls.DropDownList pz1_pracaWAdministracji_ddl;
         
         /// <summary>
-        /// pz_kolejne_cbx control.
+        /// pz1_kolejne_cbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox pz_kolejne_cbx;
+        protected global::System.Web.UI.WebControls.CheckBox pz1_kolejne_cbx;
         
         /// <summary>
-        /// pz_panel2 control.
+        /// pz2_panel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel pz_panel2;
+        protected global::System.Web.UI.WebControls.Panel pz2_panel;
         
         /// <summary>
         /// pz2_od_tbx control.
@@ -670,13 +661,13 @@ namespace gbwebapp {
         protected global::System.Web.UI.WebControls.TextBox pz2_zakresObowiazkow_tbx;
         
         /// <summary>
-        /// TextBox7 control.
+        /// pz2_miejscowosc_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox7;
+        protected global::System.Web.UI.WebControls.TextBox pz2_miejscowosc_tbx;
         
         /// <summary>
         /// pz2_pracaWAdministracji_ddl control.
@@ -695,6 +686,996 @@ namespace gbwebapp {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CheckBox pz2_kolejne_cbx;
+        
+        /// <summary>
+        /// pz3_panel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pz3_panel;
+        
+        /// <summary>
+        /// pz3_od_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz3_od_tbx;
+        
+        /// <summary>
+        /// pz3_do_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz3_do_tbx;
+        
+        /// <summary>
+        /// pz3_nazwaPracodawscy_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz3_nazwaPracodawscy_tbx;
+        
+        /// <summary>
+        /// pz3_komorkaOrganizacyjna_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz3_komorkaOrganizacyjna_tbx;
+        
+        /// <summary>
+        /// pz3_stanowisko_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz3_stanowisko_tbx;
+        
+        /// <summary>
+        /// pz3_zakresObowiazkow_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz3_zakresObowiazkow_tbx;
+        
+        /// <summary>
+        /// pz3_miejscowosc_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz3_miejscowosc_tbx;
+        
+        /// <summary>
+        /// pz3_pracaWAdministracji_ddl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList pz3_pracaWAdministracji_ddl;
+        
+        /// <summary>
+        /// pz3_kolejne_cbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox pz3_kolejne_cbx;
+        
+        /// <summary>
+        /// pz4_panel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pz4_panel;
+        
+        /// <summary>
+        /// pz4_od_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz4_od_tbx;
+        
+        /// <summary>
+        /// pz4_do_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz4_do_tbx;
+        
+        /// <summary>
+        /// pz4_nazwaPracodawscy_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz4_nazwaPracodawscy_tbx;
+        
+        /// <summary>
+        /// pz4_komorkaOrganizacyjna_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz4_komorkaOrganizacyjna_tbx;
+        
+        /// <summary>
+        /// pz4_stanowisko_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz4_stanowisko_tbx;
+        
+        /// <summary>
+        /// pz4_zakresObowiazkow_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz4_zakresObowiazkow_tbx;
+        
+        /// <summary>
+        /// pz4_miejscowosc_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz4_miejscowosc_tbx;
+        
+        /// <summary>
+        /// pz4_pracaWAdministracji_ddl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList pz4_pracaWAdministracji_ddl;
+        
+        /// <summary>
+        /// pz4_kolejne_cbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox pz4_kolejne_cbx;
+        
+        /// <summary>
+        /// pz5_panel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pz5_panel;
+        
+        /// <summary>
+        /// pz5_od_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz5_od_tbx;
+        
+        /// <summary>
+        /// pz5_do_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz5_do_tbx;
+        
+        /// <summary>
+        /// pz5_nazwaPracodawscy_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz5_nazwaPracodawscy_tbx;
+        
+        /// <summary>
+        /// pz5_komorkaOrganizacyjna_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz5_komorkaOrganizacyjna_tbx;
+        
+        /// <summary>
+        /// pz5_stanowisko_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz5_stanowisko_tbx;
+        
+        /// <summary>
+        /// pz5_zakresObowiazkow_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz5_zakresObowiazkow_tbx;
+        
+        /// <summary>
+        /// pz5_miejscowosc_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz5_miejscowosc_tbx;
+        
+        /// <summary>
+        /// pz5_pracaWAdministracji_ddl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList pz5_pracaWAdministracji_ddl;
+        
+        /// <summary>
+        /// pz5_kolejne_cbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox pz5_kolejne_cbx;
+        
+        /// <summary>
+        /// pz6_panel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pz6_panel;
+        
+        /// <summary>
+        /// pz6_od_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz6_od_tbx;
+        
+        /// <summary>
+        /// pz6_do_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz6_do_tbx;
+        
+        /// <summary>
+        /// pz6_nazwaPracodawscy_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz6_nazwaPracodawscy_tbx;
+        
+        /// <summary>
+        /// pz6_komorkaOrganizacyjna_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz6_komorkaOrganizacyjna_tbx;
+        
+        /// <summary>
+        /// pz6_stanowisko_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz6_stanowisko_tbx;
+        
+        /// <summary>
+        /// pz6_zakresObowiazkow_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz6_zakresObowiazkow_tbx;
+        
+        /// <summary>
+        /// pz6_miejscowosc_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz6_miejscowosc_tbx;
+        
+        /// <summary>
+        /// pz6_pracaWAdministracji_ddl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList pz6_pracaWAdministracji_ddl;
+        
+        /// <summary>
+        /// pz6_kolejne_cbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox pz6_kolejne_cbx;
+        
+        /// <summary>
+        /// pz7_panel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pz7_panel;
+        
+        /// <summary>
+        /// pz7_od_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz7_od_tbx;
+        
+        /// <summary>
+        /// pz7_do_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz7_do_tbx;
+        
+        /// <summary>
+        /// pz7_nazwaPracodawscy_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz7_nazwaPracodawscy_tbx;
+        
+        /// <summary>
+        /// pz7_komorkaOrganizacyjna_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz7_komorkaOrganizacyjna_tbx;
+        
+        /// <summary>
+        /// pz7_stanowisko_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz7_stanowisko_tbx;
+        
+        /// <summary>
+        /// pz7_zakresObowiazkow_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz7_zakresObowiazkow_tbx;
+        
+        /// <summary>
+        /// pz7_miejscowosc_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz7_miejscowosc_tbx;
+        
+        /// <summary>
+        /// pz7_pracaWAdministracji_ddl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList pz7_pracaWAdministracji_ddl;
+        
+        /// <summary>
+        /// pz7_kolejne_cbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox pz7_kolejne_cbx;
+        
+        /// <summary>
+        /// pz8_panel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pz8_panel;
+        
+        /// <summary>
+        /// pz8_od_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz8_od_tbx;
+        
+        /// <summary>
+        /// pz8_do_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz8_do_tbx;
+        
+        /// <summary>
+        /// pz8_nazwaPracodawscy_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz8_nazwaPracodawscy_tbx;
+        
+        /// <summary>
+        /// pz8_komorkaOrganizacyjna_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz8_komorkaOrganizacyjna_tbx;
+        
+        /// <summary>
+        /// pz8_stanowisko_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz8_stanowisko_tbx;
+        
+        /// <summary>
+        /// pz8_zakresObowiazkow_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz8_zakresObowiazkow_tbx;
+        
+        /// <summary>
+        /// pz8_miejscowosc_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz8_miejscowosc_tbx;
+        
+        /// <summary>
+        /// pz8_pracaWAdministracji_ddl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList pz8_pracaWAdministracji_ddl;
+        
+        /// <summary>
+        /// pz8_kolejne_cbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox pz8_kolejne_cbx;
+        
+        /// <summary>
+        /// pz9_panel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pz9_panel;
+        
+        /// <summary>
+        /// pz9_od_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz9_od_tbx;
+        
+        /// <summary>
+        /// pz9_do_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz9_do_tbx;
+        
+        /// <summary>
+        /// pz9_nazwaPracodawscy_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz9_nazwaPracodawscy_tbx;
+        
+        /// <summary>
+        /// pz9_komorkaOrganizacyjna_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz9_komorkaOrganizacyjna_tbx;
+        
+        /// <summary>
+        /// pz9_stanowisko_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz9_stanowisko_tbx;
+        
+        /// <summary>
+        /// pz9_zakresObowiazkow_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz9_zakresObowiazkow_tbx;
+        
+        /// <summary>
+        /// pz9_miejscowosc_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz9_miejscowosc_tbx;
+        
+        /// <summary>
+        /// pz9_pracaWAdministracji_ddl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList pz9_pracaWAdministracji_ddl;
+        
+        /// <summary>
+        /// pz9_kolejne_cbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox pz9_kolejne_cbx;
+        
+        /// <summary>
+        /// pz10_panel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pz10_panel;
+        
+        /// <summary>
+        /// pz10_od_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz10_od_tbx;
+        
+        /// <summary>
+        /// pz10_do_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz10_do_tbx;
+        
+        /// <summary>
+        /// pz10_nazwaPracodawscy_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz10_nazwaPracodawscy_tbx;
+        
+        /// <summary>
+        /// pz10_komorkaOrganizacyjna_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz10_komorkaOrganizacyjna_tbx;
+        
+        /// <summary>
+        /// pz10_stanowisko_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz10_stanowisko_tbx;
+        
+        /// <summary>
+        /// pz10_zakresObowiazkow_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz10_zakresObowiazkow_tbx;
+        
+        /// <summary>
+        /// pz10_miejscowosc_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz10_miejscowosc_tbx;
+        
+        /// <summary>
+        /// pz10_pracaWAdministracji_ddl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList pz10_pracaWAdministracji_ddl;
+        
+        /// <summary>
+        /// pz10_kolejne_cbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox pz10_kolejne_cbx;
+        
+        /// <summary>
+        /// pz11_panel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pz11_panel;
+        
+        /// <summary>
+        /// pz11_od_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz11_od_tbx;
+        
+        /// <summary>
+        /// pz11_do_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz11_do_tbx;
+        
+        /// <summary>
+        /// pz11_nazwaPracodawscy_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz11_nazwaPracodawscy_tbx;
+        
+        /// <summary>
+        /// pz11_komorkaOrganizacyjna_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz11_komorkaOrganizacyjna_tbx;
+        
+        /// <summary>
+        /// pz11_stanowisko_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz11_stanowisko_tbx;
+        
+        /// <summary>
+        /// pz11_zakresObowiazkow_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz11_zakresObowiazkow_tbx;
+        
+        /// <summary>
+        /// pz11_miejscowosc_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz11_miejscowosc_tbx;
+        
+        /// <summary>
+        /// pz11_pracaWAdministracji_ddl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList pz11_pracaWAdministracji_ddl;
+        
+        /// <summary>
+        /// pz11_kolejne_cbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox pz11_kolejne_cbx;
+        
+        /// <summary>
+        /// pz12_panel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pz12_panel;
+        
+        /// <summary>
+        /// pz12_od_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz12_od_tbx;
+        
+        /// <summary>
+        /// pz12_do_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz12_do_tbx;
+        
+        /// <summary>
+        /// pz12_nazwaPracodawscy_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz12_nazwaPracodawscy_tbx;
+        
+        /// <summary>
+        /// pz12_komorkaOrganizacyjna_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz12_komorkaOrganizacyjna_tbx;
+        
+        /// <summary>
+        /// pz12_stanowisko_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz12_stanowisko_tbx;
+        
+        /// <summary>
+        /// pz12_zakresObowiazkow_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz12_zakresObowiazkow_tbx;
+        
+        /// <summary>
+        /// pz12_miejscowosc_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz12_miejscowosc_tbx;
+        
+        /// <summary>
+        /// pz12_pracaWAdministracji_ddl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList pz12_pracaWAdministracji_ddl;
+        
+        /// <summary>
+        /// pz12_kolejne_cbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox pz12_kolejne_cbx;
+        
+        /// <summary>
+        /// pz13_panel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pz13_panel;
+        
+        /// <summary>
+        /// pz13_od_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz13_od_tbx;
+        
+        /// <summary>
+        /// pz13_do_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz13_do_tbx;
+        
+        /// <summary>
+        /// pz13_nazwaPracodawscy_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz13_nazwaPracodawscy_tbx;
+        
+        /// <summary>
+        /// pz13_komorkaOrganizacyjna_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz13_komorkaOrganizacyjna_tbx;
+        
+        /// <summary>
+        /// pz13_stanowisko_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz13_stanowisko_tbx;
+        
+        /// <summary>
+        /// pz13_zakresObowiazkow_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz13_zakresObowiazkow_tbx;
+        
+        /// <summary>
+        /// pz13_miejscowosc_tbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox pz13_miejscowosc_tbx;
+        
+        /// <summary>
+        /// pz13_pracaWAdministracji_ddl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList pz13_pracaWAdministracji_ddl;
+        
+        /// <summary>
+        /// pz13_kolejne_cbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox pz13_kolejne_cbx;
         
         /// <summary>
         /// o_kodeksKarnyJestem_ddl control.

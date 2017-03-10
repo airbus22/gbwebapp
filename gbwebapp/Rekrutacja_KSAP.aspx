@@ -170,20 +170,19 @@
                 </p>
             </div>
             &nbsp
-            <asp:Panel ID="w1_Panel" runat="server">
-                <div>
+            <div>
                     <h5 id="Tekst_separujacy">Wykształcenie - ukończone studia wyższe z tytułem magistra lub równorzędnym<br /><p id="Linia_separujaca"></p>
                         <h5></h5>
                         <%--<p id="Linia_separujaca"></p>--%></h5>
                 </div>            
-                <div id="PodobszarLewy2">                
+            <div id="PodobszarLewy2">                
                     <h6>*Uczelnia wyższa:</h6>
                     <h6>*Miejscowość:</h6>
                     <h6>*Kierunek studiów:</h6>
                     <h6>*Wykształcenie:</h6>
                     <h6>*Rok ukończenia:</h6>
                 </div>
-                <div id="PodobszarPrawy2">                
+            <div id="PodobszarPrawy2">                
                 <p><asp:DropDownList ID="w1_uczelniaWyzsza_ddl" runat="server">
                         <asp:ListItem></asp:ListItem>
                         <asp:ListItem>Białystok - Niepaństwowa Wyższa Szkoła Pedagogiczna</asp:ListItem>
@@ -624,12 +623,11 @@
                     <asp:ListItem>w zakresie nauk społecznych</asp:ListItem>
                     </asp:DropDownList>
                 </p>
-                <p><asp:TextBox ID="w1_rokUkonczenia_ddl" runat="server" Width="180px"></asp:TextBox></p>                
-                <h6><asp:CheckBox ID="w1_kolejne_cbx" runat="server" Text="  Chcę dodać kolejne wykształcenie - studia wyższe" AutoPostBack="True" OnCheckedChanged="w1_kolejne_cbx_CheckedChanged" /></h6>
+                <p><asp:TextBox ID="w1_rokUkonczenia_tbx" runat="server" Width="180px"></asp:TextBox></p>                
+                <h6><asp:CheckBox ID="w1_kolejne_cbx" runat="server" Text="  Chcę dodać kolejne wykształcenie - studia wyższe" AutoPostBack="True" OnCheckedChanged="w2_kolejne_cbx_CheckedChanged"/></h6>
             </div>
-            </asp:Panel>
             &nbsp
-            <asp:Panel ID="w2_Panel" runat="server">
+            <asp:Panel ID="w2_Panel" runat="server" Visible="False">
                 <div>
                     <h5 id="Tekst_separujacy">Wykształcenie - ukończone studia wyższe z tytułem magistra lub równorzędnym 2<br /><p id="Linia_separujaca"></p>
                         <h5></h5>
@@ -1083,12 +1081,12 @@
                     <asp:ListItem>w zakresie nauk społecznych</asp:ListItem>
                     </asp:DropDownList>
                 </p>
-                <p><asp:TextBox ID="w2_rokUkonczenia_ddl" runat="server" Width="180px"></asp:TextBox></p>                
-                <h6><asp:CheckBox ID="w2_kolejne_cbx" runat="server" Text="  Chcę dodać kolejne wykształcenie - studia wyższe" AutoPostBack="True" OnCheckedChanged="w2_kolejne_cbx_CheckedChanged" /></h6>
+                <p><asp:TextBox ID="w2_rokUkonczenia_tbx" runat="server" Width="180px"></asp:TextBox></p>                
+                <h6><asp:CheckBox ID="w2_kolejne_cbx" runat="server" Text="  Chcę dodać kolejne wykształcenie - studia wyższe" AutoPostBack="True" OnCheckedChanged="w3_kolejne_cbx_CheckedChanged" /></h6>
             </div>
             </asp:Panel>
             &nbsp
-            <asp:Panel ID="w3_Panel" runat="server">
+            <asp:Panel ID="w3_Panel" runat="server" Visible="False">
             <div>
                 <h5 id="Tekst_separujacy">Wykształcenie - ukończone studia wyższe z tytułem magistra lub równorzędnym 3<br /><p id="Linia_separujaca"></p>
                     <h5></h5>
@@ -1542,7 +1540,7 @@
                     <asp:ListItem>w zakresie nauk społecznych</asp:ListItem>
                     </asp:DropDownList>
                 </p>
-                <p><asp:TextBox ID="w3_rokUkonczenia_ddl" runat="server" Width="180px"></asp:TextBox></p>                
+                <p><asp:TextBox ID="w3_rokUkonczenia_tbx" runat="server" Width="180px"></asp:TextBox></p>                
                 <h6><asp:CheckBox ID="w3_kolejne_cbx" runat="server" Text="  Chcę dodać kolejne wykształcenie - studia wyższe" AutoPostBack="True" OnCheckedChanged="w3_kolejne_cbx_CheckedChanged" /></h6>
             </div>
             </asp:Panel>
@@ -1611,21 +1609,21 @@
                 <h6>Praca w administracji:</h6>
             </div>
             <div id="PodobszarPrawy1">                
-                <p><asp:TextBox ID="pz_od_tbx" runat="server" Width="180px"></asp:TextBox>
+                <p><asp:TextBox ID="pz1_od_tbx" runat="server" Width="180px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="pz_do_tbx" runat="server" Width="180px"></asp:TextBox>
+                <p><asp:TextBox ID="pz1_do_tbx" runat="server" Width="180px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="pz_nazwaPracodawscy_tbx" runat="server" Width="327px"></asp:TextBox>
+                <p><asp:TextBox ID="pz1_nazwaPracodawscy_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="pz_komorkaOrganizacyjna_tbx" runat="server" Width="327px"></asp:TextBox>
+                <p><asp:TextBox ID="pz1_komorkaOrganizacyjna_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="pz_stanowisko_tbx" runat="server" Width="327px"></asp:TextBox>
+                <p><asp:TextBox ID="pz1_stanowisko_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="pz_zakresObowiazkow_tbx" runat="server" Width="327px"></asp:TextBox>
+                <p><asp:TextBox ID="pz1_zakresObowiazkow_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="pz_miejscowosc_tbx" runat="server" Width="327px"></asp:TextBox>
+                <p><asp:TextBox ID="pz1_miejscowosc_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>
-                <p><asp:DropDownList ID="pz_pracaWAdministracji_ddl" runat="server">
+                <p><asp:DropDownList ID="pz1_pracaWAdministracji_ddl" runat="server">
                     <asp:ListItem></asp:ListItem>
                     <asp:ListItem>Nie</asp:ListItem>
                     <asp:ListItem>Ministerstwo</asp:ListItem>
@@ -1637,15 +1635,18 @@
                     <asp:ListItem>Inne instytucji spoza administracji</asp:ListItem>
                     </asp:DropDownList>
                 </p>
-                <H6><asp:CheckBox ID="pz_kolejne_cbx" runat="server" Text="  Chcę dodać kolejne miejsce pracy" AutoPostBack="True" OnCheckedChanged="pz_kolejne_cbx_CheckedChanged" /></H6>
+                <H6><asp:CheckBox ID="pz1_kolejne_cbx" runat="server" Text="  Chcę dodać kolejne miejsce pracy" AutoPostBack="True" OnCheckedChanged="pz2_kolejne_cbx_CheckedChanged" /></H6>
             </div>
 
             &nbsp
-            <asp:Panel ID="pz_panel2" runat="server" Visible="False">
+            <asp:Panel ID="pz2_panel" runat="server" Visible="False">
                 <div>
                     <h5 id="Tekst_separujacy">Praca zawodowa 2 (bez staży i praktyk)<br /><p id="Linia_separujaca"></p>
                         <h5></h5>
-                        <%--<p id="Linia_separujaca"></p>--%></h5>
+                        <%--<p id="Linia_separujaca"></p>--%>
+                        <h5></h5>
+                        <h5></h5>
+                    </h5>
                 </div>
                 <div id="PodobszarLewy1">
                     <h6>Od:</h6>
@@ -1670,7 +1671,7 @@
                     </p>
                     <p><asp:TextBox ID="pz2_zakresObowiazkow_tbx" runat="server" Width="327px"></asp:TextBox>
                     </p>
-                    <p><asp:TextBox ID="TextBox7" runat="server" Width="327px"></asp:TextBox>
+                    <p><asp:TextBox ID="pz2_miejscowosc_tbx" runat="server" Width="327px"></asp:TextBox>
                     </p>
                     <p><asp:DropDownList ID="pz2_pracaWAdministracji_ddl" runat="server">
                         <asp:ListItem></asp:ListItem>
@@ -1684,7 +1685,556 @@
                         <asp:ListItem>Inne instytucji spoza administracji</asp:ListItem>
                         </asp:DropDownList>
                     </p>
-                    <H6><asp:CheckBox ID="pz2_kolejne_cbx" runat="server" Text="  Chcę dodać kolejne miejsce pracy" AutoPostBack="True" /></H6>
+                    <H6><asp:CheckBox ID="pz2_kolejne_cbx" runat="server" Text="  Chcę dodać kolejne miejsce pracy" AutoPostBack="True" OnCheckedChanged="pz3_kolejne_cbx_CheckedChanged" /></H6>
+                </div>
+            </asp:Panel>
+            &nbsp
+            <asp:Panel ID="pz3_panel" runat="server" Visible="False" OnDataBinding="pz3_kolejne_cbx_CheckedChanged">
+                <div>
+                    <h5 id="Tekst_separujacy">Praca zawodowa 3 (bez staży i praktyk)<br /><p id="Linia_separujaca"></p>
+                        <h5></h5>
+                        <%--<p id="Linia_separujaca"></p>--%>
+                        <h5></h5>
+                        <h5></h5>
+                    </h5>
+                </div>
+                <div id="PodobszarLewy1">
+                    <h6>Od:</h6>
+                    <h6>Do:</h6>
+                    <h6>Nazwa pracodawcy:</h6>
+                    <h6>Komórka organizacyjna:</h6>
+                    <h6>Stanowisko:</h6>
+                    <h6>Zakres obowiązków:</h6>
+                    <h6>Miejscowość:</h6>
+                    <h6>Praca w administracji:</h6>
+                </div>
+                <div id="PodobszarPrawy1">                
+                    <p><asp:TextBox ID="pz3_od_tbx" runat="server" Width="180px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz3_do_tbx" runat="server" Width="180px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz3_nazwaPracodawscy_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz3_komorkaOrganizacyjna_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz3_stanowisko_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz3_zakresObowiazkow_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz3_miejscowosc_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:DropDownList ID="pz3_pracaWAdministracji_ddl" runat="server">
+                        <asp:ListItem></asp:ListItem>
+                        <asp:ListItem>Nie</asp:ListItem>
+                        <asp:ListItem>Ministerstwo</asp:ListItem>
+                        <asp:ListItem>Urząd Wojewódzki</asp:ListItem>
+                        <asp:ListItem>Urząd Centralny</asp:ListItem>
+                        <asp:ListItem>Urząd Terenowy</asp:ListItem>
+                        <asp:ListItem>Urząd Samorządowy</asp:ListItem>
+                        <asp:ListItem>Inne jednostki w ramach administracji publicznej</asp:ListItem>
+                        <asp:ListItem>Inne instytucji spoza administracji</asp:ListItem>
+                        </asp:DropDownList>
+                    </p>
+                    <H6><asp:CheckBox ID="pz3_kolejne_cbx" runat="server" Text="  Chcę dodać kolejne miejsce pracy" AutoPostBack="True" OnCheckedChanged="pz4_kolejne_cbx_CheckedChanged" /></H6>
+                </div>
+            </asp:Panel>
+            &nbsp
+            <asp:Panel ID="pz4_panel" runat="server" Visible="False">
+                <div>
+                    <h5 id="Tekst_separujacy">Praca zawodowa 4 (bez staży i praktyk)<br /><p id="Linia_separujaca"></p>
+                        <h5></h5>
+                        <%--<p id="Linia_separujaca"></p>--%>
+                        <h5></h5>
+                        <h5></h5>
+                    </h5>
+                </div>
+                <div id="PodobszarLewy1">
+                    <h6>Od:</h6>
+                    <h6>Do:</h6>
+                    <h6>Nazwa pracodawcy:</h6>
+                    <h6>Komórka organizacyjna:</h6>
+                    <h6>Stanowisko:</h6>
+                    <h6>Zakres obowiązków:</h6>
+                    <h6>Miejscowość:</h6>
+                    <h6>Praca w administracji:</h6>
+                </div>
+                <div id="PodobszarPrawy1">                
+                    <p><asp:TextBox ID="pz4_od_tbx" runat="server" Width="180px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz4_do_tbx" runat="server" Width="180px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz4_nazwaPracodawscy_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz4_komorkaOrganizacyjna_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz4_stanowisko_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz4_zakresObowiazkow_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz4_miejscowosc_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:DropDownList ID="pz4_pracaWAdministracji_ddl" runat="server">
+                        <asp:ListItem></asp:ListItem>
+                        <asp:ListItem>Nie</asp:ListItem>
+                        <asp:ListItem>Ministerstwo</asp:ListItem>
+                        <asp:ListItem>Urząd Wojewódzki</asp:ListItem>
+                        <asp:ListItem>Urząd Centralny</asp:ListItem>
+                        <asp:ListItem>Urząd Terenowy</asp:ListItem>
+                        <asp:ListItem>Urząd Samorządowy</asp:ListItem>
+                        <asp:ListItem>Inne jednostki w ramach administracji publicznej</asp:ListItem>
+                        <asp:ListItem>Inne instytucji spoza administracji</asp:ListItem>
+                        </asp:DropDownList>
+                    </p>
+                    <H6><asp:CheckBox ID="pz4_kolejne_cbx" runat="server" Text="  Chcę dodać kolejne miejsce pracy" AutoPostBack="True" OnCheckedChanged="pz5_kolejne_cbx_CheckedChanged" /></H6>
+                </div>
+            </asp:Panel>
+            &nbsp
+            <asp:Panel ID="pz5_panel" runat="server" Visible="False">
+                <div>
+                    <h5 id="Tekst_separujacy">Praca zawodowa 5 (bez staży i praktyk)<br /><p id="Linia_separujaca"></p>
+                        <h5></h5>
+                        <%--<p id="Linia_separujaca"></p>--%>
+                        <h5></h5>
+                        <h5></h5>
+                    </h5>
+                </div>
+                <div id="PodobszarLewy1">
+                    <h6>Od:</h6>
+                    <h6>Do:</h6>
+                    <h6>Nazwa pracodawcy:</h6>
+                    <h6>Komórka organizacyjna:</h6>
+                    <h6>Stanowisko:</h6>
+                    <h6>Zakres obowiązków:</h6>
+                    <h6>Miejscowość:</h6>
+                    <h6>Praca w administracji:</h6>
+                </div>
+                <div id="PodobszarPrawy1">                
+                    <p><asp:TextBox ID="pz5_od_tbx" runat="server" Width="180px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz5_do_tbx" runat="server" Width="180px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz5_nazwaPracodawscy_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz5_komorkaOrganizacyjna_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz5_stanowisko_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz5_zakresObowiazkow_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz5_miejscowosc_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:DropDownList ID="pz5_pracaWAdministracji_ddl" runat="server">
+                        <asp:ListItem></asp:ListItem>
+                        <asp:ListItem>Nie</asp:ListItem>
+                        <asp:ListItem>Ministerstwo</asp:ListItem>
+                        <asp:ListItem>Urząd Wojewódzki</asp:ListItem>
+                        <asp:ListItem>Urząd Centralny</asp:ListItem>
+                        <asp:ListItem>Urząd Terenowy</asp:ListItem>
+                        <asp:ListItem>Urząd Samorządowy</asp:ListItem>
+                        <asp:ListItem>Inne jednostki w ramach administracji publicznej</asp:ListItem>
+                        <asp:ListItem>Inne instytucji spoza administracji</asp:ListItem>
+                        </asp:DropDownList>
+                    </p>
+                    <H6><asp:CheckBox ID="pz5_kolejne_cbx" runat="server" Text="  Chcę dodać kolejne miejsce pracy" AutoPostBack="True" OnCheckedChanged="pz6_kolejne_cbx_CheckedChanged" /></H6>
+                </div>
+            </asp:Panel>
+            &nbsp
+            <asp:Panel ID="pz6_panel" runat="server" Visible="False">
+                <div>
+                    <h5 id="Tekst_separujacy">Praca zawodowa 6 (bez staży i praktyk)<br /><p id="Linia_separujaca"></p>
+                        <h5></h5>
+                        <%--<p id="Linia_separujaca"></p>--%>
+                        <h5></h5>
+                        <h5></h5>
+                    </h5>
+                </div>
+                <div id="PodobszarLewy1">
+                    <h6>Od:</h6>
+                    <h6>Do:</h6>
+                    <h6>Nazwa pracodawcy:</h6>
+                    <h6>Komórka organizacyjna:</h6>
+                    <h6>Stanowisko:</h6>
+                    <h6>Zakres obowiązków:</h6>
+                    <h6>Miejscowość:</h6>
+                    <h6>Praca w administracji:</h6>
+                </div>
+                <div id="PodobszarPrawy1">                
+                    <p><asp:TextBox ID="pz6_od_tbx" runat="server" Width="180px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz6_do_tbx" runat="server" Width="180px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz6_nazwaPracodawscy_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz6_komorkaOrganizacyjna_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz6_stanowisko_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz6_zakresObowiazkow_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz6_miejscowosc_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:DropDownList ID="pz6_pracaWAdministracji_ddl" runat="server">
+                        <asp:ListItem></asp:ListItem>
+                        <asp:ListItem>Nie</asp:ListItem>
+                        <asp:ListItem>Ministerstwo</asp:ListItem>
+                        <asp:ListItem>Urząd Wojewódzki</asp:ListItem>
+                        <asp:ListItem>Urząd Centralny</asp:ListItem>
+                        <asp:ListItem>Urząd Terenowy</asp:ListItem>
+                        <asp:ListItem>Urząd Samorządowy</asp:ListItem>
+                        <asp:ListItem>Inne jednostki w ramach administracji publicznej</asp:ListItem>
+                        <asp:ListItem>Inne instytucji spoza administracji</asp:ListItem>
+                        </asp:DropDownList>
+                    </p>
+                    <H6><asp:CheckBox ID="pz6_kolejne_cbx" runat="server" Text="  Chcę dodać kolejne miejsce pracy" AutoPostBack="True" OnCheckedChanged="pz7_kolejne_cbx_CheckedChanged" /></H6>
+                </div>
+            </asp:Panel>
+            &nbsp
+            <asp:Panel ID="pz7_panel" runat="server" Visible="False">
+                <div>
+                    <h5 id="Tekst_separujacy">Praca zawodowa 7 (bez staży i praktyk)<br /><p id="Linia_separujaca"></p>
+                        <h5></h5>
+                        <%--<p id="Linia_separujaca"></p>--%>
+                        <h5></h5>
+                        <h5></h5>
+                    </h5>
+                </div>
+                <div id="PodobszarLewy1">
+                    <h6>Od:</h6>
+                    <h6>Do:</h6>
+                    <h6>Nazwa pracodawcy:</h6>
+                    <h6>Komórka organizacyjna:</h6>
+                    <h6>Stanowisko:</h6>
+                    <h6>Zakres obowiązków:</h6>
+                    <h6>Miejscowość:</h6>
+                    <h6>Praca w administracji:</h6>
+                </div>
+                <div id="PodobszarPrawy1">                
+                    <p><asp:TextBox ID="pz7_od_tbx" runat="server" Width="180px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz7_do_tbx" runat="server" Width="180px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz7_nazwaPracodawscy_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz7_komorkaOrganizacyjna_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz7_stanowisko_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz7_zakresObowiazkow_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz7_miejscowosc_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:DropDownList ID="pz7_pracaWAdministracji_ddl" runat="server">
+                        <asp:ListItem></asp:ListItem>
+                        <asp:ListItem>Nie</asp:ListItem>
+                        <asp:ListItem>Ministerstwo</asp:ListItem>
+                        <asp:ListItem>Urząd Wojewódzki</asp:ListItem>
+                        <asp:ListItem>Urząd Centralny</asp:ListItem>
+                        <asp:ListItem>Urząd Terenowy</asp:ListItem>
+                        <asp:ListItem>Urząd Samorządowy</asp:ListItem>
+                        <asp:ListItem>Inne jednostki w ramach administracji publicznej</asp:ListItem>
+                        <asp:ListItem>Inne instytucji spoza administracji</asp:ListItem>
+                        </asp:DropDownList>
+                    </p>
+                    <H6><asp:CheckBox ID="pz7_kolejne_cbx" runat="server" Text="  Chcę dodać kolejne miejsce pracy" AutoPostBack="True" OnCheckedChanged="pz8_kolejne_cbx_CheckedChanged" /></H6>
+                </div>
+            </asp:Panel>
+            &nbsp
+            <asp:Panel ID="pz8_panel" runat="server" Visible="False">
+                <div>
+                    <h5 id="Tekst_separujacy">Praca zawodowa 8 (bez staży i praktyk)<br /><p id="Linia_separujaca"></p>
+                        <h5></h5>
+                        <%--<p id="Linia_separujaca"></p>--%>
+                        <h5></h5>
+                        <h5></h5>
+                    </h5>
+                </div>
+                <div id="PodobszarLewy1">
+                    <h6>Od:</h6>
+                    <h6>Do:</h6>
+                    <h6>Nazwa pracodawcy:</h6>
+                    <h6>Komórka organizacyjna:</h6>
+                    <h6>Stanowisko:</h6>
+                    <h6>Zakres obowiązków:</h6>
+                    <h6>Miejscowość:</h6>
+                    <h6>Praca w administracji:</h6>
+                </div>
+                <div id="PodobszarPrawy1">                
+                    <p><asp:TextBox ID="pz8_od_tbx" runat="server" Width="180px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz8_do_tbx" runat="server" Width="180px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz8_nazwaPracodawscy_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz8_komorkaOrganizacyjna_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz8_stanowisko_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz8_zakresObowiazkow_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz8_miejscowosc_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:DropDownList ID="pz8_pracaWAdministracji_ddl" runat="server">
+                        <asp:ListItem></asp:ListItem>
+                        <asp:ListItem>Nie</asp:ListItem>
+                        <asp:ListItem>Ministerstwo</asp:ListItem>
+                        <asp:ListItem>Urząd Wojewódzki</asp:ListItem>
+                        <asp:ListItem>Urząd Centralny</asp:ListItem>
+                        <asp:ListItem>Urząd Terenowy</asp:ListItem>
+                        <asp:ListItem>Urząd Samorządowy</asp:ListItem>
+                        <asp:ListItem>Inne jednostki w ramach administracji publicznej</asp:ListItem>
+                        <asp:ListItem>Inne instytucji spoza administracji</asp:ListItem>
+                        </asp:DropDownList>
+                    </p>
+                    <H6><asp:CheckBox ID="pz8_kolejne_cbx" runat="server" Text="  Chcę dodać kolejne miejsce pracy" AutoPostBack="True" OnCheckedChanged="pz9_kolejne_cbx_CheckedChanged" /></H6>
+                </div>
+            </asp:Panel>
+            &nbsp
+            <asp:Panel ID="pz9_panel" runat="server" Visible="False">
+                <div>
+                    <h5 id="Tekst_separujacy">Praca zawodowa 9 (bez staży i praktyk)<br /><p id="Linia_separujaca"></p>
+                        <h5></h5>
+                        <%--<p id="Linia_separujaca"></p>--%>
+                        <h5></h5>
+                        <h5></h5>
+                    </h5>
+                </div>
+                <div id="PodobszarLewy1">
+                    <h6>Od:</h6>
+                    <h6>Do:</h6>
+                    <h6>Nazwa pracodawcy:</h6>
+                    <h6>Komórka organizacyjna:</h6>
+                    <h6>Stanowisko:</h6>
+                    <h6>Zakres obowiązków:</h6>
+                    <h6>Miejscowość:</h6>
+                    <h6>Praca w administracji:</h6>
+                </div>
+                <div id="PodobszarPrawy1">                
+                    <p><asp:TextBox ID="pz9_od_tbx" runat="server" Width="180px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz9_do_tbx" runat="server" Width="180px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz9_nazwaPracodawscy_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz9_komorkaOrganizacyjna_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz9_stanowisko_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz9_zakresObowiazkow_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz9_miejscowosc_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:DropDownList ID="pz9_pracaWAdministracji_ddl" runat="server">
+                        <asp:ListItem></asp:ListItem>
+                        <asp:ListItem>Nie</asp:ListItem>
+                        <asp:ListItem>Ministerstwo</asp:ListItem>
+                        <asp:ListItem>Urząd Wojewódzki</asp:ListItem>
+                        <asp:ListItem>Urząd Centralny</asp:ListItem>
+                        <asp:ListItem>Urząd Terenowy</asp:ListItem>
+                        <asp:ListItem>Urząd Samorządowy</asp:ListItem>
+                        <asp:ListItem>Inne jednostki w ramach administracji publicznej</asp:ListItem>
+                        <asp:ListItem>Inne instytucji spoza administracji</asp:ListItem>
+                        </asp:DropDownList>
+                    </p>
+                    <H6><asp:CheckBox ID="pz9_kolejne_cbx" runat="server" Text="  Chcę dodać kolejne miejsce pracy" AutoPostBack="True" OnCheckedChanged="pz10_kolejne_cbx_CheckedChanged" /></H6>
+                </div>
+            </asp:Panel>
+            &nbsp
+            <asp:Panel ID="pz10_panel" runat="server" Visible="False">
+                <div>
+                    <h5 id="Tekst_separujacy">Praca zawodowa 10 (bez staży i praktyk)<br /><p id="Linia_separujaca"></p>
+                        <h5></h5>
+                        <%--<p id="Linia_separujaca"></p>--%>
+                        <h5></h5>
+                        <h5></h5>
+                    </h5>
+                </div>
+                <div id="PodobszarLewy1">
+                    <h6>Od:</h6>
+                    <h6>Do:</h6>
+                    <h6>Nazwa pracodawcy:</h6>
+                    <h6>Komórka organizacyjna:</h6>
+                    <h6>Stanowisko:</h6>
+                    <h6>Zakres obowiązków:</h6>
+                    <h6>Miejscowość:</h6>
+                    <h6>Praca w administracji:</h6>
+                </div>
+                <div id="PodobszarPrawy1">                
+                    <p><asp:TextBox ID="pz10_od_tbx" runat="server" Width="180px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz10_do_tbx" runat="server" Width="180px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz10_nazwaPracodawscy_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz10_komorkaOrganizacyjna_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz10_stanowisko_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz10_zakresObowiazkow_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz10_miejscowosc_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:DropDownList ID="pz10_pracaWAdministracji_ddl" runat="server">
+                        <asp:ListItem></asp:ListItem>
+                        <asp:ListItem>Nie</asp:ListItem>
+                        <asp:ListItem>Ministerstwo</asp:ListItem>
+                        <asp:ListItem>Urząd Wojewódzki</asp:ListItem>
+                        <asp:ListItem>Urząd Centralny</asp:ListItem>
+                        <asp:ListItem>Urząd Terenowy</asp:ListItem>
+                        <asp:ListItem>Urząd Samorządowy</asp:ListItem>
+                        <asp:ListItem>Inne jednostki w ramach administracji publicznej</asp:ListItem>
+                        <asp:ListItem>Inne instytucji spoza administracji</asp:ListItem>
+                        </asp:DropDownList>
+                    </p>
+                    <H6><asp:CheckBox ID="pz10_kolejne_cbx" runat="server" Text="  Chcę dodać kolejne miejsce pracy" AutoPostBack="True" OnCheckedChanged="pz11_kolejne_cbx_CheckedChanged" /></H6>
+                </div>
+            </asp:Panel>
+            &nbsp
+            <asp:Panel ID="pz11_panel" runat="server" Visible="False">
+                <div>
+                    <h5 id="Tekst_separujacy">Praca zawodowa 11 (bez staży i praktyk)<br /><p id="Linia_separujaca"></p>
+                        <h5></h5>
+                        <%--<p id="Linia_separujaca"></p>--%>
+                        <h5></h5>
+                        <h5></h5>
+                    </h5>
+                </div>
+                <div id="PodobszarLewy1">
+                    <h6>Od:</h6>
+                    <h6>Do:</h6>
+                    <h6>Nazwa pracodawcy:</h6>
+                    <h6>Komórka organizacyjna:</h6>
+                    <h6>Stanowisko:</h6>
+                    <h6>Zakres obowiązków:</h6>
+                    <h6>Miejscowość:</h6>
+                    <h6>Praca w administracji:</h6>
+                </div>
+                <div id="PodobszarPrawy1">                
+                    <p><asp:TextBox ID="pz11_od_tbx" runat="server" Width="180px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz11_do_tbx" runat="server" Width="180px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz11_nazwaPracodawscy_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz11_komorkaOrganizacyjna_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz11_stanowisko_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz11_zakresObowiazkow_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz11_miejscowosc_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:DropDownList ID="pz11_pracaWAdministracji_ddl" runat="server">
+                        <asp:ListItem></asp:ListItem>
+                        <asp:ListItem>Nie</asp:ListItem>
+                        <asp:ListItem>Ministerstwo</asp:ListItem>
+                        <asp:ListItem>Urząd Wojewódzki</asp:ListItem>
+                        <asp:ListItem>Urząd Centralny</asp:ListItem>
+                        <asp:ListItem>Urząd Terenowy</asp:ListItem>
+                        <asp:ListItem>Urząd Samorządowy</asp:ListItem>
+                        <asp:ListItem>Inne jednostki w ramach administracji publicznej</asp:ListItem>
+                        <asp:ListItem>Inne instytucji spoza administracji</asp:ListItem>
+                        </asp:DropDownList>
+                    </p>
+                    <H6><asp:CheckBox ID="pz11_kolejne_cbx" runat="server" Text="  Chcę dodać kolejne miejsce pracy" AutoPostBack="True" OnCheckedChanged="pz12_kolejne_cbx_CheckedChanged" /></H6>
+                </div>
+            </asp:Panel>
+            &nbsp
+            <asp:Panel ID="pz12_panel" runat="server" Visible="False">
+                <div>
+                    <h5 id="Tekst_separujacy">Praca zawodowa 12 (bez staży i praktyk)<br /><p id="Linia_separujaca"></p>
+                        <h5></h5>
+                        <%--<p id="Linia_separujaca"></p>--%>
+                        <h5></h5>
+                        <h5></h5>
+                    </h5>
+                </div>
+                <div id="PodobszarLewy1">
+                    <h6>Od:</h6>
+                    <h6>Do:</h6>
+                    <h6>Nazwa pracodawcy:</h6>
+                    <h6>Komórka organizacyjna:</h6>
+                    <h6>Stanowisko:</h6>
+                    <h6>Zakres obowiązków:</h6>
+                    <h6>Miejscowość:</h6>
+                    <h6>Praca w administracji:</h6>
+                </div>
+                <div id="PodobszarPrawy1">                
+                    <p><asp:TextBox ID="pz12_od_tbx" runat="server" Width="180px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz12_do_tbx" runat="server" Width="180px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz12_nazwaPracodawscy_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz12_komorkaOrganizacyjna_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz12_stanowisko_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz12_zakresObowiazkow_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz12_miejscowosc_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:DropDownList ID="pz12_pracaWAdministracji_ddl" runat="server">
+                        <asp:ListItem></asp:ListItem>
+                        <asp:ListItem>Nie</asp:ListItem>
+                        <asp:ListItem>Ministerstwo</asp:ListItem>
+                        <asp:ListItem>Urząd Wojewódzki</asp:ListItem>
+                        <asp:ListItem>Urząd Centralny</asp:ListItem>
+                        <asp:ListItem>Urząd Terenowy</asp:ListItem>
+                        <asp:ListItem>Urząd Samorządowy</asp:ListItem>
+                        <asp:ListItem>Inne jednostki w ramach administracji publicznej</asp:ListItem>
+                        <asp:ListItem>Inne instytucji spoza administracji</asp:ListItem>
+                        </asp:DropDownList>
+                    </p>
+                    <H6><asp:CheckBox ID="pz12_kolejne_cbx" runat="server" Text="  Chcę dodać kolejne miejsce pracy" AutoPostBack="True" OnCheckedChanged="pz13_kolejne_cbx_CheckedChanged" /></H6>
+                </div>
+            </asp:Panel>
+            &nbsp
+            <asp:Panel ID="pz13_panel" runat="server" Visible="False">
+                <div>
+                    <h5 id="Tekst_separujacy">Praca zawodowa 13 (bez staży i praktyk)<br /><p id="Linia_separujaca"></p>
+                        <h5></h5>
+                        <%--<p id="Linia_separujaca"></p>--%>
+                        <h5></h5>
+                    </h5>
+                </div>
+                <div id="PodobszarLewy1">
+                    <h6>Od:</h6>
+                    <h6>Do:</h6>
+                    <h6>Nazwa pracodawcy:</h6>
+                    <h6>Komórka organizacyjna:</h6>
+                    <h6>Stanowisko:</h6>
+                    <h6>Zakres obowiązków:</h6>
+                    <h6>Miejscowość:</h6>
+                    <h6>Praca w administracji:</h6>
+                </div>
+                <div id="PodobszarPrawy1">                
+                    <p><asp:TextBox ID="pz13_od_tbx" runat="server" Width="180px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz13_do_tbx" runat="server" Width="180px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz13_nazwaPracodawscy_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz13_komorkaOrganizacyjna_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz13_stanowisko_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz13_zakresObowiazkow_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:TextBox ID="pz13_miejscowosc_tbx" runat="server" Width="327px"></asp:TextBox>
+                    </p>
+                    <p><asp:DropDownList ID="pz13_pracaWAdministracji_ddl" runat="server">
+                        <asp:ListItem></asp:ListItem>
+                        <asp:ListItem>Nie</asp:ListItem>
+                        <asp:ListItem>Ministerstwo</asp:ListItem>
+                        <asp:ListItem>Urząd Wojewódzki</asp:ListItem>
+                        <asp:ListItem>Urząd Centralny</asp:ListItem>
+                        <asp:ListItem>Urząd Terenowy</asp:ListItem>
+                        <asp:ListItem>Urząd Samorządowy</asp:ListItem>
+                        <asp:ListItem>Inne jednostki w ramach administracji publicznej</asp:ListItem>
+                        <asp:ListItem>Inne instytucji spoza administracji</asp:ListItem>
+                        </asp:DropDownList>
+                    </p>
+                    <H6><asp:CheckBox ID="pz13_kolejne_cbx" runat="server" Text="  Chcę dodać kolejne miejsce pracy" AutoPostBack="True" OnCheckedChanged="pz13_kolejne_cbx_CheckedChanged" /></H6>
                 </div>
             </asp:Panel>
             &nbsp
