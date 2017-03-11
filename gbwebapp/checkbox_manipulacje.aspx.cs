@@ -111,7 +111,7 @@ namespace gbwebapp
             connection = new MySqlConnection(ConnectionString);
             MySqlCommand cbx1_insert = new MySqlCommand();
             cbx1_insert.CommandType = System.Data.CommandType.Text;
-            cbx1_insert.CommandText = "DELETE FROM web_test_skasowac.stany_checkboxow WHERE id>=1)";
+            cbx1_insert.CommandText = "DELETE FROM web_test_skasowac.stany_checkboxow WHERE id>=1";
             cbx1_insert.Connection = connection;
 
             connection.Open();
