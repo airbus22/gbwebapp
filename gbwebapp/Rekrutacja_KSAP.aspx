@@ -508,7 +508,7 @@
                         <asp:ListItem>Warszawa - Pedagogium - Wyższa Szkoła Pedagogiki Resocjalizacyjnej</asp:ListItem>
                         <asp:ListItem>Warszawa - Pedagogium Wyższa Szkoła Nauk Społecznych</asp:ListItem>
                         <asp:ListItem>Warszawa - Politechnika Warszawska</asp:ListItem>
-                        <asp:ListItem>Warszawa - Polsko - Japońska Wyższa Szkoła Technik Komputerowych</asp:ListItem>
+                        <asp:ListItem>Warszawa - Polsko - Japońska Akademia Technik Komputerowych</asp:ListItem>
                         <asp:ListItem>Warszawa - Prywatna Wyższa Szkoła Businessu, Administracji i Technik Komputerowych</asp:ListItem>
                         <asp:ListItem>Warszawa - Szkoła Główna Gospodarstwa Wiejskiego w Warszawie</asp:ListItem>
                         <asp:ListItem>Warszawa - Szkoła Główna Handlowa w Warszawie</asp:ListItem>
@@ -966,7 +966,7 @@
                         <asp:ListItem>Warszawa - Pedagogium - Wyższa Szkoła Pedagogiki Resocjalizacyjnej</asp:ListItem>
                         <asp:ListItem>Warszawa - Pedagogium Wyższa Szkoła Nauk Społecznych</asp:ListItem>
                         <asp:ListItem>Warszawa - Politechnika Warszawska</asp:ListItem>
-                        <asp:ListItem>Warszawa - Polsko - Japońska Wyższa Szkoła Technik Komputerowych</asp:ListItem>
+                        <asp:ListItem>Warszawa - Polsko - Japońska Akademia Technik Komputerowych</asp:ListItem>
                         <asp:ListItem>Warszawa - Prywatna Wyższa Szkoła Businessu, Administracji i Technik Komputerowych</asp:ListItem>
                         <asp:ListItem>Warszawa - Szkoła Główna Gospodarstwa Wiejskiego w Warszawie</asp:ListItem>
                         <asp:ListItem>Warszawa - Szkoła Główna Handlowa w Warszawie</asp:ListItem>
@@ -1425,7 +1425,7 @@
                         <asp:ListItem>Warszawa - Pedagogium - Wyższa Szkoła Pedagogiki Resocjalizacyjnej</asp:ListItem>
                         <asp:ListItem>Warszawa - Pedagogium Wyższa Szkoła Nauk Społecznych</asp:ListItem>
                         <asp:ListItem>Warszawa - Politechnika Warszawska</asp:ListItem>
-                        <asp:ListItem>Warszawa - Polsko - Japońska Wyższa Szkoła Technik Komputerowych</asp:ListItem>
+                        <asp:ListItem>Warszawa - Polsko - Japońska Akademia Technik Komputerowych</asp:ListItem>
                         <asp:ListItem>Warszawa - Prywatna Wyższa Szkoła Businessu, Administracji i Technik Komputerowych</asp:ListItem>
                         <asp:ListItem>Warszawa - Szkoła Główna Gospodarstwa Wiejskiego w Warszawie</asp:ListItem>
                         <asp:ListItem>Warszawa - Szkoła Główna Handlowa w Warszawie</asp:ListItem>
