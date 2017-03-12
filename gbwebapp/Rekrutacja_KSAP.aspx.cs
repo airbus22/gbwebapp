@@ -15,7 +15,7 @@ namespace gbwebapp
         string ConnectionString = gbwebapp.Properties.Settings.Default.ConnectionString;
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
@@ -216,13 +216,14 @@ namespace gbwebapp
             else
                 pz12_panel.Visible = false;
         }
-
+        
         protected void pz13_kolejne_cbx_CheckedChanged(object sender, EventArgs e)
         {
             if (pz13_panel.Visible == false)
                 pz13_panel.Visible = true;
             else
                 pz13_panel.Visible = false;
-        }        
+        }
+        
     }
 }
