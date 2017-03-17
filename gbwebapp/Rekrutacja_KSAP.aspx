@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <link href="~/CSS/Rekrutacja_KSAP.css" rel="stylesheet" type="text/css" />
+    <link href="~/CSS/Rekrutacja_KSAP.css" rel="stylesheet" type="text/css" />    
 </head>
 <body>
     <form id ="form1" runat="server">
@@ -24,13 +24,13 @@
             <div id="PodobszarLewy1">
                 <h6>*Płeć:</h6>
                 <h6>*Imię:</h6>
-                <h6>Drugie imię:</h6>
+                <h6 style="margin-bottom: 55px">Drugie imię:</h6>
                 <h6>*Nazwisko:</h6>
                 <h6>Nazwisko rodowe:</h6>
                 <h6>*Imię ojca:</h6>
                 <h6>*Imię matki:</h6>
                 <h6>*PESEL:</h6>
-                <h6>*Data urodzenia:</h6>
+                <h6 style="margin-bottom: 30px">*Data urodzenia:</h6>
                 <h6>*Miejsce urodzenia:</h6>
                 <h6>*Obywatelstwo:</h6>
                 <h6>*Seria i numer dowodu osobistego:</h6>
@@ -45,27 +45,32 @@
                 </p>
                 <p><asp:TextBox ID="dok_imie_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="dok_drugieImie_tbx" runat="server" Width="327px"></asp:TextBox>
+                <p style="margin-bottom: 3px"><asp:TextBox ID="dok_drugieImie_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="dok_nazwisko_tbx" runat="server" Width="327px"></asp:TextBox>
+                <h6 id="Pod_polem">W przypadku nie posiadania drugiego imienia proszę to pole pozostawic puste. Proszę nie wpisywać kresek, "-" ani wprowadzac słów "brak", "nie ma" itp.</h6>
+                <p style="margin-left:3px"><asp:TextBox ID="dok_nazwisko_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="dok_nazwiskoRodowe_tbx" runat="server" Width="327px"></asp:TextBox>
+                <p style="margin-left:3px"><asp:TextBox ID="dok_nazwiskoRodowe_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="dok_imieOjca_tbx" runat="server" Width="327px"></asp:TextBox>
+                <p style="margin-left:3px"><asp:TextBox ID="dok_imieOjca_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="dok_imieMatki_tbx" runat="server" Width="327px"></asp:TextBox>
+                <p style="margin-left:3px"><asp:TextBox ID="dok_imieMatki_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="dok_PESEL_tbx" runat="server" Width="180px"></asp:TextBox>
+                <p style="margin-left:3px"><asp:TextBox ID="dok_PESEL_tbx" runat="server" Width="180px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="dok_dataUrodzenia_tbx" runat="server" Width="180px"></asp:TextBox>
+                <p style="margin-left:3px"><asp:TextBox ID="dok_dataUrodzenia_tbx" runat="server" Width="180px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="dok_miejsceUrodzenia_tbx" runat="server" Width="327px"></asp:TextBox>
+                <table>
+                    <tr>
+                        <td><asp:TextBox ID="dok_miejsceUrodzenia_tbx" runat="server" Width="327px"></asp:TextBox></td>
+                        <td><h6 id="Za_polem">w postaci rrrr-mm-dd np: 1977-02-23</h6></td>
+                    </tr>                    
+                </table>                    
+                <p style="margin-left:3px"><asp:TextBox ID="dok_obywatelstwo_tbx" runat="server" Width="180px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="dok_obywatelstwo_tbx" runat="server" Width="180px"></asp:TextBox>
+                <p style="margin-left:3px"><asp:TextBox ID="dok_seriaNumerID_tbx" runat="server" Width="180px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="dok_seriaNumerID_tbx" runat="server" Width="180px"></asp:TextBox>
-                </p>
-                <p><asp:DropDownList ID="dok_militaryFactor_ddl" runat="server">
+                <p style="margin-left:3px"><asp:DropDownList ID="dok_militaryFactor_ddl" runat="server">
                     <asp:ListItem></asp:ListItem>
                     <asp:ListItem>nie podlega</asp:ListItem>
                     <asp:ListItem>nieuregulowany</asp:ListItem>
