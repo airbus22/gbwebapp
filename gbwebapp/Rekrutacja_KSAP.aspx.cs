@@ -13,9 +13,10 @@ namespace gbwebapp
     {
         MySqlConnection connection, pobierzMAXvalue;
         string ConnectionString = gbwebapp.Properties.Settings.Default.ConnectionString;
+
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
@@ -68,7 +69,7 @@ namespace gbwebapp
                                             "'" + w2_miejscowosc_tbx.Text + "'" + "," + "'" + w2_kierunekStudiow_tbx.Text + "'" + "," + "'" + w2_wyksztalcenie_ddl.SelectedValue.ToString() + "'" + "," + 
                                             "'" + w2_rokUkonczenia_tbx.Text + "'" + "," + "'" + w3_uczelniaWyzsza_ddl.SelectedValue.ToString() + "'" + "," + "'" + w3_miejscowosc_tbx.Text + "'" + "," + 
                                             "'" + w3_kierunekStudiow_tbx.Text + "'" + "," + "'" + w3_wyksztalcenie_ddl.SelectedValue.ToString() + "'" + "," + "'" + w3_rokUkonczenia_tbx.Text + "'" + "," + 
-                                            "'" + ks_nazwaUczelni_tbx.Text + "'" + "," + "'" + ks_miejscowosc_tbx.Text + "'" + "," + "'" + ks_kierunek_tbx + "'" + "," + "'" + ks_stanZaawansowania_tbx.Text + "'" + "," + 
+                                            "'" + ks_nazwaUczelni_tbx.Text + "'" + "," + "'" + ks_miejscowosc_tbx.Text + "'" + "," + "'" + ks_kierunek_tbx.Text + "'" + "," + "'" + ks_stanZaawansowania_tbx.Text + "'" + "," + 
                                             "'" + zjo_jezyki_tbx.Text + "'" + "," + "'" + zjo_certyfikat_tbx.Text + "'" + "," + "'" + sip_odbyteStazePraktyki_tbx.Text + "'" + "," + "'" + pz1_od_tbx.Text + "'" + "," + 
                                             "'" + pz1_do_tbx.Text + "'" + "," + "'" + pz1_nazwaPracodawscy_tbx.Text + "'" + "," + "'" + pz1_komorkaOrganizacyjna_tbx.Text + "'" + "," + 
                                             "'" + pz1_stanowisko_tbx.Text + "'" + "," + "'" + pz1_zakresObowiazkow_tbx.Text + "'" + "," + "'" + pz1_miejscowosc_tbx.Text + "'" + "," + 
@@ -111,6 +112,167 @@ namespace gbwebapp
             connection.Open();
             zapisz_btn_insert.ExecuteNonQuery();
             connection.Close();
+
+            #region kasownie_pol
+                dok_plec_ddl.Text = "";
+                dok_imie_tbx.Text = "";
+                dok_drugieImie_tbx.Text = "";
+                dok_nazwisko_tbx.Text = "";
+                dok_nazwiskoRodowe_tbx.Text = "";
+                dok_imieOjca_tbx.Text = "";
+                dok_imieMatki_tbx.Text = "";
+                dok_PESEL_tbx.Text = "";
+                dok_dataUrodzenia_tbx.Text = "";
+                dok_miejsceUrodzenia_tbx.Text = "";
+                dok_obywatelstwo_tbx.Text = "";
+                dok_seriaNumerID_tbx.Text = "";
+                dok_militaryFactor_ddl.Text = "";
+                asz_kodPocztowy_tbx.Text = "";
+                asz_miejscowosc_tbx.Text = "";
+                asz_ulica_tbx.Text = "";
+                asz_nrDomu_tbx.Text = "";
+                asz_nrLokalu_tbx.Text = "";
+                asz_wojewodztwo_ddl.Text = "";
+                az_kodPocztowy_tbx.Text = "";
+                az_miejscowosc_tbx.Text = "";
+                az_ulica_tbx.Text = "";
+                az_nrDomu_tbx.Text = "";
+                az_nrLokalu_tbx.Text = "";
+                az_wojewodztwo_ddl.Text = "";
+                az_nrTelefonu_tbx.Text = "";
+                az_adresEmail_tbx.Text = "";
+                w1_uczelniaWyzsza_ddl.Text = "";
+                w1_miejscowosc_tbx.Text = "";
+                w1_kierunekStudiow_tbx.Text = "";
+                w1_wyksztalcenie_ddl.Text = "";
+                w1_rokUkonczenia_tbx.Text = "";
+                w2_uczelniaWyzsza_ddl.Text = "";
+                w2_miejscowosc_tbx.Text = "";
+                w2_kierunekStudiow_tbx.Text = "";
+                w2_wyksztalcenie_ddl.Text = "";
+                w2_rokUkonczenia_tbx.Text = "";
+                w3_uczelniaWyzsza_ddl.Text = "";
+                w3_miejscowosc_tbx.Text = "";
+                w3_kierunekStudiow_tbx.Text = "";
+                w3_wyksztalcenie_ddl.Text = "";
+                w3_rokUkonczenia_tbx.Text = "";
+                ks_nazwaUczelni_tbx.Text = "";
+                ks_miejscowosc_tbx.Text = "";
+                ks_kierunek_tbx.Text = "";
+                ks_stanZaawansowania_tbx.Text = "";
+                zjo_jezyki_tbx.Text = "";
+                zjo_certyfikat_tbx.Text = "";
+                sip_odbyteStazePraktyki_tbx.Text = "";
+                pz1_od_tbx.Text = "";
+                pz1_do_tbx.Text = "";
+                pz1_nazwaPracodawscy_tbx.Text = "";
+                pz1_komorkaOrganizacyjna_tbx.Text = "";
+                pz1_stanowisko_tbx.Text = "";
+                pz1_zakresObowiazkow_tbx.Text = "";
+                pz1_miejscowosc_tbx.Text = "";
+                pz1_pracaWAdministracji_ddl.Text = "";
+                pz2_od_tbx.Text = "";
+                pz2_do_tbx.Text = "";
+                pz2_nazwaPracodawscy_tbx.Text = "";
+                pz2_komorkaOrganizacyjna_tbx.Text = "";
+                pz2_stanowisko_tbx.Text = "";
+                pz2_zakresObowiazkow_tbx.Text = "";
+                pz2_miejscowosc_tbx.Text = "";
+                pz2_pracaWAdministracji_ddl.Text = "";
+                pz3_od_tbx.Text = "";
+                pz3_do_tbx.Text = "";
+                pz3_nazwaPracodawscy_tbx.Text = "";
+                pz3_komorkaOrganizacyjna_tbx.Text = "";
+                pz3_stanowisko_tbx.Text = "";
+                pz3_zakresObowiazkow_tbx.Text = "";
+                pz3_miejscowosc_tbx.Text = "";
+                pz3_pracaWAdministracji_ddl.Text = "";
+                pz4_od_tbx.Text = "";
+                pz4_do_tbx.Text = "";
+                pz4_nazwaPracodawscy_tbx.Text = "";
+                pz4_komorkaOrganizacyjna_tbx.Text = "";
+                pz4_stanowisko_tbx.Text = "";
+                pz4_zakresObowiazkow_tbx.Text = "";
+                pz4_miejscowosc_tbx.Text = "";
+                pz4_pracaWAdministracji_ddl.Text = "";
+                pz5_od_tbx.Text = "";
+                pz5_do_tbx.Text = "";
+                pz5_nazwaPracodawscy_tbx.Text = "";
+                pz5_komorkaOrganizacyjna_tbx.Text = "";
+                pz5_stanowisko_tbx.Text = "";
+                pz5_zakresObowiazkow_tbx.Text = "";
+                pz5_miejscowosc_tbx.Text = "";
+                pz5_pracaWAdministracji_ddl.Text = "";
+                pz6_od_tbx.Text = "";
+                pz6_do_tbx.Text = "";
+                pz6_nazwaPracodawscy_tbx.Text = "";
+                pz6_komorkaOrganizacyjna_tbx.Text = "";
+                pz6_stanowisko_tbx.Text = "";
+                pz6_zakresObowiazkow_tbx.Text = "";
+                pz6_miejscowosc_tbx.Text = "";
+                pz6_pracaWAdministracji_ddl.Text = "";
+                pz7_od_tbx.Text = "";
+                pz7_do_tbx.Text = "";
+                pz7_nazwaPracodawscy_tbx.Text = "";
+                pz7_komorkaOrganizacyjna_tbx.Text = "";
+                pz7_stanowisko_tbx.Text = "";
+                pz7_zakresObowiazkow_tbx.Text = "";
+                pz7_miejscowosc_tbx.Text = "";
+                pz7_pracaWAdministracji_ddl.Text = "";
+                pz8_od_tbx.Text = "";
+                pz8_do_tbx.Text = "";
+                pz8_nazwaPracodawscy_tbx.Text = "";
+                pz8_komorkaOrganizacyjna_tbx.Text = "";
+                pz8_stanowisko_tbx.Text = "";
+                pz8_zakresObowiazkow_tbx.Text = "";
+                pz8_miejscowosc_tbx.Text = "";
+                pz8_pracaWAdministracji_ddl.Text = "";
+                pz9_od_tbx.Text = "";
+                pz9_do_tbx.Text = "";
+                pz9_nazwaPracodawscy_tbx.Text = "";
+                pz9_komorkaOrganizacyjna_tbx.Text = "";
+                pz9_stanowisko_tbx.Text = "";
+                pz9_zakresObowiazkow_tbx.Text = "";
+                pz9_miejscowosc_tbx.Text = "";
+                pz9_pracaWAdministracji_ddl.Text = "";
+                pz10_od_tbx.Text = "";
+                pz10_do_tbx.Text = "";
+                pz10_nazwaPracodawscy_tbx.Text = "";
+                pz10_komorkaOrganizacyjna_tbx.Text = "";
+                pz10_stanowisko_tbx.Text = "";
+                pz10_zakresObowiazkow_tbx.Text = "";
+                pz10_miejscowosc_tbx.Text = "";
+                pz10_pracaWAdministracji_ddl.Text = "";
+                pz11_od_tbx.Text = "";
+                pz11_do_tbx.Text = "";
+                pz11_nazwaPracodawscy_tbx.Text = "";
+                pz11_komorkaOrganizacyjna_tbx.Text = "";
+                pz11_stanowisko_tbx.Text = "";
+                pz11_zakresObowiazkow_tbx.Text = "";
+                pz11_miejscowosc_tbx.Text = "";
+                pz11_pracaWAdministracji_ddl.Text = "";
+                pz12_od_tbx.Text = "";
+                pz12_do_tbx.Text = "";
+                pz12_nazwaPracodawscy_tbx.Text = "";
+                pz12_komorkaOrganizacyjna_tbx.Text = "";
+                pz12_stanowisko_tbx.Text = "";
+                pz12_zakresObowiazkow_tbx.Text = "";
+                pz12_miejscowosc_tbx.Text = "";
+                pz12_pracaWAdministracji_ddl.Text = "";
+                pz13_od_tbx.Text = "";
+                pz13_do_tbx.Text = "";
+                pz13_nazwaPracodawscy_tbx.Text = "";
+                pz13_komorkaOrganizacyjna_tbx.Text = "";
+                pz13_stanowisko_tbx.Text = "";
+                pz13_zakresObowiazkow_tbx.Text = "";
+                pz13_miejscowosc_tbx.Text = "";
+                pz13_pracaWAdministracji_ddl.Text = "";
+                o_kodeksKarnyJestem_ddl.Text = "";
+                o_jezykEgzaminacyjny_ddl.Text = "";
+                o_egzaminKSAP_ddl.Text = "";
+                o_kolegiumKSAP_ddl.Text = "";
+                o_zrodloRekKSAP_ddl.Text = "";
+            #endregion
         }
 
         protected void w2_kolejne_cbx_CheckedChanged(object sender, EventArgs e)

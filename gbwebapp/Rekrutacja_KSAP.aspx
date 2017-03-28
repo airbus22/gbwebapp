@@ -9,7 +9,6 @@
 </head>
 <body>
     <form id ="form1" runat="server">
-    
         <div id="Logo">
             <asp:ImageButton ID="ImageButton1" src="/grafika/ksap_rekrutacja.gif" runat="server" OnClick="ImageButton1_Click" />
         </div>
