@@ -117,6 +117,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="awarie.aspx" />
     <Content Include="checkbox_manipulacje.aspx" />
     <Content Include="CSS\Rekrutacja_KSAP.css" />
     <Content Include="CSS\GBWebForm.css" />
@@ -126,6 +127,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="awarie.aspx.cs">
+      <DependentUpon>awarie.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="awarie.aspx.designer.cs">
+      <DependentUpon>awarie.aspx</DependentUpon>
+    </Compile>
     <Compile Include="checkbox_manipulacje.aspx.cs">
       <DependentUpon>checkbox_manipulacje.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
