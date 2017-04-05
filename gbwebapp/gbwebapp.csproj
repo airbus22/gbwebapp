@@ -14,7 +14,7 @@
     <RootNamespace>gbwebapp</RootNamespace>
     <AssemblyName>gbwebapp</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <UseIISExpress>true</UseIISExpress>
+    <UseIISExpress>false</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
@@ -29,6 +29,17 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <PublishDatabaseSettings>
+      <Objects>
+        <ObjectGroup Name="gbwebapp.Properties.Settings.ConnectionString-Deployment" Order="1">
+          <Destination Path="" />
+          <Object Type="DbFullSql">
+            <PreSource Path="server=localhost%3bUser Id=root%3bpassword=qwerty%3bdatabase=web_test_skasowac" ScriptSchema="True" ScriptData="False" CopyAllFullTextCatalogs="False" DriDefaults="True" />
+            <Source Path="obj\Debug\AutoScripts\gbwebapp.Properties.Settings.ConnectionString-Deployment_SchemaOnly.sql" Transacted="True" />
+          </Object>
+        </ObjectGroup>
+      </Objects>
+    </PublishDatabaseSettings>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -195,7 +206,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>54561</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:54561/</IISUrl>
+          <IISUrl>http://172.17.61.134/gbwebapp</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

@@ -32,9 +32,17 @@ namespace gbwebapp
                 chbx1_insert.CommandText = "INSERT INTO web_test_skasowac.stany_checkboxow(stany_checkboxa, nazwa_checkboxa, znacznik_czasowy, stany_checkboxa_bool, uwagi) VALUES ('zaznaczony','CheckBox 1', " + "'" + DateTime.Now + "'" + ", 1, 'udało się wstawić wartość')";
                 chbx1_insert.Connection = connection;
 
-                connection.Open();
-                chbx1_insert.ExecuteNonQuery();
-                connection.Close();
+                try
+                {
+                    connection.Open();
+                    chbx1_insert.ExecuteNonQuery();
+                    connection.Close();
+                }
+
+                catch (Exception ex)
+                {
+                    Response.Write("<script>alert('Nieobsłużony wyjątek: " + ex + "')</script>");
+                }
             }
             else
             {
