@@ -134,10 +134,10 @@
     <Content Include="checkbox_manipulacje.aspx" />
     <Content Include="CSS\bd_rej_SemKonfOtwarte.css" />
     <Content Include="CSS\checkbox_manipulacje.css" />
-    <Content Include="CSS\KSAP.css" />
+    <Content Include="CSS\rekrutacja_ksap.css" />
     <Content Include="CSS\GBWebForm.css" />
     <Content Include="Rekrutacja_KSAP.aspx" />
-    <Content Include="grafika\ksap_rekrutacja.gif" />
+    <Content Include="grafika\ksap_logo.gif" />
     <Content Include="LayOutTestWebForm.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>

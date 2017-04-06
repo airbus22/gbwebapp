@@ -10,7 +10,7 @@
 <body>
     <form id ="form1" runat="server">
         <div id="Logo">
-            <asp:ImageButton ID="ImageButton1" src="/gbwebapp/grafika/ksap_rekrutacja.gif" runat="server" OnClick="ImageButton1_Click" />
+            <asp:ImageButton ID="ImageButton1" src="/gbwebapp/grafika/ksap_logo.gif" runat="server" OnClick="ImageButton1_Click" />
         </div>
         <div><p id="Linia_glowna"></p></div>
         <div id="ObszarFormularza">                      
