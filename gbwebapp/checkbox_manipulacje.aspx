@@ -46,9 +46,6 @@
         </p>
         <p style="text-align: left">
             &nbsp;</p>
-        <asp:Label ID="Label1" runat="server" Text="Label1 IP"></asp:Label>
-        <br />
-        <asp:Label ID="Label2" runat="server" Text="Label2 HostName"></asp:Label>
     </form>
 </body>
 </html>

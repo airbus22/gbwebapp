@@ -14,12 +14,15 @@ namespace gbwebapp
     {
         MySqlConnection connection;
         string ConnectionString = gbwebapp.Properties.Settings.Default.ConnectionString;
-        string checkbox1_insert = "INSERT INTO web_test_skasowac.stany_checkboxow(stany_checkboxa, nazwa_checkboxa, znacznik_czasowy, stany_checkboxa_bool, uwagi) VALUES ('zaznaczony','CheckBox 1', " + DateTime.Now + ", 1, 'udało się wstawić wartość')";
+        //string checkbox1_insert = "INSERT INTO web_test_skasowac.stany_checkboxow(stany_checkboxa, nazwa_checkboxa, znacznik_czasowy, stany_checkboxa_bool, uwagi) VALUES ('zaznaczony','CheckBox 1', " + DateTime.Now + ", 1, 'udało się wstawić wartość')";
+        string netAddress, hostname;
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            Label1.Text = "Adres sieciowy komputera to: " + Request.UserHostAddress;
-            Label2.Text = "Nazwa komputera to: " + Request.UserHostName;            
+            //Label1.Text = "Adres sieciowy komputera to: " + Request.UserHostAddress;
+            //Label2.Text = "Nazwa komputera to: " + Request.UserHostName;
+            netAddress = Request.UserHostAddress;
+            hostname = Request.UserHostName;
         }
 
         protected void chbx1_Checked(object sender, EventArgs e)
@@ -29,7 +32,7 @@ namespace gbwebapp
                 connection = new MySqlConnection(ConnectionString);
                 MySqlCommand chbx1_insert = new MySqlCommand();
                 chbx1_insert.CommandType = System.Data.CommandType.Text;
-                chbx1_insert.CommandText = "INSERT INTO web_test_skasowac.stany_checkboxow(stany_checkboxa, nazwa_checkboxa, znacznik_czasowy, stany_checkboxa_bool, uwagi) VALUES ('zaznaczony','CheckBox 1', " + "'" + DateTime.Now + "'" + ", 1, 'udało się wstawić wartość')";
+                chbx1_insert.CommandText = "INSERT INTO web_test_skasowac.stany_checkboxow(stany_checkboxa, nazwa_checkboxa, znacznik_czasowy, stany_checkboxa_bool, uwagi) VALUES ('zaznaczony','CheckBox 1', " + "'" + DateTime.Now + "'" + ", 1, 'udało się wstawić wartość " + netAddress + " " + hostname + "')";
                 chbx1_insert.Connection = connection;
 
                 try
@@ -49,7 +52,7 @@ namespace gbwebapp
                 connection = new MySqlConnection(ConnectionString);
                 MySqlCommand chbx1_insert = new MySqlCommand();
                 chbx1_insert.CommandType = System.Data.CommandType.Text;
-                chbx1_insert.CommandText = "INSERT INTO web_test_skasowac.stany_checkboxow(stany_checkboxa, nazwa_checkboxa, znacznik_czasowy, stany_checkboxa_bool, uwagi) VALUES ('odznaczony','CheckBox 1', " + "'" + DateTime.Now + "'" + ", 0, 'udało się wstawić wartość')";
+                chbx1_insert.CommandText = "INSERT INTO web_test_skasowac.stany_checkboxow(stany_checkboxa, nazwa_checkboxa, znacznik_czasowy, stany_checkboxa_bool, uwagi) VALUES ('odznaczony','CheckBox 1', " + "'" + DateTime.Now + "'" + ", 0, 'udało się wstawić wartość " + netAddress + " " + hostname + "')";
                 chbx1_insert.Connection = connection;
 
                 connection.Open();
@@ -65,7 +68,7 @@ namespace gbwebapp
                 connection = new MySqlConnection(ConnectionString);
                 MySqlCommand chbx2_insert = new MySqlCommand();
                 chbx2_insert.CommandType = System.Data.CommandType.Text;
-                chbx2_insert.CommandText = "INSERT INTO web_test_skasowac.stany_checkboxow(stany_checkboxa, nazwa_checkboxa, znacznik_czasowy, stany_checkboxa_bool, uwagi) VALUES ('zaznaczony','CheckBox 2', " + "'" + DateTime.Now + "'" + ", 1, 'udało się wstawić wartość')";
+                chbx2_insert.CommandText = "INSERT INTO web_test_skasowac.stany_checkboxow(stany_checkboxa, nazwa_checkboxa, znacznik_czasowy, stany_checkboxa_bool, uwagi) VALUES ('zaznaczony','CheckBox 2', " + "'" + DateTime.Now + "'" + ", 1, 'udało się wstawić wartość " + netAddress + " " + hostname + "')";
                 chbx2_insert.Connection = connection;
 
                 connection.Open();
@@ -77,7 +80,7 @@ namespace gbwebapp
                 connection = new MySqlConnection(ConnectionString);
                 MySqlCommand chbx2_insert = new MySqlCommand();
                 chbx2_insert.CommandType = System.Data.CommandType.Text;
-                chbx2_insert.CommandText = "INSERT INTO web_test_skasowac.stany_checkboxow(stany_checkboxa, nazwa_checkboxa, znacznik_czasowy, stany_checkboxa_bool, uwagi) VALUES ('odznaczony','CheckBox 2', " + "'" + DateTime.Now + "'" + ", 0, 'udało się wstawić wartość')";
+                chbx2_insert.CommandText = "INSERT INTO web_test_skasowac.stany_checkboxow(stany_checkboxa, nazwa_checkboxa, znacznik_czasowy, stany_checkboxa_bool, uwagi) VALUES ('odznaczony','CheckBox 2', " + "'" + DateTime.Now + "'" + ", 0, 'udało się wstawić wartość " + netAddress + " " + hostname + "')";
                 chbx2_insert.Connection = connection;
 
                 connection.Open();
@@ -93,7 +96,7 @@ namespace gbwebapp
                 connection = new MySqlConnection(ConnectionString);
                 MySqlCommand chbx3_insert = new MySqlCommand();
                 chbx3_insert.CommandType = System.Data.CommandType.Text;
-                chbx3_insert.CommandText = "INSERT INTO web_test_skasowac.stany_checkboxow(stany_checkboxa, nazwa_checkboxa, znacznik_czasowy, stany_checkboxa_bool, uwagi) VALUES ('zaznaczony','CheckBox 3', " + "'" + DateTime.Now + "'" + ", 1, 'udało się wstawić wartość')";
+                chbx3_insert.CommandText = "INSERT INTO web_test_skasowac.stany_checkboxow(stany_checkboxa, nazwa_checkboxa, znacznik_czasowy, stany_checkboxa_bool, uwagi) VALUES ('zaznaczony','CheckBox 3', " + "'" + DateTime.Now + "'" + ", 1, 'udało się wstawić wartość " + netAddress + " " + hostname + "')";
                 chbx3_insert.Connection = connection;
 
                 connection.Open();
@@ -105,7 +108,7 @@ namespace gbwebapp
                 connection = new MySqlConnection(ConnectionString);
                 MySqlCommand chbx3_insert = new MySqlCommand();
                 chbx3_insert.CommandType = System.Data.CommandType.Text;
-                chbx3_insert.CommandText = "INSERT INTO web_test_skasowac.stany_checkboxow(stany_checkboxa, nazwa_checkboxa, znacznik_czasowy, stany_checkboxa_bool, uwagi) VALUES ('odznaczony','CheckBox 3', " + "'" + DateTime.Now + "'" + ", 0, 'udało się wstawić wartość')";
+                chbx3_insert.CommandText = "INSERT INTO web_test_skasowac.stany_checkboxow(stany_checkboxa, nazwa_checkboxa, znacznik_czasowy, stany_checkboxa_bool, uwagi) VALUES ('odznaczony','CheckBox 3', " + "'" + DateTime.Now + "'" + ", 0, 'udało się wstawić wartość " + netAddress + " " + hostname + "')";
                 chbx3_insert.Connection = connection;
 
                 connection.Open();
