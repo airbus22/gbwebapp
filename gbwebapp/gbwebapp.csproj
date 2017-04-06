@@ -131,6 +131,7 @@
   <ItemGroup>
     <Content Include="awarie.aspx" />
     <Content Include="checkbox_manipulacje.aspx" />
+    <Content Include="CSS\checkbox_manipulacje.css" />
     <Content Include="CSS\Rekrutacja_KSAP.css" />
     <Content Include="CSS\GBWebForm.css" />
     <Content Include="Rekrutacja_KSAP.aspx" />
@@ -217,7 +218,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>54561</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://172.17.61.134/gbwebapp</IISUrl>
+          <IISUrl>http://localhost/gbwebapp</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

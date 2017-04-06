@@ -44,7 +44,7 @@ body
     background-color: #C3DBEA;
     padding: 5px 10px 5px 10px;
 }
-.ElementMenuNadrzednego
+#ElementMenuNadrzednego
 {
     color: #000033;
     font-weight: bold;
@@ -52,14 +52,14 @@ body
     padding: 3px 10px;
     background-color: #356210;
     }
-.ElementMenuRozwijanego
+#ElementMenuRozwijanego
 {
     background: #F5F5F5;
     color: #000033;
     padding: 3px 10px;
     background-color: #11fe00;
     }
-.ZaznaczonyElementMenu
+#ZaznaczonyElementMenu
 {
     background: #000033;
     color: White;

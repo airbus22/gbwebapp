@@ -5,17 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <style type="text/css">
-        .auto-style1 {
-            font-size: larger;
-        }
-        .auto-style2 {
-            text-align: center;
-        }
-        .auto-style3 {
-            font-size: x-large;
-        }
-    </style>
+    <link href="/gbwebapp/CSS/checkbox_manipulacje.css" rel="stylesheet" type="text/css" /> 
 </head>
 <body>
     <form id="form1" runat="server">
