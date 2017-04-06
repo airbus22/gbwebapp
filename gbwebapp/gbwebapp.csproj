@@ -130,9 +130,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="awarie.aspx" />
+    <Content Include="bd_rej_SemKonfOtwarte.aspx" />
     <Content Include="checkbox_manipulacje.aspx" />
+    <Content Include="CSS\bd_rej_SemKonfOtwarte.css" />
     <Content Include="CSS\checkbox_manipulacje.css" />
-    <Content Include="CSS\Rekrutacja_KSAP.css" />
+    <Content Include="CSS\KSAP.css" />
     <Content Include="CSS\GBWebForm.css" />
     <Content Include="Rekrutacja_KSAP.aspx" />
     <Content Include="grafika\ksap_rekrutacja.gif" />
@@ -146,6 +148,13 @@
     </Compile>
     <Compile Include="awarie.aspx.designer.cs">
       <DependentUpon>awarie.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bd_rej_SemKonfOtwarte.aspx.cs">
+      <DependentUpon>bd_rej_SemKonfOtwarte.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bd_rej_SemKonfOtwarte.aspx.designer.cs">
+      <DependentUpon>bd_rej_SemKonfOtwarte.aspx</DependentUpon>
     </Compile>
     <Compile Include="checkbox_manipulacje.aspx.cs">
       <DependentUpon>checkbox_manipulacje.aspx</DependentUpon>
