@@ -31,120 +31,75 @@ namespace gbwebapp {
         protected global::System.Web.UI.WebControls.ImageButton ImageButton1;
         
         /// <summary>
-        /// dok_plec_ddl control.
+        /// statusWiadomosci_lbl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList dok_plec_ddl;
+        protected global::System.Web.UI.WebControls.Label statusWiadomosci_lbl;
         
         /// <summary>
-        /// dok_imie_tbx control.
+        /// ks_plec_ddl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox dok_imie_tbx;
+        protected global::System.Web.UI.WebControls.DropDownList ks_plec_ddl;
         
         /// <summary>
-        /// dok_drugieImie_tbx control.
+        /// ks_imie_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox dok_drugieImie_tbx;
+        protected global::System.Web.UI.WebControls.TextBox ks_imie_tbx;
         
         /// <summary>
-        /// dok_nazwisko_tbx control.
+        /// ks_drugieImie_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox dok_nazwisko_tbx;
+        protected global::System.Web.UI.WebControls.TextBox ks_drugieImie_tbx;
         
         /// <summary>
-        /// dok_nazwiskoRodowe_tbx control.
+        /// ks_nazwisko_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox dok_nazwiskoRodowe_tbx;
+        protected global::System.Web.UI.WebControls.TextBox ks_nazwisko_tbx;
         
         /// <summary>
-        /// dok_imieOjca_tbx control.
+        /// ks_emailAddress_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox dok_imieOjca_tbx;
+        protected global::System.Web.UI.WebControls.TextBox ks_emailAddress_tbx;
         
         /// <summary>
-        /// dok_imieMatki_tbx control.
+        /// ks_daneOsoboweZgoda_ddl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox dok_imieMatki_tbx;
+        protected global::System.Web.UI.WebControls.DropDownList ks_daneOsoboweZgoda_ddl;
         
         /// <summary>
-        /// dok_PESEL_tbx control.
+        /// ks_przeslij_btn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox dok_PESEL_tbx;
-        
-        /// <summary>
-        /// dok_dataUrodzenia_tbx control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox dok_dataUrodzenia_tbx;
-        
-        /// <summary>
-        /// dok_miejsceUrodzenia_tbx control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox dok_miejsceUrodzenia_tbx;
-        
-        /// <summary>
-        /// dok_obywatelstwo_tbx control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox dok_obywatelstwo_tbx;
-        
-        /// <summary>
-        /// dok_seriaNumerID_tbx control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox dok_seriaNumerID_tbx;
-        
-        /// <summary>
-        /// dok_militaryFactor_ddl control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList dok_militaryFactor_ddl;
+        protected global::System.Web.UI.WebControls.Button ks_przeslij_btn;
     }
 }

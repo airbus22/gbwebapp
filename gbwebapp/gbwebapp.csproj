@@ -130,7 +130,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="awarie.aspx" />
-    <Content Include="bd_rej_SemKonfOtwarte.aspx" />
+    <Content Include="bd_rej_KonfSemOtwarte.aspx" />
     <Content Include="checkbox_manipulacje.aspx" />
     <Content Include="CSS\bd_rej_SemKonfOtwarte.css" />
     <Content Include="CSS\checkbox_manipulacje.css" />
@@ -149,12 +149,12 @@
     <Compile Include="awarie.aspx.designer.cs">
       <DependentUpon>awarie.aspx</DependentUpon>
     </Compile>
-    <Compile Include="bd_rej_SemKonfOtwarte.aspx.cs">
-      <DependentUpon>bd_rej_SemKonfOtwarte.aspx</DependentUpon>
+    <Compile Include="bd_rej_KonfSemOtwarte.aspx.cs">
+      <DependentUpon>bd_rej_KonfSemOtwarte.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="bd_rej_SemKonfOtwarte.aspx.designer.cs">
-      <DependentUpon>bd_rej_SemKonfOtwarte.aspx</DependentUpon>
+    <Compile Include="bd_rej_KonfSemOtwarte.aspx.designer.cs">
+      <DependentUpon>bd_rej_KonfSemOtwarte.aspx</DependentUpon>
     </Compile>
     <Compile Include="checkbox_manipulacje.aspx.cs">
       <DependentUpon>checkbox_manipulacje.aspx</DependentUpon>
