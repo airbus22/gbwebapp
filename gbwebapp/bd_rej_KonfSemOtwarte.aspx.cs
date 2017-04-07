@@ -27,8 +27,8 @@ namespace gbwebapp
             string odbiorca = ks_emailAddress_tbx.Text;
             string temat = "Potwierdzenie uczestnictwa w wydarzeniu w KSAP";
             string tekst_wiadomosci = "Potwierdzamy rejestracje na wydarzenie w KSAP.";
-            //string SMTPServer = "mail.ksap.gov.pl";
-            string SMTPServer = "172.17.60.16";
+            string SMTPServer = "mail.ksap.gov.pl";
+            //string SMTPServer = "172.17.60.16";
             int SMTPPort = 25;
             string uzytkownik = "info";
             string haslo = "info";
