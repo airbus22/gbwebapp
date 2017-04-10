@@ -6,11 +6,15 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Net;
 using System.Net.Mail;
+using MySql.Data.MySqlClient;
 
 namespace gbwebapp
 {
     public partial class bd_rej_SemKonfOtwarte : System.Web.UI.Page
     {
+        MySqlConnection connection, pobierzMAXvalue;
+        string ConnectionString = gbwebapp.Properties.Settings.Default.ConnectionString;
+
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -24,18 +28,19 @@ namespace gbwebapp
         protected void ks_przeslij_btn_Click(object sender, EventArgs e)
         {
             string nadawca = "info@ksap.gov.pl";
-            string odbiorca = ks_emailAddress_tbx.Text;
+            string odbiorca = email_tbx.Text;
             string temat = "Potwierdzenie uczestnictwa w wydarzeniu w KSAP";
             string tekst_wiadomosci = "Potwierdzamy rejestracje na wydarzenie w KSAP.";
-            string SMTPServer = "148.81.171.126";
+            //string SMTPServer = "148.81.171.126";
             //string SMTPServer = "mail.ksap.gov.pl/gw/webacc";
             //string SMTPServer = "http://mail.ksap.gov.pl";
             //string SMTPServer = "mail.ksap.gov.pl";
-            //string SMTPServer = "172.17.60.16";
+            string SMTPServer = "172.17.60.16";
             int SMTPPort = 25;
             string uzytkownik = "info";
             string haslo = "info";
             MailMessage wiadonmosc = new MailMessage(nadawca, odbiorca, temat, tekst_wiadomosci);
+            //SmtpClient klientEmail = new SmtpClient(SMTPServer);
             SmtpClient klientEmail = new SmtpClient(SMTPServer, SMTPPort);
             NetworkCredential SMTP_dane_uzytkownika = new NetworkCredential(uzytkownik, haslo);
 
@@ -49,6 +54,23 @@ namespace gbwebapp
                 statusWiadomosci_lbl.Visible = true;
 
                 // tu DB
+                pobierzMAXvalue = new MySqlConnection(ConnectionString);
+                MySqlCommand zapytanieMAXvalue = new MySqlCommand("SELECT MAX(id_zgloszenia) FROM web_test_skasowac.bd_rej_semkonfotwart", pobierzMAXvalue);
+                zapytanieMAXvalue.Connection.Open();
+                string MAXval_ = zapytanieMAXvalue.ExecuteScalar().ToString();
+                if (MAXval_ == "")
+                    MAXval_ = "0";
+
+                int MAXval = UInt16.Parse(MAXval_) + 1;    //obliczenie wartości id_zgloszenia dla kolejnego INSERTa
+
+                connection = new MySqlConnection(ConnectionString);
+                MySqlCommand przeslij_btn_insert = new MySqlCommand();
+                przeslij_btn_insert.CommandType = System.Data.CommandType.Text;
+                przeslij_btn_insert.CommandText = "INSERT INTO web_test_skasowac.bd_rej_semkonfotwart(id_zgloszenia,plec,imie,drugieImie,nazwisko,email,daneOsobowe_zgoda) VALUES (" + MAXval + "," + "'" + plec_ddl.SelectedValue.ToString() + "'" + "," + "'" + imie_tbx.Text + "'" + "," + "'" + drugieImie_tbx.Text + "'" + "," + "'" + nazwisko_tbx.Text + "'" + "," + "'" + email_tbx.Text + "'" + "," + "'" + daneOsobowe_zgoda_ddl.SelectedValue.ToString() + "'" + ")";
+                przeslij_btn_insert.Connection = connection;
+                connection.Open();
+                przeslij_btn_insert.ExecuteNonQuery();
+                connection.Close();
             }
             catch (Exception ex)
             {
