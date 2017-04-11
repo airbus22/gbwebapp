@@ -139,5 +139,10 @@ namespace gbwebapp
         {
             Response.Redirect("LayOutTestWebForm.aspx");
         }
+
+        protected void LinkButton3_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("bd_rej_KonfSemOtwarte.aspx");
+        }
     }
 }

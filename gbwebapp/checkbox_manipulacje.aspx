@@ -34,6 +34,9 @@
         <p style="text-align: center">
             <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton2_Click">Przestrzeń robocza</asp:LinkButton>
         </p>
+        <p style="text-align: center">
+            <asp:LinkButton ID="LinkButton3" runat="server" OnClick="LinkButton3_Click">Rejesrtacja na wydarzenia w KSAP</asp:LinkButton>
+        </p>
         <p style="text-align: left">
             &nbsp;</p>
     </form>
