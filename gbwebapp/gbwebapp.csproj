@@ -140,6 +140,7 @@
     <Content Include="grafika\ksap_logo.gif" />
     <Content Include="LayOutTestWebForm.aspx" />
     <Content Include="Web.config" />
+    <Content Include="LogowanieAplikacji.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="awarie.aspx.cs">
@@ -187,6 +188,13 @@
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="LogowanieAplikacji.aspx.cs">
+      <DependentUpon>LogowanieAplikacji.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogowanieAplikacji.aspx.designer.cs">
+      <DependentUpon>LogowanieAplikacji.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

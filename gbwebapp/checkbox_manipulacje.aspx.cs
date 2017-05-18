@@ -144,5 +144,10 @@ namespace gbwebapp
         {
             Response.Redirect("bd_rej_KonfSemOtwarte.aspx");
         }
+
+        protected void LinkButton4_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("LogowanieAplikacji.aspx");
+        }
     }
 }
