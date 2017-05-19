@@ -19,6 +19,7 @@ using System.Web.UI.WebControls;
 //            string url = "http://www.google.com";
 
 //            HttpWebRequest req = (HttpWebRequest)WebRequest.Create(url);
+//            //HttpWebRequest req = WebRequest.Create(url) as HttpWebRequest;
 //            HttpWebResponse resp = (HttpWebResponse)req.GetResponse();
 
 //            StreamReader reader = new StreamReader(resp.GetResponseStream());
