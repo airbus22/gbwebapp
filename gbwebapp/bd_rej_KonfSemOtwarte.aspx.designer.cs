@@ -40,58 +40,58 @@ namespace gbwebapp {
         protected global::System.Web.UI.WebControls.Label statusWiadomosci_lbl;
         
         /// <summary>
-        /// ks_plec_ddl control.
+        /// plec_ddl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ks_plec_ddl;
+        protected global::System.Web.UI.WebControls.DropDownList plec_ddl;
         
         /// <summary>
-        /// ks_imie_tbx control.
+        /// imie_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ks_imie_tbx;
+        protected global::System.Web.UI.WebControls.TextBox imie_tbx;
         
         /// <summary>
-        /// ks_drugieImie_tbx control.
+        /// drugieImie_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ks_drugieImie_tbx;
+        protected global::System.Web.UI.WebControls.TextBox drugieImie_tbx;
         
         /// <summary>
-        /// ks_nazwisko_tbx control.
+        /// nazwisko_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ks_nazwisko_tbx;
+        protected global::System.Web.UI.WebControls.TextBox nazwisko_tbx;
         
         /// <summary>
-        /// ks_emailAddress_tbx control.
+        /// email_tbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ks_emailAddress_tbx;
+        protected global::System.Web.UI.WebControls.TextBox email_tbx;
         
         /// <summary>
-        /// ks_daneOsoboweZgoda_ddl control.
+        /// daneOsobowe_zgoda_ddl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ks_daneOsoboweZgoda_ddl;
+        protected global::System.Web.UI.WebControls.DropDownList daneOsobowe_zgoda_ddl;
         
         /// <summary>
         /// ks_przeslij_btn control.

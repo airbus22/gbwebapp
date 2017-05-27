@@ -31,21 +31,21 @@
                 <h6>*Zgoda na przetwarzanie danych osobowych:</h6>
             </div>
             <div id="PodobszarPrawy1">
-                <p><asp:DropDownList ID="ks_plec_ddl" runat="server">
+                <p><asp:DropDownList ID="plec_ddl" runat="server">
                     <asp:ListItem></asp:ListItem>
                     <asp:ListItem>Kobieta</asp:ListItem>
                     <asp:ListItem>Mężczyzna</asp:ListItem>
                     </asp:DropDownList>
                 </p>
-                <p><asp:TextBox ID="ks_imie_tbx" runat="server" Width="327px"></asp:TextBox>
+                <p><asp:TextBox ID="imie_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="ks_drugieImie_tbx" runat="server" Width="327px"></asp:TextBox>
+                <p><asp:TextBox ID="drugieImie_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>                
-                <p><asp:TextBox ID="ks_nazwisko_tbx" runat="server" Width="327px"></asp:TextBox>
+                <p><asp:TextBox ID="nazwisko_tbx" runat="server" Width="327px"></asp:TextBox>
                 </p>
-                <p><asp:TextBox ID="ks_emailAddress_tbx" runat="server" Width="327px"></asp:TextBox>
-                </p>
-                <p><asp:DropDownList ID="ks_daneOsoboweZgoda_ddl" runat="server" Width="67px">
+                <p><asp:TextBox ID="email_tbx" runat="server" Width="327px"></asp:TextBox>
+                    &nbsp;</p>
+                <p><asp:DropDownList ID="daneOsobowe_zgoda_ddl" runat="server" Width="67px">
                     <asp:ListItem></asp:ListItem>
                     <asp:ListItem>Tak</asp:ListItem>
                     <asp:ListItem>Nie</asp:ListItem>

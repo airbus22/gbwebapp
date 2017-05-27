@@ -26,13 +26,19 @@
     
     </div>
         <p>
-            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="text-align: right" Text="Kasuj bazę danych checkboxów" />
+            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="text-align: right" Text="Kasuj bazę danych checkboxów" Visible="False" />
         </p>
         <p style="text-align: center">
             <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Przykładowy formularz</asp:LinkButton>
         </p>
         <p style="text-align: center">
             <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton2_Click">Przestrzeń robocza</asp:LinkButton>
+        </p>
+        <p style="text-align: center">
+            <asp:LinkButton ID="LinkButton3" runat="server" OnClick="LinkButton3_Click">Rejesrtacja na wydarzenia w KSAP</asp:LinkButton>
+        </p>
+        <p style="text-align: center">
+            <asp:LinkButton ID="LinkButton4" runat="server" OnClick="LinkButton4_Click">Logowanie aplikacji - test</asp:LinkButton>
         </p>
         <p style="text-align: left">
             &nbsp;</p>
