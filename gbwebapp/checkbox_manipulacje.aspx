@@ -13,7 +13,7 @@
     
         <span class="auto-style3">Testowa grupa checkboxów:<br />
         </span>
-    
+        
         <span class="auto-style1">
         <br />
         </span>

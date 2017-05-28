@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 using System.DirectoryServices;
 using MySql.Data.MySqlClient;
 
-
+//komentarz do skasowania
 namespace gbwebapp
 {
     public partial class checkbox_manipulacje : System.Web.UI.Page
