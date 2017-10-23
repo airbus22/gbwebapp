@@ -20,6 +20,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -141,6 +142,7 @@
     <Content Include="LayOutTestWebForm.aspx" />
     <Content Include="Web.config" />
     <Content Include="LogowanieAplikacji.aspx" />
+    <Content Include="AnkietaWEB.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="awarie.aspx.cs">
@@ -195,6 +197,13 @@
     </Compile>
     <Compile Include="LogowanieAplikacji.aspx.designer.cs">
       <DependentUpon>LogowanieAplikacji.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AnkietaWEB.aspx.cs">
+      <DependentUpon>AnkietaWEB.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AnkietaWEB.aspx.designer.cs">
+      <DependentUpon>AnkietaWEB.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

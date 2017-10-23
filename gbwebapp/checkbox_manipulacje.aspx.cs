@@ -149,5 +149,10 @@ namespace gbwebapp
         {
             Response.Redirect("LogowanieAplikacji.aspx");
         }
+
+        protected void LinkButton5_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("AnkietaWEB.aspx");
+        }
     }
 }

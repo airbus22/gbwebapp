@@ -40,6 +40,9 @@
         <p style="text-align: center">
             <asp:LinkButton ID="LinkButton4" runat="server" OnClick="LinkButton4_Click">Logowanie aplikacji - test</asp:LinkButton>
         </p>
+        <p style="text-align: center">
+            <asp:LinkButton ID="LinkButton5" runat="server" OnClick="LinkButton5_Click">Ankieta WEB</asp:LinkButton>
+        </p>
         <p style="text-align: left">
             &nbsp;</p>
     </form>
