@@ -13,7 +13,8 @@
             <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
         </div>
         <p>
-            &nbsp;</p>
+            <asp:Label ID="lbl1" runat="server" Text="test"></asp:Label>
+        </p>
         <p>
             &nbsp;</p>
         <p>
