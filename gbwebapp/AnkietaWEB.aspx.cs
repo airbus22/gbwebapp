@@ -14,7 +14,7 @@ namespace gbwebapp
             Pytanie pyt = new Pytanie();
 
             //lbl1.Text = pyt.Ciag(10);
-            lbl1.Text = Pytanie.Ciag(10).ToString();
+            lbl1.Text = pyt.Ciag(100);
         }
     }
 
@@ -36,25 +36,23 @@ namespace gbwebapp
         //    //    Pytanie[i] pyt = new Pytanie[trescPytaniai];
         //    //}
         //}
-
-        public static string Ciag(int m)
-        {
-            string a, l;
-
+        string l;
+        public string Ciag(int m)
+        {                        
             for (int i = 1; i < m; i++)
-            {
-                a = i.ToString();
-                if (i == 1)
+            {                
+                if (i <= 1)
                 {
-                    l = a;
-                    return l;
+                    l = i.ToString();
                 }
                 else
                 {
+                    //l = l + ", " + i;
                     l = l + ", " + i;
-                    return l;
                 }
             }
+            string w = l.ToString();
+            return w;
         }
 
         int numerPytania { get; set; }
