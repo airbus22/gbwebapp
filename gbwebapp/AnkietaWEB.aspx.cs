@@ -12,8 +12,6 @@ namespace gbwebapp
         protected void Page_Load(object sender, EventArgs e)
         {
             Pytanie pyt = new Pytanie();
-
-            //lbl1.Text = pyt.Ciag(10);
             lbl1.Text = pyt.Ciag(100);
         }
     }
@@ -28,14 +26,6 @@ namespace gbwebapp
 
     public class Pytanie
     {
-        //public Pytanie(int iloscPytan)
-        //{
-        //    //for (int i = 1; i = n; i++)
-        //    //{
-        //    //    trescPytania[i];
-        //    //    Pytanie[i] pyt = new Pytanie[trescPytaniai];
-        //    //}
-        //}
         string l;
         public string Ciag(int m)
         {                        
@@ -47,12 +37,10 @@ namespace gbwebapp
                 }
                 else
                 {
-                    //l = l + ", " + i;
                     l = l + ", " + i;
                 }
-            }
-            string w = l.ToString();
-            return w;
+            }            
+            return l;
         }
 
         int numerPytania { get; set; }
