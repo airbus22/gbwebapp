@@ -12,7 +12,7 @@ namespace gbwebapp
         protected void Page_Load(object sender, EventArgs e)
         {
             Pytanie pyt = new Pytanie();
-            lbl1.Text = pyt.Ciag(100);
+            lbl1.Text = pyt.Ciag(40);
         }
     }
 
@@ -26,7 +26,8 @@ namespace gbwebapp
 
     public class Pytanie
     {
-        string l;
+        public string l { get; private set; }
+
         public string Ciag(int m)
         {                        
             for (int i = 1; i < m; i++)
