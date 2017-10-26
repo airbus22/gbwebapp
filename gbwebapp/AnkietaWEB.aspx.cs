@@ -12,42 +12,60 @@ namespace gbwebapp
         protected void Page_Load(object sender, EventArgs e)
         {
             Pytanie pyt = new Pytanie();
-            lbl1.Text = pyt.Ciag(40);
+            //lbl1.Text = pyt.Ciag(401);
+
+            Ankieta ankieta_test = new Ankieta();
+            ankieta_test.UtworzPytanie(11);
+
         }
     }
 
-    class Ankieta
+    public class Ankieta
     {
-        public Ankieta(int iloscPytan)
-        {
+        public string Test { get; set; }
+        //public Ankieta(int iloscPytan)
+        //{                      
 
+        //}
+
+        public void UtworzPytanie(int m)
+        {
+            int ilosc_pytan = m;
+            for (int i = 1; i < ilosc_pytan; i++)
+            {
+                string[] obiekty_pyt_nazwy = new string[i];
+            }
+
+            for (int i = 1; i < m; i++)
+            {
+                Pytanie pytanie = new Pytanie();
+            }
         }
     }
 
     public class Pytanie
     {
-        public string l { get; private set; }
+        //public string L { get; private set; }
 
-        public string Ciag(int m)
-        {                        
-            for (int i = 1; i < m; i++)
-            {                
-                if (i <= 1)
-                {
-                    l = i.ToString();
-                }
-                else
-                {
-                    l = l + ", " + i;
-                }
-            }            
-            return l;
-        }
+        //public string Ciag(int m)
+        //{                        
+        //    for (int i = 1; i < m; i++)
+        //    {                
+        //        if (i <= 1)
+        //        {
+        //            L = i.ToString();
+        //        }
+        //        else
+        //        {
+        //            L = L + ", " + i;
+        //        }
+        //    }            
+        //    return L;
+        //}
 
-        int numerPytania { get; set; }
-        string trescPytania { get; set; }
-        int numerOdpowiedzi { get; set; }
-        string trescOdpowiedzi { get; set; }
-    }
-    
+        int NumerPytania { get; set; }
+        string TrescPytania { get; set; }
+        int NumerOdpowiedzi { get; set; }
+        string TrescOdpowiedzi { get; set; }
+    }    
 }
