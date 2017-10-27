@@ -31,16 +31,31 @@ namespace gbwebapp
         public void UtworzPytanie(int m)
         {
             int ilosc_pytan = m;
-            string p = "Pytanie";
+            //string p = "Pytanie";
+            string[] pytania_obiekty;
             for (int i = 1; i < ilosc_pytan; i++)
             {
-                string[i] obiekty_pyt_nazwy = p + i.ToString();
+                //string[] obiekty_pyt_nazwy = p + i.ToString();
+                pytania_obiekty = new string[] { "pytanie" + i };
             }
 
-            for (int i = 1; i < m; i++)
+            string L="";
+            for (int i = 1; i < pytania_obiekty.Length; i++)
             {
-                Pytanie pytanie = new Pytanie();
+                if (i <= 1)
+                {
+                    L = pytania_obiekty;
+                }
+                else
+                {
+                    L = L + ", " + i;
+                }
             }
+
+            //for (int i = 1; i < m; i++)
+            //{
+            //    Pytanie pytanie = new Pytanie();
+            //}
         }
     }
 
