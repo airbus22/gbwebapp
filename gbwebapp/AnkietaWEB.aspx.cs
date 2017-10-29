@@ -11,12 +11,12 @@ namespace gbwebapp
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Pytanie pyt = new Pytanie();
+            //Pytanie pyt = new Pytanie();
             //lbl1.Text = pyt.Ciag(401);
 
             Ankieta ankieta_test = new Ankieta();
             ankieta_test.UtworzPytanie(11);
-
+            //lbl1.Text = Convert.ToString(ankieta_test.UtworzPytanie(0));
         }
     }
 
@@ -26,42 +26,21 @@ namespace gbwebapp
         //public Ankieta(int iloscPytan)
         //{                      
 
-        //}
+        //}        
 
         public void UtworzPytanie(int m)
         {
             int ilosc_pytan = m;
-<<<<<<< HEAD
             string[] obiekty_pyt_nazwy = new string[m];
             string p = "Pytanie";
             for (int i = 1; i < ilosc_pytan; i++)
             {
                 obiekty_pyt_nazwy[i] = p + i.ToString();
             }
+            //return obiekty_pyt_nazwy[0];
+            
 
-=======
-            //string p = "Pytanie";
-            string[] pytania_obiekty;
-            for (int i = 1; i < ilosc_pytan; i++)
-            {
-                //string[] obiekty_pyt_nazwy = p + i.ToString();
-                pytania_obiekty = new string[] { "pytanie" + i };
-            }
-
-            string L="";
-            for (int i = 1; i < pytania_obiekty.Length; i++)
-            {
-                if (i <= 1)
-                {
-                    L = pytania_obiekty;
-                }
-                else
-                {
-                    L = L + ", " + i;
-                }
-            }
-
->>>>>>> cec7b8f9af46007494e6dec177fbff9e7b85cde9
+            
             //for (int i = 1; i < m; i++)
             //{
             //    Pytanie pytanie = new Pytanie();
