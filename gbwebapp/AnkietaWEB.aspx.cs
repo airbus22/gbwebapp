@@ -31,6 +31,7 @@ namespace gbwebapp
         public void UtworzPytanie(int m)
         {
             int ilosc_pytan = m;
+<<<<<<< HEAD
             string[] obiekty_pyt_nazwy = new string[m];
             string p = "Pytanie";
             for (int i = 1; i < ilosc_pytan; i++)
@@ -38,6 +39,29 @@ namespace gbwebapp
                 obiekty_pyt_nazwy[i] = p + i.ToString();
             }
 
+=======
+            //string p = "Pytanie";
+            string[] pytania_obiekty;
+            for (int i = 1; i < ilosc_pytan; i++)
+            {
+                //string[] obiekty_pyt_nazwy = p + i.ToString();
+                pytania_obiekty = new string[] { "pytanie" + i };
+            }
+
+            string L="";
+            for (int i = 1; i < pytania_obiekty.Length; i++)
+            {
+                if (i <= 1)
+                {
+                    L = pytania_obiekty;
+                }
+                else
+                {
+                    L = L + ", " + i;
+                }
+            }
+
+>>>>>>> cec7b8f9af46007494e6dec177fbff9e7b85cde9
             //for (int i = 1; i < m; i++)
             //{
             //    Pytanie pytanie = new Pytanie();
