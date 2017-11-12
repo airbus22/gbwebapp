@@ -40,12 +40,13 @@ namespace gbwebapp
             for (int i = 0; i < m; i++)
             {
                 obiekty_pyt_nazwy[i] = p + "_" + (i + 1).ToString();
-            }
-
-            for (int i = 0; i < m; i++)
-            {
                 tresc_pytn[i] = p + "_" + (i + 1).ToString() + ": " + "Tresc_pytania_" + (i + 1).ToString();
             }
+
+            //for (int i = 0; i < m; i++)
+            //{
+            //    tresc_pytn[i] = p + "_" + (i + 1).ToString() + ": " + "Tresc_pytania_" + (i + 1).ToString();
+            //}
 
             for (int i = 0; i < m; i++)
             {
