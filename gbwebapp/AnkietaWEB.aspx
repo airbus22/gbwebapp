@@ -49,8 +49,10 @@
         <p>
             &nbsp;<asp:TextBox ID="tbx1" runat="server"></asp:TextBox>
 &nbsp;&nbsp;&nbsp;
-            <asp:Button ID="generujAnkiete_btn" runat="server" OnClick="generujAnkiete_btn_Click" Text="GENERUJ" />
+            <asp:Button ID="GenerujAnkiete_btn" runat="server" OnClick="GenerujAnkiete_btn_Click" Text="GENERUJ" />
         </p>
+        <p>
+            &nbsp;</p>
     </form>
 </body>
 </html>
