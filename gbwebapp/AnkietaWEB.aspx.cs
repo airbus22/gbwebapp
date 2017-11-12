@@ -14,6 +14,11 @@ namespace gbwebapp
             Ankieta ankieta_test = new Ankieta();
             ankieta_test.UtworzPytanie(11);
         }
+
+        protected void generujAnkiete_btn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
     public class Ankieta

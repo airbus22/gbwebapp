@@ -44,6 +44,13 @@
             <asp:Button ID="Button24" runat="server" Text="999" />
             <asp:Button ID="Button25" runat="server" Text="10000" />
         </p>
+        <p>
+            Podaj liczbę pytań wchodzących w skład ankiety:</p>
+        <p>
+            &nbsp;<asp:TextBox ID="tbx1" runat="server"></asp:TextBox>
+&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="generujAnkiete_btn" runat="server" OnClick="generujAnkiete_btn_Click" Text="GENERUJ" />
+        </p>
     </form>
 </body>
 </html>
