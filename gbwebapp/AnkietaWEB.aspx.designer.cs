@@ -290,5 +290,23 @@ namespace gbwebapp {
         /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label liczbaPytan_walidacja_lbl;
+        
+        /// <summary>
+        /// Kontrolka RangeValidator1.
+        /// </summary>
+        /// <remarks>
+        /// Pole generowane automatycznie.
+        /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RangeValidator RangeValidator1;
+        
+        /// <summary>
+        /// Kontrolka RegularExpressionValidator1.
+        /// </summary>
+        /// <remarks>
+        /// Pole generowane automatycznie.
+        /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator1;
     }
 }

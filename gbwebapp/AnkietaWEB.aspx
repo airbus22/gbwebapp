@@ -52,6 +52,10 @@
             <asp:Button ID="GenerujAnkiete_btn" runat="server" OnClick="GenerujAnkiete_btn_Click" Text="GENERUJ" />
         &nbsp;&nbsp;&nbsp;
             <asp:Label ID="liczbaPytan_walidacja_lbl" runat="server" ForeColor="Red"></asp:Label>
+        &nbsp;&nbsp;&nbsp; <asp:RangeValidator ID="RangeValidator1" runat="server" ControlToValidate="tbx1" ErrorMessage="Akceptowane wartości sa z przedziału 0 - 999"></asp:RangeValidator>
+        </p>
+        <p style="margin-left: 440px">
+            <asp:RegularExpressionValidator ID="RegularExpressionValidator1" ControlToValidate="tbx1" runat="server" ValidationExpression="\d+" ErrorMessage="należy podawać wyłącznie cyfry!"></asp:RegularExpressionValidator>
         </p>
         <p>
             &nbsp;</p>

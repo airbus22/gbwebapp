@@ -24,6 +24,8 @@ namespace gbwebapp
             }
             else if (tbx1.Text != "" && Int32.Parse(tbx1.Text) > 1000)
                 liczbaPytan_walidacja_lbl.Text = "Maksymalna ilość pytań to 999";
+            else if (tbx1.Text == "")
+                liczbaPytan_walidacja_lbl.Text = "Należy podać liczbę pytań w ankiecie!";
         }
     }
 
