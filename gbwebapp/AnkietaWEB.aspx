@@ -57,6 +57,20 @@
         <p style="margin-left: 440px">
             <asp:RegularExpressionValidator ID="RegularExpressionValidator1" ControlToValidate="tbx1" runat="server" ValidationExpression="\d+" ErrorMessage="należy podawać wyłącznie cyfry!"></asp:RegularExpressionValidator>
         </p>
+        <p style="margin-left: 440px">
+            &nbsp;</p>
+        <p style="margin-left: 440px">
+            <asp:Label ID="p1_lbl" runat="server"></asp:Label>
+        </p>
+        <p style="margin-left: 440px">
+            <asp:Label ID="p2_lbl" runat="server"></asp:Label>
+        </p>
+        <p style="margin-left: 440px">
+            <asp:Label ID="p3_lbl" runat="server"></asp:Label>
+        </p>
+        <p style="margin-left: 440px">
+            <asp:Label ID="p4_lbl" runat="server"></asp:Label>
+        </p>
         <p>
             &nbsp;</p>
     </form>
