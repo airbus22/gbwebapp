@@ -25,7 +25,8 @@ namespace gbwebapp
             else if (tbx1.Text != "" && Int32.Parse(tbx1.Text) > 1000)
                 liczbaPytan_walidacja_lbl.Text = "Maksymalna ilość pytań to 999";
             else if (tbx1.Text == "")
-                liczbaPytan_walidacja_lbl.Text = "Należy podać liczbę pytań w ankiecie!";            
+                liczbaPytan_walidacja_lbl.Text = "Należy podać liczbę pytań w ankiecie!";
+            //p1_lbl.Text = pytanie[0].NumerPytania.ToString();
         }
     }
 
@@ -58,7 +59,18 @@ namespace gbwebapp
                 //Console.WriteLine(i.ToString());
                 pytanie[i] = new Pytanie(i, tresc_pytn[i], rand.Next(1, 5), DateTime.Today.ToString());
                 //pytanie[i] = new Pytanie("jakiś tekst");
-            }            
+            }
+
+            //Label p1_lbl, p2_lbl, p3_lbl, p4_lbl;
+            //p1_lbl = new Label();
+            //p2_lbl = new Label();
+            //p3_lbl = new Label();
+            //p4_lbl = new Label();
+
+            //p1_lbl.Text = pytanie[0].NumerPytania.ToString();
+            //p2_lbl.Text = pytanie[0].TrescPytania;
+            //p3_lbl.Text = pytanie[0].NumerOdpowiedzi.ToString();
+            //p4_lbl.Text = pytanie[0].TrescOdpowiedzi;
         }
     }
 
