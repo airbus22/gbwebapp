@@ -50,6 +50,8 @@
             &nbsp;<asp:TextBox ID="tbx1" runat="server"></asp:TextBox>
 &nbsp;&nbsp;&nbsp;
             <asp:Button ID="GenerujAnkiete_btn" runat="server" OnClick="GenerujAnkiete_btn_Click" Text="GENERUJ" />
+        &nbsp;&nbsp;&nbsp;
+            <asp:Label ID="liczbaPytan_walidacja_lbl" runat="server" ForeColor="Red"></asp:Label>
         </p>
         <p>
             &nbsp;</p>

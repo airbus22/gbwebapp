@@ -16,12 +16,14 @@ namespace gbwebapp
 
         protected void GenerujAnkiete_btn_Click(object sender, EventArgs e)
         {
-            if (tbx1.Text != null)
+            if (tbx1.Text != "" && Int32.Parse(tbx1.Text) <= 999)
             {
                 Ankieta ankieta_test = new Ankieta();
                 int iloscPytan = Int32.Parse(tbx1.Text);
                 ankieta_test.UtworzPytanie(iloscPytan);
             }
+            else if (tbx1.Text != "" && Int32.Parse(tbx1.Text) > 1000)
+                liczbaPytan_walidacja_lbl.Text = "Maksymalna ilość pytań to 999";
         }
     }
 
