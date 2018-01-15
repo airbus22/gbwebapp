@@ -38,7 +38,7 @@ namespace gbwebapp
             string SMTPServer = "172.17.60.16";
             int SMTPPort = 25;
             string uzytkownik = "info";
-            string haslo = "info";
+            string haslo = "info1234$";
             MailMessage wiadonmosc = new MailMessage(nadawca, odbiorca, temat, tekst_wiadomosci);
             //SmtpClient klientEmail = new SmtpClient(SMTPServer);
             SmtpClient klientEmail = new SmtpClient(SMTPServer, SMTPPort);
