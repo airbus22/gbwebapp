@@ -37,7 +37,7 @@ namespace gbwebapp
             //string SMTPServer = "mail.ksap.gov.pl";
             //string SMTPServer = "172.17.60.16";
             string SMTPServer = "smtp.office365.com";
-            int SMTPPort = 25;
+            int SMTPPort = 587;
             string uzytkownik = "powiadomienia@ksap.gov.pl";
             string haslo = "Ksaper321";
             MailMessage wiadonmosc = new MailMessage(nadawca, odbiorca, temat, tekst_wiadomosci);
