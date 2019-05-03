@@ -27,7 +27,7 @@ namespace gbwebapp
 
         protected void ks_przeslij_btn_Click(object sender, EventArgs e)
         {
-            string nadawca = "info@ksap.gov.pl";
+            string nadawca = "grzegorz.brodowski@ksap.gov.pl";
             string odbiorca = email_tbx.Text;
             string temat = "Potwierdzenie uczestnictwa w wydarzeniu w KSAP";
             string tekst_wiadomosci = "Potwierdzamy rejestrację na wydarzenie w KSAP.";
@@ -35,10 +35,11 @@ namespace gbwebapp
             //string SMTPServer = "mail.ksap.gov.pl/gw/webacc";
             //string SMTPServer = "http://mail.ksap.gov.pl";
             //string SMTPServer = "mail.ksap.gov.pl";
-            string SMTPServer = "172.17.60.16";
+            //string SMTPServer = "172.17.60.16";
+            string SMTPServer = "smtp.office365.com";
             int SMTPPort = 25;
-            string uzytkownik = "info";
-            string haslo = "info";
+            string uzytkownik = "powiadomienia@ksap.gov.pl";
+            string haslo = "Ksaper321";
             MailMessage wiadonmosc = new MailMessage(nadawca, odbiorca, temat, tekst_wiadomosci);
             //SmtpClient klientEmail = new SmtpClient(SMTPServer);
             SmtpClient klientEmail = new SmtpClient(SMTPServer, SMTPPort);
@@ -47,7 +48,9 @@ namespace gbwebapp
             try
             {                
                 klientEmail.UseDefaultCredentials = false;
-                klientEmail.Credentials = SMTP_dane_uzytkownika;                
+                klientEmail.Credentials = SMTP_dane_uzytkownika;
+                klientEmail.EnableSsl = true;
+                //klientEmail.Timeout = 500000;
                 klientEmail.Send(wiadonmosc);
                 statusWiadomosci_lbl.ForeColor = System.Drawing.Color.Green;
                 statusWiadomosci_lbl.Text = "Zgłoszenie wysłane";
