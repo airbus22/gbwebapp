@@ -30,11 +30,11 @@ namespace gbwebapp
             string nadawca = "powiadomienia@ksap.gov.pl";
             string odbiorca = email_tbx.Text;
             string temat = "Potwierdzenie uczestnictwa w wydarzeniu w KSAP";
-            string tekst_wiadomosci = "Potwierdzamy rejestrację na wydarzenie w KSAP." + "Płeć: " + plec_ddl.ToString() + 
-                "Imię: " + imie_tbx.ToString() +
-                "Drugie imię: " + drugieImie_tbx.ToString() +
-                "Nazwisko: " + nazwisko_tbx.ToString() + 
-                "Aders e-mail: " + email_tbx.ToString() + 
+            string tekst_wiadomosci = "Potwierdzamy rejestrację na wydarzenie w KSAP." + "\n\n" + "Płeć: " + plec_ddl.ToString() + 
+                "Imię: " + imie_tbx.ToString() + "\n" +
+                "Drugie imię: " + drugieImie_tbx.ToString() + "\n" +
+                "Nazwisko: " + nazwisko_tbx.ToString() + "\n" +
+                "Aders e-mail: " + email_tbx.ToString() + "\n" +
                 "Zgoda na przetwarzanie danych osobowych: " + daneOsobowe_zgoda_ddl.ToString();
             //string SMTPServer = "148.81.171.126";
             //string SMTPServer = "mail.ksap.gov.pl/gw/webacc";
