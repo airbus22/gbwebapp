@@ -30,7 +30,7 @@ namespace gbwebapp
             string nadawca = "powiadomienia@ksap.gov.pl";
             string odbiorca = email_tbx.Text;
             string temat = "Potwierdzenie uczestnictwa w wydarzeniu w KSAP";
-            string tekst_wiadomosci = "Potwierdzamy rejestrację na wydarzenie w KSAP." + "\n\n" + "Płeć: " + plec_ddl.ToString() + 
+            string tekst_wiadomosci = "Potwierdzamy rejestrację na wydarzenie w KSAP." + "\n\n" + "Płeć: " + plec_ddl.ToString() + "\n" +
                 "Imię: " + imie_tbx.ToString() + "\n" +
                 "Drugie imię: " + drugieImie_tbx.ToString() + "\n" +
                 "Nazwisko: " + nazwisko_tbx.ToString() + "\n" +
