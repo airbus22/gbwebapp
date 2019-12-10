@@ -27,7 +27,7 @@
                 <h6>*Imię:</h6>
                 <h6>Drugie imię:</h6>
                 <h6>*Nazwisko:</h6>
-                <h6>Adres e-mail:</h6>
+                <h6>*Adres e-mail:</h6>
                 <h6>*Zgoda na przetwarzanie danych osobowych:</h6>
             </div>
             <div id="PodobszarPrawy1">
