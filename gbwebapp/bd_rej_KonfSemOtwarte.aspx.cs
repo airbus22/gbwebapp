@@ -31,16 +31,11 @@ namespace gbwebapp
             string odbiorca = email_tbx.Text;
             string temat = "Potwierdzenie uczestnictwa w wydarzeniu w KSAP";
             string tekst_wiadomosci = "Potwierdzamy rejestrację na wydarzenie w KSAP." + "\n\n" + "Płeć: " + plec_ddl.SelectedValue.ToString() + "\n" +
-                "Imię: " + imie_tbx.Text.ToString() + "\n" +
-                "Drugie imię: " + drugieImie_tbx.Text.ToString() + "\n" +
-                "Nazwisko: " + nazwisko_tbx.Text.ToString() + "\n" +
-                "Aders e-mail: " + email_tbx.Text.ToString() + "\n\n" +
-                "Zgoda na przetwarzanie danych osobowych: " + daneOsobowe_zgoda_ddl.SelectedValue.ToString();
-            //string SMTPServer = "148.81.171.126";
-            //string SMTPServer = "mail.ksap.gov.pl/gw/webacc";
-            //string SMTPServer = "http://mail.ksap.gov.pl";
-            //string SMTPServer = "mail.ksap.gov.pl";
-            //string SMTPServer = "172.17.60.16";
+                                      "Imię: " + imie_tbx.Text.ToString() + "\n" +
+                                      "Drugie imię: " + drugieImie_tbx.Text.ToString() + "\n" +
+                                      "Nazwisko: " + nazwisko_tbx.Text.ToString() + "\n" +
+                                      "Aders e-mail: " + email_tbx.Text.ToString() + "\n\n" +
+                                      "Zgoda na przetwarzanie danych osobowych: " + daneOsobowe_zgoda_ddl.SelectedValue.ToString();
             string SMTPServer = "smtp.office365.com";
             //string SMTPServer = "STARTTLS / smtp.office365.com";
             int SMTPPort = 587;
