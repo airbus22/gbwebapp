@@ -28,8 +28,9 @@ namespace gbwebapp
         protected void ks_przeslij_btn_Click(object sender, EventArgs e)
         {
             string nadawca = "powiadomienie@ksap365.onmicrosoft.com";
-            string odbiorca = email_tbx.Text;
-            string lolo = "8%ht" + "Rc#" + "m9sS" + "2j$" + "iauY";
+            string l = "3hk";
+            string odbiorca = email_tbx.Text;            
+            string lolo = "lkdJG" + "8rW" + "@ire3" + "0*hd" + "5#h" + l;
             string temat = "Potwierdzenie uczestnictwa w wydarzeniu w KSAP";
             string tekst_wiadomosci = "Potwierdzamy rejestrację na wydarzenie w KSAP." + "\n\n" + "Płeć: " + plec_ddl.SelectedValue.ToString() + "\n" +
                                       "Imię: " + imie_tbx.Text.ToString() + "\n" +
