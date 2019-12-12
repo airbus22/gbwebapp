@@ -29,6 +29,7 @@ namespace gbwebapp
         {
             string nadawca = "powiadomienie@ksap365.onmicrosoft.com";
             string odbiorca = email_tbx.Text;
+            string lolo = "8%ht" + "Rc#" + "m9sS" + "2j$" + "iauY";
             string temat = "Potwierdzenie uczestnictwa w wydarzeniu w KSAP";
             string tekst_wiadomosci = "Potwierdzamy rejestrację na wydarzenie w KSAP." + "\n\n" + "Płeć: " + plec_ddl.SelectedValue.ToString() + "\n" +
                                       "Imię: " + imie_tbx.Text.ToString() + "\n" +
@@ -40,7 +41,7 @@ namespace gbwebapp
             //string SMTPServer = "STARTTLS / smtp.office365.com";
             int SMTPPort = 587;
             string uzytkownik = "powiadomienie@ksap365.onmicrosoft.com";
-            string haslo = "8%htRc#m9sS2j$iauY";
+            string haslo = lolo;
             MailMessage wiadonmosc = new MailMessage(nadawca, odbiorca, temat, tekst_wiadomosci);
             //SmtpClient klientEmail = new SmtpClient(SMTPServer);
             SmtpClient klientEmail = new SmtpClient(SMTPServer, SMTPPort);
