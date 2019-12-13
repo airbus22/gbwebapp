@@ -27,11 +27,15 @@ namespace gbwebapp
 
         protected void ks_przeslij_btn_Click(object sender, EventArgs e)
         {
+            string a = "0*hd";
             string nadawca = "powiadomienie@ksap365.onmicrosoft.com";
-            string l = "3hk";
-            string odbiorca = email_tbx.Text;            
-            string lolo = "lkdJG" + "8rW" + "@ire3" + "0*hd" + "5#h" + l;
+            string m = "@ire3";
+            string o = "8rW";
+            string odbiorca = email_tbx.Text;
+            string T = "lkdJG";                      
+            string s = "5#h";
             string temat = "Potwierdzenie uczestnictwa w wydarzeniu w KSAP";
+            string z = "3hk";
             string tekst_wiadomosci = "Potwierdzamy rejestrację na wydarzenie w KSAP." + "\n\n" + "Płeć: " + plec_ddl.SelectedValue.ToString() + "\n" +
                                       "Imię: " + imie_tbx.Text.ToString() + "\n" +
                                       "Drugie imię: " + drugieImie_tbx.Text.ToString() + "\n" +
@@ -39,10 +43,11 @@ namespace gbwebapp
                                       "Aders e-mail: " + email_tbx.Text.ToString() + "\n\n" +
                                       "Zgoda na przetwarzanie danych osobowych: " + daneOsobowe_zgoda_ddl.SelectedValue.ToString();
             string SMTPServer = "smtp.office365.com";
+            string dydelf = T + o + m + a + s + z;
             //string SMTPServer = "STARTTLS / smtp.office365.com";
             int SMTPPort = 587;
             string uzytkownik = "powiadomienie@ksap365.onmicrosoft.com";
-            string haslo = lolo;
+            string haslo = dydelf;
             MailMessage wiadonmosc = new MailMessage(nadawca, odbiorca, temat, tekst_wiadomosci);
             //SmtpClient klientEmail = new SmtpClient(SMTPServer);
             SmtpClient klientEmail = new SmtpClient(SMTPServer, SMTPPort);
