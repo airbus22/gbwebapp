@@ -17,10 +17,10 @@
             <h3>Na otwartą konferencję lub seminarium można zapisać się za pośrednictwem poniższego formularza zgłoszeniowego:</h3>
             Pola oznaczone * (gwiazdką) są obowiązkowe.
             <div style="text-align: center">
-                <h5 id="Tekst_separujacy">Dane osobowe kandydata<br /><p id="Linia_separujaca"></p>
+                <p id="Linia_separujaca"></p>
+                <h5 id="Tekst_separujacy">Dane osobowe kandydata<br />
                 <asp:Label ID="statusWiadomosci_lbl" runat="server" Visible="False" style="text-align: left"></asp:Label>
-                </h5>
-                <%--<p id="Linia_separujaca"></p>--%>
+                </h5>                
             </div>
             <div id="PodobszarLewy1">
                 <h6>*Płeć:</h6>
@@ -55,7 +55,8 @@
                 <p id="PodobszarPrawy2">
                     <asp:Button ID="ks_przeslij_btn" runat="server" OnClick="ks_przeslij_btn_Click" Text="Prześlij" Height="37px" Width="90px" />
                 </p>
-            </div>  
+            </div> 
+        </div>            
     </form>
 </body>
 </html>
